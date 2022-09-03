@@ -32,21 +32,21 @@ body {
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   font-size: 100%;
-  padding: 1em;
-  width: 100%;
-  max-width:100%;
+  padding:1px;
+  width: 97%;
+  max-width:97%;
   background: linear-gradient(to right, #606c88, #3f4c6b);
 }
 
 /*********** MAIN HEADING **********/
 .main-heading {
-  font-size: 2.2em;
+  font-size: 2em;
   color: #dddddd;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
   text-align: center;
-  margin: 1em 0;
+  margin: 15px 0;
   display: flex;
   align-items: center;
   white-space: nowrap;
@@ -107,7 +107,7 @@ body {
 .tab__box--is-visible {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-  grid-gap: 1.5em;
+  grid-gap: 10px;
   justify-content: space-around;
 }
 
@@ -119,9 +119,11 @@ body {
 }
 
 .tab__heading {
-  font-size: 1.6em;
-  color: #2980b9;
-  margin-bottom: auto;
+  font-size: 1.2em;
+  color:black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight:bold;
 }
 
 .tab__icon {
@@ -142,12 +144,13 @@ body {
   text-transform: uppercase;
   font-family: inherit;
   padding: 0.8em 1.5em;
-  border-radius: 2px;
+  border-radius: 1px;
   border: 0;
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  background-image: linear-gradient(to bottom,#a2d9ce,#e6f5ff,#fcf3cf, #5dade2);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
   cursor: pointer;
   max-width: 18em;
+  max-high: 1em;
   margin: 0 auto;
 }
 
@@ -210,95 +213,73 @@ body {
 </head>
 
 <body translate="no">
-  <h1 class="main-heading">Tabs</h1>
+  <h1 class="main-heading">QUẢN LÝ VÔ TUYẾN</h1>
     <div class="wrap">
         <ul class="tab-list__list">
-            <li class="tab-list__item"><a href="#tab-1" class="tab-list__link">LỊCH CÔNG VIỆC</a></li>
+            <li class="tab-list__item"><a href="#tab-1" class="tab-list__link tab-list__link--is-active">LỊCH CÔNG VIỆC</a></li>
             <li class="tab-list__item"><a href="#tab-2" class="tab-list__link">VẬT TƯ DỰ PHÒNG</a></li>
-            <li class="tab-list__item"><a href="#tab-3" class="tab-list__link tab-list__link--is-active">TÀI LIỆU</a></li>
+            <li class="tab-list__item"><a href="#tab-3" class="tab-list__link">TÀI LIỆU</a></li>
         </ul>
         <div class="tab">
 
-		<ul id="tab-1" class="tab__box tab__box--1">
+		<ul id="tab-1" class="tab__box tab__box--1  tab__box--is-visible">
                 <li class="tab__item">                   
-                   <img src="VoTuyen/CongVan.jpg" alt=""> 
-                   <h2 class="tab__heading">LỊCH CÔNG VIỆC TUẦN</h2>
+                   <img src="VoTuyen/LichDHA.jpg" alt=""> 
+                   <h2 class="tab__heading">LỊCH CÔNG VIỆC VT ĐÔNG HÀ</h2>
                    <button class="tab__btn">OPEN</button>
                 </li>
                 <li class="tab__item">                   
-                   <img src="VoTuyen/TaiLieu.png" alt=""> 
-                   <h2 class="tab__heading">LỊCH CÔNG VIỆC TUẦN 2</h2>
+                   <img src="VoTuyen/LichDHI.png" alt=""> 
+                   <h2 class="tab__heading">LỊCH CÔNG VIỆC VT ĐỒNG HỚI</h2>
                    <button class="tab__btn">OPEN</button>
                 </li>
                 <li class="tab__item">                   
-                   <img src="VoTuyen/CongVan.jpg" alt=""> 
-                   <h2 class="tab__heading">LỊCH CÔNG VIỆC TUẦN</h2>
+                   <img src="VoTuyen/LichHUE.jpg" alt=""> 
+                   <h2 class="tab__heading">LỊCH CÔNG VIỆC VT HUẾ</h2>
                    <button class="tab__btn">OPEN</button>
                 </li>
-                <li class="tab__item">                   
-                   <img src="VoTuyen/TaiLieu.png" alt=""> 
-                   <h2 class="tab__heading">LỊCH CÔNG VIỆC TUẦN 2</h2>
-                   <button class="tab__btn">OPEN</button>
-                </li>
+
             </ul>
 
             <ul id="tab-2" class="tab__box tab__box--1">
                 <li class="tab__item">                   
+                   <img src="VoTuyen/LichDHA.jpg" alt=""> 
+                   <h2 class="tab__heading">LỊCH CÔNG VIỆC VT ĐÔNG HÀ</h2>
+                   <button class="tab__btn">OPEN</button>
+                </li>
+                <li class="tab__item">                   
+                   <img src="VoTuyen/LichDHI.png" alt=""> 
+                   <h2 class="tab__heading">LỊCH CÔNG VIỆC VT ĐỒNG HỚI</h2>
+                   <button class="tab__btn">OPEN</button>
+                </li>
+                <li class="tab__item">                   
+                   <img src="VoTuyen/LichHUE.jpg" alt=""> 
+                   <h2 class="tab__heading">LỊCH CÔNG VIỆC VT HUẾ</h2>
+                   <button class="tab__btn">OPEN</button>
+                </li>
+
+            </ul>			
+			
+            <ul id="tab-3" class="tab__box tab__box--1">
+                <li class="tab__item">                   
                    <img src="VoTuyen/CongVan.jpg" alt=""> 
-                   <h2 class="tab__heading">LỊCH CÔNG VIỆC TUẦN</h2>
+                   <h2 class="tab__heading">CÔNG VĂN VÔ TUYẾN</h2>
                    <button class="tab__btn">OPEN</button>
                 </li>
                 <li class="tab__item">                   
                    <img src="VoTuyen/TaiLieu.png" alt=""> 
-                   <h2 class="tab__heading">LỊCH CÔNG VIỆC TUẦN 2</h2>
+                   <h2 class="tab__heading">TÀI LIỆU VÔ TUYẾN</h2>
                    <button class="tab__btn">OPEN</button>
                 </li>
-                <li class="tab__item">
-                   <h2 class="tab__heading">Lock</h2>
-                   <i class="tab__icon fa fa-lock"></i> 
-                   
-                   <button class="tab__btn">buy now</button>
+                <li class="tab__item">                   
+                   <img src="VoTuyen/TaiLieu.png" alt=""> 
+                   <h2 class="tab__heading">TRẮC NGHIỆM VÔ TUYẾN</h2>
+                   <button class="tab__btn">OPEN</button>
                 </li>
-                <li class="tab__item">
-                   <h2 class="tab__heading">Microphone</h2>
-                   <i class="tab__icon fa fa-microphone"></i> 
-                   
-                   <button class="tab__btn">buy now</button>
-                </li>
-                <li class="tab__item">
-                   <h2 class="tab__heading">Floppy Disk</h2>
-                   <i class="tab__icon fa fa-save"></i> 
-                   
-                   <button class="tab__btn">buy now</button>
-                </li>
+
             </ul>
 
-            <ul id="tab-3" class="tab__box tab__box--1 tab__box--is-visible">
-                <li class="tab__item">
-                   <h2 class="tab__heading">Bicycle</h2>
-                   <i class="tab__icon fa fa-bicycle"></i> 
-                   
-                   <button class="tab__btn">buy now</button>
-                </li>
-                <li class="tab__item">
-                   <h2 class="tab__heading">Binoculars</h2>
-                   <i class="tab__icon fa fa-binoculars"></i> 
-                   
-                   <button class="tab__btn">buy now</button>
-                </li>
-                <li class="tab__item">
-                   <h2 class="tab__heading">Basketball</h2>
-                   <i class="tab__icon fa fa-dribbble"></i> 
-                   <p class="tab__para">$39</p>
-                   <button class="tab__btn">buy now</button>
-                </li>
-                <li class="tab__item">
-                   <h2 class="tab__heading">Fighter Jet</h2>
-                   <i class="tab__icon fa fa-fighter-jet"></i> 
-                   <p class="tab__para">call us</p>
-                   <button class="tab__btn">buy now</button>
-                </li>
-            </ul>
+
 
 			</div>    
     </div>
