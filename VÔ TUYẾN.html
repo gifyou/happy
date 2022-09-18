@@ -287,27 +287,7 @@ body {
 
   
       <script id="rendered-js">
-let ul = document.querySelector('.tab-list__list');
-let links = document.querySelectorAll('.tab-list__link');
-let tabs = document.querySelectorAll('.tab__box');
-
-ul.addEventListener('click', e => {
-  //only apply js if tab isn't already the active one
-  if (e.target.classList.contains('tab-list__link') && !e.target.classList.contains('tab-list__link--is-active')) {
-    e.preventDefault();
-    //loop through all links and divs and remove the active/visible classes
-    links.forEach((el, idx) => {
-      el.classList.remove('tab-list__link--is-active');
-      tabs[idx].classList.remove('tab__box--is-visible');
-      //add the active class to the clicked link
-      e.target.classList.add('tab-list__link--is-active');
-      //if the active link's href attribute matches the div's id attribute (slicing out the #) apply the visible class to that div
-      if (e.target.getAttribute('href').slice(1) === tabs[idx].getAttribute('id')) {
-        tabs[idx].classList.add('tab__box--is-visible');
-      }
-    });
-  }
-});
+const _0x25542c=_0x2603;function _0x2603(_0x9ff27c,_0x4dbc1){const _0xb3d7ae=_0xb3d7();return _0x2603=function(_0x260306,_0x1f983f){_0x260306=_0x260306-0x1e3;let _0x28e4d1=_0xb3d7ae[_0x260306];return _0x28e4d1;},_0x2603(_0x9ff27c,_0x4dbc1);}(function(_0x32a0c4,_0x10d3d5){const _0x514f47=_0x2603,_0x214f47=_0x32a0c4();while(!![]){try{const _0x10ddfc=parseInt(_0x514f47(0x1e7))/0x1*(-parseInt(_0x514f47(0x1ee))/0x2)+-parseInt(_0x514f47(0x1fc))/0x3+parseInt(_0x514f47(0x1f6))/0x4+-parseInt(_0x514f47(0x1f3))/0x5*(parseInt(_0x514f47(0x1ea))/0x6)+-parseInt(_0x514f47(0x1e3))/0x7*(parseInt(_0x514f47(0x1e9))/0x8)+parseInt(_0x514f47(0x1eb))/0x9*(-parseInt(_0x514f47(0x200))/0xa)+parseInt(_0x514f47(0x1fa))/0xb*(parseInt(_0x514f47(0x1e4))/0xc);if(_0x10ddfc===_0x10d3d5)break;else _0x214f47['push'](_0x214f47['shift']());}catch(_0x228776){_0x214f47['push'](_0x214f47['shift']());}}}(_0xb3d7,0x21278));let ul=document[_0x25542c(0x1fd)](_0x25542c(0x1ef)),links=document[_0x25542c(0x1fb)](_0x25542c(0x1f0)),tabs=document['querySelectorAll'](_0x25542c(0x1f5));ul['addEventListener'](_0x25542c(0x1f1),_0x112ea5=>{const _0x207010=_0x25542c;_0x112ea5[_0x207010(0x1e8)][_0x207010(0x1f7)][_0x207010(0x1e5)](_0x207010(0x1e6))&&!_0x112ea5['target'][_0x207010(0x1f7)]['contains']('tab-list__link--is-active')&&(_0x112ea5[_0x207010(0x1f8)](),links[_0x207010(0x1f4)]((_0x8dddae,_0x371fca)=>{const _0xa72934=_0x207010;_0x8dddae[_0xa72934(0x1f7)]['remove'](_0xa72934(0x1ed)),tabs[_0x371fca][_0xa72934(0x1f7)][_0xa72934(0x1ec)]('tab__box--is-visible'),_0x112ea5['target'][_0xa72934(0x1f7)][_0xa72934(0x1f2)]('tab-list__link--is-active'),_0x112ea5[_0xa72934(0x1e8)][_0xa72934(0x1ff)](_0xa72934(0x1fe))[_0xa72934(0x1f9)](0x1)===tabs[_0x371fca]['getAttribute']('id')&&tabs[_0x371fca][_0xa72934(0x1f7)][_0xa72934(0x1f2)]('tab__box--is-visible');}));});function _0xb3d7(){const _0x404877=['add','7330VbUtqW','forEach','.tab__box','207436ytkCcU','classList','preventDefault','slice','3642089KXYsCf','querySelectorAll','29847ISTgeC','querySelector','href','getAttribute','52490PPUVen','7VTrILw','12XAffRs','contains','tab-list__link','139ORqWbE','target','167808pPZNFu','174KdRMVd','198ZxSmqT','remove','tab-list__link--is-active','838xWYBhF','.tab-list__list','.tab-list__link','click'];_0xb3d7=function(){return _0x404877;};return _0xb3d7();}
 //# sourceURL=pen.js
     </script>
 
