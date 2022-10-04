@@ -2696,7 +2696,7 @@ Readuser_value();
 function Readtime_value() {
  
 	var ngay= $("#ngay").val();	
-    var url = atob(script_url)+"?callback=ctrlq&ngay="+ngay+"&action=Readtime";
+    var url = script_urlAcount+"?callback=ctrlq&ngay="+ngay+"&action=Readtime";
   
   
     var request = jQuery.ajax({
