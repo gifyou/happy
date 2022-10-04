@@ -2227,7 +2227,7 @@ header  {
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;<button id="btn-show-dialog">Thoát</button>
-
+<input type = "text" id="user"></input>
 <div class="overlay" id="dialog-container">
   <div class="popup">
     <p>Bạn có muốn Thoát không ?</p>
@@ -2684,7 +2684,7 @@ self.close();
 } else {
 //window.history.replaceState('','','/');
 readDataCaDHA();
-
+Readuser_value();
 }
 	
 	$("#re").html(e.result);
@@ -2708,6 +2708,23 @@ function Readtime_value() {
 
   }	
 
+	
+    function Readuser_value() {
+ 
+	var user= $("#user").val();	
+    var url = script_urlAcount+"?callback=ctrlq&user="+user+"&action=Readuser";
+  
+  
+    var request = jQuery.ajax({
+      crossDomain: true,
+      url: url ,
+      method: "GET",
+      dataType: "jsonp"
+    });
+
+  }	
+	
+	
 (function() {
   if (window.addEventListener) {
     window.addEventListener('load', run, false);
@@ -2779,7 +2796,7 @@ window.addEventListener('popstate', function () {
 // THAY
 
 var script_url = "aHR0cHM6Ly9zY3JpcHQuZ29vZ2xlLmNvbS9tYWNyb3Mvcy9BS2Z5Y2J6b3FFWW9NSjBnSndpZmYySWJnTGQwQkVRYVJ0UzBXOWEyYmNtdGktelVLZlVzamE5bTFyNHBmUmlNdWhrUHI2NC9leGVj";
-
+var script_urlAcount = "https://script.google.com/macros/s/AKfycbzYfmQcs1_tVkBIKk7HrgVmamYN6v0UGPE88Ng7aXDfaaY32kKo2PvTLqg_Sm3MWOE/exec";
 function readDataCaDHA() {
 
 $("#re").css("visibility","hidden");
