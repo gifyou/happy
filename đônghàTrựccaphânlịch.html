@@ -2643,7 +2643,7 @@ $(document).ready(function() {
 
 Readtime_value();
 //Readnguoilog_value();
-window.history.replaceState('','','/');
+//window.history.replaceState('','','/');
 var url = location.protocol;
 if (url == "file:") {
 	var element = document.getElementById("mytable");
@@ -2688,7 +2688,7 @@ Date.prototype.yyyymmddhhmmss = function() {
 
 var d = new Date();
 if (d.yyyymmddhhmmss() - parseInt(document.getElementById("ngay").value) > 10) {
-window.close();
+//window.close();
 window.setTimeout(function(){location.href = '/';},0);
 //self.close();
 
