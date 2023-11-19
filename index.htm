@@ -1529,7 +1529,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (url !== "file:") {
 		
     } else {
-       //close();
+       close();
     }
 });
 //--- Check Offline ----
@@ -3042,7 +3042,7 @@ var tagCloud = TagCloud('.content', myTags,{
 });
 
 //To change the color of text randomly
-var colors = ['#f1c40f', '#DE3163', '#0000FF', '#40E0D0', '#FFBF00', '01A6F0'];
+var colors = ['#f1c40f', '#DE3163', 'white', 'yellow','#0000FF', '#40E0D0', '#FFBF00', '01A6F0'];
 var random_color = colors[Math.floor(Math.random() * colors.length)];
 document.querySelector('.content').style.color = random_color;
 
@@ -3056,7 +3056,7 @@ var c = document.getElementById('c'),
     opts = {
         strings: ['HAPPY BIRTH DAY','THANH PHONG', 'BÍCH THỦY'],
         charSize: 30,
-        charSpacing: 35,
+        charSpacing:30,
         lineHeight: 40,
         cx: 0,
         cy: 0,
