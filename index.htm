@@ -2,14 +2,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>HAPPY TEACHER'S DAY</title>
+    <title>HAPPY BIRTHDAY TO YOU</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
-
-	<meta property="og:description" content="Mừng Ngày Nhà Giáo Việt Nam">
-	<meta property="og:image" content="https://i.pinimg.com/originals/ae/48/84/ae48840f2ce03be1f802ab910b93a1fb.gif">
-	<meta property="og:url" content="https://gifyou.github.io/happy">
+    <meta name="theme-color" content="#000000">
+    <link rel="shortcut icon" type="image/png" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/firework-burst-icon-v2.png">
+    <link rel="icon" type="image/png" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/firework-burst-icon-v2.png">
+    <link rel="apple-touch-icon-precomposed" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/firework-burst-icon-v2.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/firework-burst-icon-v2.png">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
 
 <style>	
@@ -40,7 +44,49 @@ body {
 
 
 
+h1 {
+    color: #fff;
+    font-size: 13em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    opacity: 0.9;
+    z-index: 1000;
+}
 
+.center h2{
+  color: rgba(255,0,0,0.1);
+  font-size:25px;
+  text-transform: uppercase;
+  font-weight: 1000;
+  background-size: cover;
+  background-image: url(Hoa.jpeg);
+  -webkit-background-clip: text;
+  animation: background-text-animation 10s linear infinite;
+  cursor: pointer;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+@keyframes background-text-animation {
+  0%{
+    background-position: left 0px top 20%;
+  }
+  50%{
+    background-position: left 1500px top 20%;
+  }
+  100%{
+    background-position: left 0px top 20%;
+  }
+}
+h2:hover {
+color: rgba(255, 0, 0, 0.5);
+}
 
 
 .hide {
@@ -465,21 +511,21 @@ body {
     .text-effect{ font-size: 30px; }
 	.bgMove {
 	  width: 95%;
-	  font-size:30px;
+	  font-size:40px;
 	}
 }
 @media only screen and (max-width: 767px){
     .text-effect{ font-size:30px; }
 	.bgMove {
 	  width: 95%;
-	  font-size:30px;
+	  font-size:40px;
 	}
 }
 @media only screen and (max-width: 479px){
     .text-effect{ font-size:30px; }
 	.bgMove {
 	  width: 95%;
-	  font-size:30px;
+	  font-size:40px;
 	}	
 }
 @media only screen and (max-width: 359px){
@@ -487,7 +533,7 @@ body {
 	
 	.bgMove {
 	  width: 95%;
-	  font-size:30px;
+	  font-size:40px;
 	}	
 	
 }
@@ -514,35 +560,14 @@ body {
 	}  
 /* End Chử chạy trên màn hình */
 
-h1 {
-    color: #fff;
-    font-size:40px;
-    position: absolute;
-    top:25%;
-    left: 50%;
-    transform: translate(-50%, -15%);
-    opacity: 0.9;
-    z-index: 1000;
-}
-
-h2{
-    color: #fff;
-    font-size:35px;
-    position: absolute;
-    top: 32%;
-    left: 50%;
-    transform: translate(-50%, -15%);
-    opacity: 0.9;
-    z-index: 1000;
-}
-
 /* Chử bgMove */
 .bgMove {
   width:100%;
   text-align: center;
+  font-size:50px;
   z-index:2;  
   color: transparent;
-  background-image: url("ScripPhaoHoa/BgPhaoHoa.png");
+  background-image: url("BgPhaoHoa.png");
   background-color: rgba(255,255,255, .25);
   background-size: cover;
   background-blend-mode: overlay;  
@@ -561,8 +586,6 @@ h2{
   }
 }
 
-
-
 /* End Chử bgMove */
 
 canvas {
@@ -578,7 +601,131 @@ canvas {
 
 <body>
 
-<script language=JavaScript>m='%3Cdiv%20id%3D%27openPage%27%20onclick%3D%27openPage%28%29%27%20class%3D%22text-effect%22%3E%3Cspan%3EHappy%20Teacher%27s%20Day%3C/span%3E%3C/div%3E%0A%0A%0A%3C%21--%20class%3D%22content%22%20L%E0%20ch%u1EED%20ch%u1EA1y%20gi%u1EEFa%20m%E0n%20h%ECnh%20--%3E%0A%3Cdiv%20class%3D%22content%22%3E%3C/div%3E%0A%09%09%0A%20%20%3Ch1%20id%3D%22main%22%20class%3D%22bgMove%22%3EM%u1EEBng%20Ng%E0y%20Nh%E0%20Gi%E1o%20Vi%u1EC7t%20Nam%2020/11/2023%3C/h1%3E%0A%20%20%3C%21--%20%3Ch2%20class%3D%22bgMove%22%3ECh%FAc%20M%u1EEBng%20Sinh%20Nh%u1EADt%3C/h2%3E%20--%3E%0A%0A%20%20%20%20%3C%21--%20%3Cdiv%20id%3D%27openPage%27%20onclick%3D%27openPage%28%29%27%20class%3D%27center%27%3E%3Ch2%3EHAPPY%20BIRTHDAY%20TO%20YOU%3C/h2%3E%3C/div%3E%20--%3E%0A%20%20%20%20%3C%21--%20partial%3Aindex.partial.html%20--%3E%0A%20%20%20%20%3C%21--%20SVG%20Spritesheet%20--%3E%0A%20%20%20%20%3Cdiv%20style%3D%22height%3A%200%3B%20width%3A%200%3B%20position%3A%20absolute%3B%20visibility%3A%20hidden%3B%22%3E%0A%20%20%20%20%20%20%20%20%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%09%09%3Csymbol%20id%3D%22icon-play%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%09%09%09%3Cpath%20d%3D%22M8%205v14l11-7z%22/%3E%0A%09%09%3C/symbol%3E%0A%09%09%3Csymbol%20id%3D%22icon-pause%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%09%09%09%3Cpath%20d%3D%22M6%2019h4V5H6v14zm8-14v14h4V5h-4z%22/%3E%0A%09%09%3C/symbol%3E%0A%09%09%3Csymbol%20id%3D%22icon-close%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%09%09%09%3Cpath%20d%3D%22M19%206.41L17.59%205%2012%2010.59%206.41%205%205%206.41%2010.59%2012%205%2017.59%206.41%2019%2012%2013.41%2017.59%2019%2019%2017.59%2013.41%2012z%22/%3E%0A%09%09%3C/symbol%3E%0A%09%09%3Csymbol%20id%3D%22icon-settings%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%09%09%09%3Cpath%20d%3D%22M19.43%2012.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49%201c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46%202.18%2014.25%202%2014%202h-4c-.25%200-.46.18-.49.42l-.38%202.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49%200-.61.22l-2%203.46c-.13.22-.07.49.12.64l2.11%201.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11%201.65c-.19.15-.24.42-.12.64l2%203.46c.12.22.39.3.61.22l2.49-1c.52.4%201.08.73%201.69.98l.38%202.65c.03.24.24.42.49.42h4c.25%200%20.46-.18.49-.42l.38-2.65c.61-.25%201.17-.59%201.69-.98l2.49%201c.23.09.49%200%20.61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12%2015.5c-1.93%200-3.5-1.57-3.5-3.5s1.57-3.5%203.5-3.5%203.5%201.57%203.5%203.5-1.57%203.5-3.5%203.5z%22/%3E%0A%09%09%3C/symbol%3E%0A%09%09%3Csymbol%20id%3D%22icon-sound-on%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%09%09%09%3Cpath%20d%3D%22M3%209v6h4l5%205V4L7%209H3zm13.5%203c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73%202.5-2.25%202.5-4.02zM14%203.23v2.06c2.89.86%205%203.54%205%206.71s-2.11%205.85-5%206.71v2.06c4.01-.91%207-4.49%207-8.77s-2.99-7.86-7-8.77z%22/%3E%0A%09%09%3C/symbol%3E%0A%09%09%3Csymbol%20id%3D%22icon-sound-off%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%09%09%09%3Cpath%20d%3D%22M16.5%2012c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45%202.45c.03-.2.05-.41.05-.63zm2.5%200c0%20.94-.2%201.82-.54%202.64l1.51%201.51C20.63%2014.91%2021%2013.5%2021%2012c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86%205%203.54%205%206.71zM4.27%203L3%204.27%207.73%209H3v6h4l5%205v-6.73l4.25%204.25c-.67.52-1.42.93-2.25%201.18v2.06c1.38-.31%202.63-.95%203.69-1.81L19.73%2021%2021%2019.73l-9-9L4.27%203zM12%204L9.91%206.09%2012%208.18V4z%22/%3E%0A%09%09%3C/symbol%3E%0A%09%3C/svg%3E%0A%20%20%20%20%3C/div%3E%0A%0A%20%20%20%20%3C%21--%20App%20--%3E%0A%20%20%20%20%3Cdiv%20class%3D%22container%22%3E%0A%20%20%3Ccanvas%20id%3Dc%3E%3C/canvas%3E%0A%09%3Cdiv%20class%3D%22loading-init%22%3E%0A%0A%0A%09%09%3Cdiv%20class%3D%22loading-init__header%22%3ELoading%3C/div%3E%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22loading-init__status%22%3EAssembling%20Shells%3C/div%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%09%09%0A%09%09%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22stage-container%20remove%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22canvas-container%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ccanvas%20id%3D%22trails-canvas%22%3E%3C/canvas%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ccanvas%20id%3D%22main-canvas%22%3E%3C/canvas%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22controls%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22btn%20pause-btn%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Csvg%20fill%3D%22white%22%20width%3D%2224%22%20height%3D%2224%22%3E%3Cuse%20href%3D%22%23icon-pause%22%20xlink%3Ahref%3D%22%23icon-pause%22%3E%3C/use%3E%3C/svg%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22btn%20sound-btn%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Csvg%20fill%3D%22white%22%20width%3D%2224%22%20height%3D%2224%22%3E%3Cuse%20href%3D%22%23icon-sound-off%22%20xlink%3Ahref%3D%22%23icon-sound-off%22%3E%3C/use%3E%3C/svg%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22btn%20settings-btn%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Csvg%20fill%3D%22white%22%20width%3D%2224%22%20height%3D%2224%22%3E%3Cuse%20href%3D%22%23icon-settings%22%20xlink%3Ahref%3D%22%23icon-settings%22%3E%3C/use%3E%3C/svg%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20style%3D%22z-index%3A10%3B%22%20class%3D%22menu%20hide%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22menu__inner-wrap%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22btn%20btn--bright%20close-menu-btn%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Csvg%20fill%3D%22white%22%20width%3D%2224%22%20height%3D%2224%22%3E%3Cuse%20href%3D%22%23icon-close%22%20xlink%3Ahref%3D%22%23icon-close%22%3E%3C/use%3E%3C/svg%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22menu__header%22%3EC%E0i%20%u0111%u1EB7t%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22menu__subheader%22%3EH%E3y%20ch%u1ECDn%20b%EAn%20d%u01B0%u1EDBi.%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cform%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-option%20form-option--select%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Clabel%20class%3D%22shell-type-label%22%3ELo%u1EA1i%3C/label%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cselect%20class%3D%22shell-type%22%3E%3C/select%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-option%20form-option--select%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Clabel%20class%3D%22shell-size-label%22%3EK%EDch%20c%u1EE1%3C/label%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cselect%20class%3D%22shell-size%22%3E%3C/select%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-option%20form-option--select%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Clabel%20class%3D%22quality-ui-label%22%3ECh%u1EA5t%20l%u01B0%u1EE3ng%3C/label%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cselect%20class%3D%22quality-ui%22%3E%3C/select%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-option%20form-option--select%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Clabel%20class%3D%22sky-lighting-label%22%3E%C1nh%20s%E1ng%20b%u1EA7u%20tr%u1EDDi%3C/label%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cselect%20class%3D%22sky-lighting%22%3E%3C/select%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-option%20form-option--select%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Clabel%20class%3D%22scaleFactor-label%22%3ET%u1EC9%20l%u1EC7%3C/label%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cselect%20class%3D%22scaleFactor%22%3E%3C/select%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-option%20form-option--checkbox%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Clabel%20class%3D%22auto-launch-label%22%3ET%u1EF1%20%u0111%u1ED9ng%3C/label%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cinput%20class%3D%22auto-launch%22%20type%3D%22checkbox%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-option%20form-option--checkbox%20form-option--finale-mode%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Clabel%20class%3D%22finale-mode-label%22%3ECh%u1EBF%20%u0111%u1ED9%20cu%u1ED1i%20c%F9ng%3C/label%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cinput%20class%3D%22finale-mode%22%20type%3D%22checkbox%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-option%20form-option--checkbox%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Clabel%20class%3D%22hide-controls-label%22%3E%u1EA8n%20%u0111i%u1EC1u%20khi%u1EC3n%3C/label%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cinput%20class%3D%22hide-controls%22%20type%3D%22checkbox%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-option%20form-option--checkbox%20form-option--fullscreen%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Clabel%20class%3D%22fullscreen-label%22%3ETo%E0n%20m%E0n%20h%ECnh%3C/label%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cinput%20class%3D%22fullscreen%22%20type%3D%22checkbox%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-option%20form-option--checkbox%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Clabel%20class%3D%22long-exposure-label%22%3EM%u1EDF%20m%E0n%20tr%u1EADp%3C/label%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cinput%20class%3D%22long-exposure%22%20type%3D%22checkbox%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/form%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22help-modal%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22help-modal__overlay%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22help-modal__dialog%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22help-modal__header%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22help-modal__body%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cbutton%20type%3D%22button%22%20class%3D%22help-modal__close-btn%22%3EClose%3C/button%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A';d=unescape(m);document.write(d);</script>
+<div id='openPage' onclick='openPage()' class="text-effect"><span>Happy Birthday</span></div>
+
+
+<!-- class="content" Là chử chạy giữa màn hình -->
+<div class="content"></div>
+		
+  <h1 id="main" class="bgMove">Happy Birthday</h1>
+
+    <!-- <div id='openPage' onclick='openPage()' class='center'><h2>HAPPY BIRTHDAY TO YOU</h2></div> -->
+    <!-- partial:index.partial.html -->
+    <!-- SVG Spritesheet -->
+    <div style="height: 0; width: 0; position: absolute; visibility: hidden;">
+        <svg xmlns="http://www.w3.org/2000/svg">
+		<symbol id="icon-play" viewBox="0 0 24 24">
+			<path d="M8 5v14l11-7z"/>
+		</symbol>
+		<symbol id="icon-pause" viewBox="0 0 24 24">
+			<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+		</symbol>
+		<symbol id="icon-close" viewBox="0 0 24 24">
+			<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+		</symbol>
+		<symbol id="icon-settings" viewBox="0 0 24 24">
+			<path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"/>
+		</symbol>
+		<symbol id="icon-sound-on" viewBox="0 0 24 24">
+			<path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+		</symbol>
+		<symbol id="icon-sound-off" viewBox="0 0 24 24">
+			<path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/>
+		</symbol>
+	</svg>
+    </div>
+
+    <!-- App -->
+    <div class="container">
+  <canvas id=c></canvas>
+	<div class="loading-init">
+
+
+		<div class="loading-init__header">Loading</div>
+
+            <div class="loading-init__status">Assembling Shells</div>
+        </div>
+		
+		
+        <div class="stage-container remove">
+            <div class="canvas-container">
+                <canvas id="trails-canvas"></canvas>
+                <canvas id="main-canvas"></canvas>
+            </div>
+            <div class="controls">
+                <div class="btn pause-btn">
+                    <svg fill="white" width="24" height="24"><use href="#icon-pause" xlink:href="#icon-pause"></use></svg>
+                </div>
+                <div class="btn sound-btn">
+                    <svg fill="white" width="24" height="24"><use href="#icon-sound-off" xlink:href="#icon-sound-off"></use></svg>
+                </div>
+                <div class="btn settings-btn">
+                    <svg fill="white" width="24" height="24"><use href="#icon-settings" xlink:href="#icon-settings"></use></svg>
+                </div>
+            </div>
+            <div style="z-index:10;" class="menu hide">
+                <div class="menu__inner-wrap">
+                    <div class="btn btn--bright close-menu-btn">
+                        <svg fill="white" width="24" height="24"><use href="#icon-close" xlink:href="#icon-close"></use></svg>
+                    </div>
+
+                    <div class="menu__header">Cài đặt</div>
+                    <div class="menu__subheader">Hãy chọn bên dưới.</div>
+                    <form>
+                        <div class="form-option form-option--select">
+                            <label class="shell-type-label">Loại</label>
+                            <select class="shell-type"></select>
+                        </div>
+                        <div class="form-option form-option--select">
+                            <label class="shell-size-label">Kích cỡ</label>
+                            <select class="shell-size"></select>
+                        </div>
+                        <div class="form-option form-option--select">
+                            <label class="quality-ui-label">Chất lượng</label>
+                            <select class="quality-ui"></select>
+                        </div>
+                        <div class="form-option form-option--select">
+                            <label class="sky-lighting-label">Ánh sáng bầu trời</label>
+                            <select class="sky-lighting"></select>
+                        </div>
+                        <div class="form-option form-option--select">
+                            <label class="scaleFactor-label">Tỉ lệ</label>
+                            <select class="scaleFactor"></select>
+                        </div>
+                        <div class="form-option form-option--checkbox">
+                            <label class="auto-launch-label">Tự động</label>
+                            <input class="auto-launch" type="checkbox" />
+                        </div>
+                        <div class="form-option form-option--checkbox form-option--finale-mode">
+                            <label class="finale-mode-label">Chế độ cuối cùng</label>
+                            <input class="finale-mode" type="checkbox" />
+                        </div>
+                        <div class="form-option form-option--checkbox">
+                            <label class="hide-controls-label">Ẩn điều khiển</label>
+                            <input class="hide-controls" type="checkbox" />
+                        </div>
+                        <div class="form-option form-option--checkbox form-option--fullscreen">
+                            <label class="fullscreen-label">Toàn màn hình</label>
+                            <input class="fullscreen" type="checkbox" />
+                        </div>
+                        <div class="form-option form-option--checkbox">
+                            <label class="long-exposure-label">Mở màn trập</label>
+                            <input class="long-exposure" type="checkbox" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="help-modal">
+            <div class="help-modal__overlay"></div>
+            <div class="help-modal__dialog">
+                <div class="help-modal__header"></div>
+                <div class="help-modal__body"></div>
+                <button type="button" class="help-modal__close-btn">Close</button>
+            </div>
+        </div>
+    </div>
+
 
     <!-- partial -->
 	<script src="ScripPhaoHoa/TagCloud.min.js"> </script>
@@ -587,7 +734,2452 @@ canvas {
     <script src='ScripPhaoHoa/MyMath.js'></script>
 <script>
 	
-'use strict';const _0x259fb4=_0x15e9;(function(_0x2a5fa5,_0x2876fc){const _0x5212df=_0x15e9,_0x5427a3=_0x2a5fa5();while(!![]){try{const _0x575f8c=parseInt(_0x5212df(0x1eb))/0x1*(parseInt(_0x5212df(0x195))/0x2)+-parseInt(_0x5212df(0x213))/0x3*(parseInt(_0x5212df(0x1c6))/0x4)+parseInt(_0x5212df(0x156))/0x5+parseInt(_0x5212df(0x270))/0x6*(parseInt(_0x5212df(0x1a8))/0x7)+parseInt(_0x5212df(0x29c))/0x8*(parseInt(_0x5212df(0x125))/0x9)+-parseInt(_0x5212df(0x13d))/0xa+-parseInt(_0x5212df(0x14c))/0xb;if(_0x575f8c===_0x2876fc)break;else _0x5427a3['push'](_0x5427a3['shift']());}catch(_0x1ab858){_0x5427a3['push'](_0x5427a3['shift']());}}}(_0x238a,0xef91c));console[_0x259fb4(0x1ac)]();const IS_MOBILE=window['innerWidth']<=0x280,IS_DESKTOP=window[_0x259fb4(0x24e)]>0x320,IS_HEADER=IS_DESKTOP&&window['innerHeight']<0x12c,IS_HIGH_END_DEVICE=((()=>{const _0x2f3577=_0x259fb4,_0x1dfaba=navigator[_0x2f3577(0x27f)];if(!_0x1dfaba)return![];const _0x14c87f=window['innerWidth']<=0x400?0x4:0x8;return _0x1dfaba>=_0x14c87f;})()),MAX_WIDTH=0x1e00,MAX_HEIGHT=0x10e0,GRAVITY=0.9;let simSpeed=0x1;function getDefaultScaleFactor(){if(IS_MOBILE)return 0.9;if(IS_HEADER)return 0.75;return 0x1;}let stageW,stageH,quality=0x1,isLowQuality=![],isNormalQuality=!![],isHighQuality=![];const QUALITY_LOW=0x1,QUALITY_NORMAL=0x2,QUALITY_HIGH=0x3,SKY_LIGHT_NONE=0x0,SKY_LIGHT_DIM=0x1,SKY_LIGHT_NORMAL=0x2,COLOR={'Red':'#ff0043','Green':_0x259fb4(0x12e),'Blue':'#1e7fff','Purple':_0x259fb4(0x12f),'Gold':'#ffbf36','White':'#ffffff'},INVISIBLE=_0x259fb4(0x285),PI_2=Math['PI']*0x2,PI_HALF=Math['PI']*0.5,trailsStage=new Stage(_0x259fb4(0x1fa)),mainStage=new Stage('main-canvas'),stages=[trailsStage,mainStage];function fullscreenEnabled(){const _0xb56464=_0x259fb4;return fscreen[_0xb56464(0x198)];}function isFullscreen(){const _0x28252d=_0x259fb4;return!!fscreen[_0x28252d(0x146)];}function toggleFullscreen(){const _0xf6d8bf=_0x259fb4;fullscreenEnabled()&&(isFullscreen()?fscreen[_0xf6d8bf(0x25a)]():fscreen[_0xf6d8bf(0x282)](document[_0xf6d8bf(0x169)]));}fscreen[_0x259fb4(0x289)](_0x259fb4(0x23c),()=>{store['setState']({'fullscreen':isFullscreen()});});const store={'_listeners':new Set(),'_dispatch'(_0x30f066){const _0x451e79=_0x259fb4;this['_listeners'][_0x451e79(0x27e)](_0x443b41=>_0x443b41(this[_0x451e79(0x224)],_0x30f066));},'state':{'paused':!![],'soundEnabled':!![],'menuOpen':![],'openHelpTopic':null,'fullscreen':isFullscreen(),'config':{'quality':String(IS_HIGH_END_DEVICE?QUALITY_HIGH:QUALITY_NORMAL),'shell':_0x259fb4(0x20a),'size':IS_DESKTOP?'3':IS_HEADER?_0x259fb4(0x189):'2','autoLaunch':!![],'finale':![],'skyLighting':SKY_LIGHT_NORMAL+'','hideControls':IS_HEADER,'longExposure':![],'scaleFactor':getDefaultScaleFactor()}},'setState'(_0x570d5c){const _0x325508=_0x259fb4,_0x2b7f3c=this[_0x325508(0x224)];this['state']=Object['assign']({},this[_0x325508(0x224)],_0x570d5c),this[_0x325508(0x246)](_0x2b7f3c),this['persist']();},'subscribe'(_0x53281d){const _0x17f2c7=_0x259fb4;return this[_0x17f2c7(0x229)]['add'](_0x53281d),()=>this[_0x17f2c7(0x229)][_0x17f2c7(0x288)](_0x53281d);},'load'(){const _0x2bf2a9=_0x259fb4,_0xd7c5db=localStorage[_0x2bf2a9(0x1b7)](_0x2bf2a9(0x293));if(_0xd7c5db){const {schemaVersion:_0x319b17,data:_0x9149e9}=JSON[_0x2bf2a9(0x21f)](_0xd7c5db),_0x111a38=this[_0x2bf2a9(0x224)][_0x2bf2a9(0x275)];switch(_0x319b17){case _0x2bf2a9(0x22a):_0x111a38[_0x2bf2a9(0x267)]=_0x9149e9[_0x2bf2a9(0x267)],_0x111a38[_0x2bf2a9(0x27c)]=_0x9149e9[_0x2bf2a9(0x27c)],_0x111a38[_0x2bf2a9(0x247)]=_0x9149e9['skyLighting'];break;case _0x2bf2a9(0x189):_0x111a38['quality']=_0x9149e9[_0x2bf2a9(0x267)],_0x111a38['size']=_0x9149e9[_0x2bf2a9(0x27c)],_0x111a38[_0x2bf2a9(0x247)]=_0x9149e9[_0x2bf2a9(0x247)],_0x111a38[_0x2bf2a9(0x152)]=_0x9149e9['scaleFactor'];break;default:throw new Error('version\x20switch\x20should\x20be\x20exhaustive');}console['log']('Loaded\x20config\x20(schema\x20version\x20'+_0x319b17+')');}else{if(localStorage[_0x2bf2a9(0x1b7)]('schemaVersion')==='1'){let _0x154836;try{const _0x19e39d=localStorage[_0x2bf2a9(0x1b7)](_0x2bf2a9(0x28a));_0x154836=typeof _0x19e39d===_0x2bf2a9(0x19f)&&JSON[_0x2bf2a9(0x21f)](_0x19e39d);}catch(_0x34de34){console['log']('Recovered\x20from\x20error\x20parsing\x20saved\x20config:'),console[_0x2bf2a9(0x1b3)](_0x34de34);return;}const _0x3248a3=parseInt(_0x154836,0xa);_0x3248a3>=0x0&&_0x3248a3<=0x4&&(this[_0x2bf2a9(0x224)][_0x2bf2a9(0x275)]['size']=String(_0x3248a3));}}},'persist'(){const _0x1d734e=_0x259fb4,_0x1ed2c0=this[_0x1d734e(0x224)][_0x1d734e(0x275)];localStorage[_0x1d734e(0x1d0)](_0x1d734e(0x293),JSON[_0x1d734e(0x218)]({'schemaVersion':'1.2','data':{'quality':_0x1ed2c0[_0x1d734e(0x267)],'size':_0x1ed2c0[_0x1d734e(0x27c)],'skyLighting':_0x1ed2c0[_0x1d734e(0x247)],'scaleFactor':_0x1ed2c0['scaleFactor']}}));}};!IS_HEADER&&store['load']();function togglePause(_0x41e3a3){const _0xadcf9a=_0x259fb4,_0x4accb1=store[_0xadcf9a(0x224)][_0xadcf9a(0x21d)];let _0x5d074d;typeof _0x41e3a3===_0xadcf9a(0x1e9)?_0x5d074d=_0x41e3a3:_0x5d074d=!_0x4accb1,_0x4accb1!==_0x5d074d&&store[_0xadcf9a(0x145)]({'paused':_0x5d074d});}function toggleSound(_0x2d2ac1){const _0xec3d62=_0x259fb4;typeof _0x2d2ac1===_0xec3d62(0x1e9)?store[_0xec3d62(0x145)]({'soundEnabled':_0x2d2ac1}):store[_0xec3d62(0x145)]({'soundEnabled':!store[_0xec3d62(0x224)]['soundEnabled']});}function toggleMenu(_0x28c636){const _0x52eafc=_0x259fb4;typeof _0x28c636==='boolean'?store[_0x52eafc(0x145)]({'menuOpen':_0x28c636}):store['setState']({'menuOpen':!store[_0x52eafc(0x224)][_0x52eafc(0x299)]});}function updateConfig(_0x32013f){const _0x5d2e73=_0x259fb4;_0x32013f=_0x32013f||getConfigFromDOM(),store['setState']({'config':Object[_0x5d2e73(0x209)]({},store[_0x5d2e73(0x224)][_0x5d2e73(0x275)],_0x32013f)}),configDidUpdate();}function configDidUpdate(){const _0xb822d=_0x259fb4,_0x3ba374=store[_0xb822d(0x224)][_0xb822d(0x275)];quality=qualitySelector(),isLowQuality=quality===QUALITY_LOW,isNormalQuality=quality===QUALITY_NORMAL,isHighQuality=quality===QUALITY_HIGH,skyLightingSelector()===SKY_LIGHT_NONE&&(appNodes[_0xb822d(0x177)][_0xb822d(0x1d4)]['backgroundColor']=_0xb822d(0x133)),Spark[_0xb822d(0x19d)]=quality===QUALITY_HIGH?0.75:0x1;}const isRunning=(_0x2e1d36=store[_0x259fb4(0x224)])=>!_0x2e1d36[_0x259fb4(0x21d)]&&!_0x2e1d36[_0x259fb4(0x299)],soundEnabledSelector=(_0x3dbe43=store[_0x259fb4(0x224)])=>_0x3dbe43['soundEnabled'],canPlaySoundSelector=(_0x1742c0=store['state'])=>isRunning(_0x1742c0)&&soundEnabledSelector(_0x1742c0),qualitySelector=()=>+store[_0x259fb4(0x224)][_0x259fb4(0x275)][_0x259fb4(0x267)],shellNameSelector=()=>store[_0x259fb4(0x224)][_0x259fb4(0x275)][_0x259fb4(0x18a)],shellSizeSelector=()=>+store[_0x259fb4(0x224)][_0x259fb4(0x275)][_0x259fb4(0x27c)],finaleSelector=()=>store[_0x259fb4(0x224)][_0x259fb4(0x275)]['finale'],skyLightingSelector=()=>+store[_0x259fb4(0x224)][_0x259fb4(0x275)]['skyLighting'],scaleFactorSelector=()=>store[_0x259fb4(0x224)][_0x259fb4(0x275)]['scaleFactor'],helpContent={'shellType':{'header':_0x259fb4(0x1fc),'body':_0x259fb4(0x131)},'shellSize':{'header':_0x259fb4(0x1d7),'body':_0x259fb4(0x256)},'quality':{'header':'Chất\x20lượng','body':_0x259fb4(0x1ca)},'skyLighting':{'header':_0x259fb4(0x1ad),'body':_0x259fb4(0x136)},'scaleFactor':{'header':_0x259fb4(0x29d),'body':_0x259fb4(0x216)},'autoLaunch':{'header':'Tự\x20động','body':_0x259fb4(0x180)},'finaleMode':{'header':'Chế\x20độ\x20cuối\x20cùng','body':'Bắn\x20ra\x20những\x20chùm\x20pháo\x20hoa\x20dữ\x20dội.\x20Có\x20thể\x20gây\x20ra\x20độ\x20trễ.\x20Yêu\x20cầu\x20bật\x20\x22Tự\x20động\x20bắn\x22.'},'hideControls':{'header':'Ẩn\x20điều\x20khiển','body':_0x259fb4(0x185)},'fullscreen':{'header':'Toàn\x20màn\x20hình','body':_0x259fb4(0x1f4)},'longExposure':{'header':_0x259fb4(0x228),'body':_0x259fb4(0x233)}},nodeKeyToHelpKey={'shellTypeLabel':_0x259fb4(0x1f6),'shellSizeLabel':_0x259fb4(0x134),'qualityLabel':_0x259fb4(0x267),'skyLightingLabel':_0x259fb4(0x247),'scaleFactorLabel':_0x259fb4(0x152),'autoLaunchLabel':'autoLaunch','finaleModeLabel':'finaleMode','hideControlsLabel':'hideControls','fullscreenLabel':_0x259fb4(0x188),'longExposureLabel':_0x259fb4(0x132)},appNodes={'stageContainer':_0x259fb4(0x165),'canvasContainer':_0x259fb4(0x257),'controls':_0x259fb4(0x18f),'menu':'.menu','menuInnerWrap':_0x259fb4(0x1bd),'pauseBtn':_0x259fb4(0x1e0),'pauseBtnSVG':'.pause-btn\x20use','soundBtn':_0x259fb4(0x11a),'soundBtnSVG':'.sound-btn\x20use','shellType':_0x259fb4(0x25b),'shellTypeLabel':_0x259fb4(0x23f),'shellSize':_0x259fb4(0x170),'shellSizeLabel':'.shell-size-label','quality':'.quality-ui','qualityLabel':_0x259fb4(0x1da),'skyLighting':_0x259fb4(0x1b5),'skyLightingLabel':'.sky-lighting-label','scaleFactor':'.scaleFactor','scaleFactorLabel':'.scaleFactor-label','autoLaunch':'.auto-launch','autoLaunchLabel':_0x259fb4(0x207),'finaleModeFormOption':_0x259fb4(0x154),'finaleMode':_0x259fb4(0x210),'finaleModeLabel':'.finale-mode-label','hideControls':_0x259fb4(0x16f),'hideControlsLabel':_0x259fb4(0x13b),'fullscreenFormOption':_0x259fb4(0x236),'fullscreen':'.fullscreen','fullscreenLabel':'.fullscreen-label','longExposure':'.long-exposure','longExposureLabel':'.long-exposure-label','helpModal':_0x259fb4(0x20b),'helpModalOverlay':_0x259fb4(0x234),'helpModalHeader':'.help-modal__header','helpModalBody':_0x259fb4(0x21c),'helpModalCloseBtn':_0x259fb4(0x16a)};Object['keys'](appNodes)[_0x259fb4(0x27e)](_0x4d8013=>{const _0xb2a830=_0x259fb4;appNodes[_0x4d8013]=document[_0xb2a830(0x15e)](appNodes[_0x4d8013]);});!fullscreenEnabled()&&appNodes['fullscreenFormOption'][_0x259fb4(0x17c)]['add'](_0x259fb4(0x288));function renderApp(_0x4cf1b8){const _0xff24aa=_0x259fb4,_0x5ef7d7=_0xff24aa(0x118)+(_0x4cf1b8[_0xff24aa(0x21d)]?_0xff24aa(0x22b):_0xff24aa(0x253)),_0x3aa52f=_0xff24aa(0x167)+(soundEnabledSelector()?'on':_0xff24aa(0x23d));appNodes['pauseBtnSVG'][_0xff24aa(0x269)](_0xff24aa(0x27b),_0x5ef7d7),appNodes[_0xff24aa(0x143)]['setAttribute'](_0xff24aa(0x230),_0x5ef7d7),appNodes[_0xff24aa(0x1c5)]['setAttribute'](_0xff24aa(0x27b),_0x3aa52f),appNodes['soundBtnSVG'][_0xff24aa(0x269)](_0xff24aa(0x230),_0x3aa52f),appNodes[_0xff24aa(0x26c)][_0xff24aa(0x17c)]['toggle'](_0xff24aa(0x1ae),_0x4cf1b8[_0xff24aa(0x299)]||_0x4cf1b8[_0xff24aa(0x275)]['hideControls']),appNodes[_0xff24aa(0x177)][_0xff24aa(0x17c)][_0xff24aa(0x19e)]('blur',_0x4cf1b8[_0xff24aa(0x299)]),appNodes['menu']['classList'][_0xff24aa(0x19e)](_0xff24aa(0x1ae),!_0x4cf1b8[_0xff24aa(0x299)]),appNodes[_0xff24aa(0x126)][_0xff24aa(0x1d4)]['opacity']=_0x4cf1b8[_0xff24aa(0x275)]['autoLaunch']?0x1:0.32,appNodes[_0xff24aa(0x267)]['value']=_0x4cf1b8[_0xff24aa(0x275)]['quality'],appNodes[_0xff24aa(0x1f6)][_0xff24aa(0x19b)]=_0x4cf1b8['config']['shell'],appNodes['shellSize'][_0xff24aa(0x19b)]=_0x4cf1b8[_0xff24aa(0x275)][_0xff24aa(0x27c)],appNodes[_0xff24aa(0x124)]['checked']=_0x4cf1b8['config'][_0xff24aa(0x124)],appNodes[_0xff24aa(0x19c)][_0xff24aa(0x1d2)]=_0x4cf1b8[_0xff24aa(0x275)][_0xff24aa(0x1e2)],appNodes[_0xff24aa(0x247)][_0xff24aa(0x19b)]=_0x4cf1b8['config'][_0xff24aa(0x247)],appNodes['hideControls'][_0xff24aa(0x1d2)]=_0x4cf1b8[_0xff24aa(0x275)]['hideControls'],appNodes[_0xff24aa(0x188)][_0xff24aa(0x1d2)]=_0x4cf1b8[_0xff24aa(0x188)],appNodes['longExposure'][_0xff24aa(0x1d2)]=_0x4cf1b8['config'][_0xff24aa(0x132)],appNodes[_0xff24aa(0x152)][_0xff24aa(0x19b)]=_0x4cf1b8[_0xff24aa(0x275)][_0xff24aa(0x152)]['toFixed'](0x2),appNodes[_0xff24aa(0x245)][_0xff24aa(0x1d4)]['opacity']=_0x4cf1b8[_0xff24aa(0x166)]?0.12:0x1,appNodes[_0xff24aa(0x248)]['classList'][_0xff24aa(0x19e)](_0xff24aa(0x1a5),!!_0x4cf1b8[_0xff24aa(0x166)]);if(_0x4cf1b8['openHelpTopic']){const {header:_0x4e3a84,body:_0x1b41d}=helpContent[_0x4cf1b8[_0xff24aa(0x166)]];appNodes[_0xff24aa(0x249)][_0xff24aa(0x160)]=_0x4e3a84,appNodes[_0xff24aa(0x292)][_0xff24aa(0x160)]=_0x1b41d;}}store['subscribe'](renderApp);function handleStateChange(_0x59dc4c,_0x277461){const _0x5eee63=_0x259fb4,_0x51b97a=canPlaySoundSelector(_0x59dc4c),_0x2608da=canPlaySoundSelector(_0x277461);_0x51b97a!==_0x2608da&&(_0x51b97a?soundManager[_0x5eee63(0x26f)]():soundManager[_0x5eee63(0x13f)]());}store[_0x259fb4(0x127)](handleStateChange);function getConfigFromDOM(){const _0x5a918e=_0x259fb4;return{'quality':appNodes[_0x5a918e(0x267)][_0x5a918e(0x19b)],'shell':appNodes[_0x5a918e(0x1f6)][_0x5a918e(0x19b)],'size':appNodes[_0x5a918e(0x134)][_0x5a918e(0x19b)],'autoLaunch':appNodes[_0x5a918e(0x124)][_0x5a918e(0x1d2)],'finale':appNodes[_0x5a918e(0x19c)][_0x5a918e(0x1d2)],'skyLighting':appNodes[_0x5a918e(0x247)][_0x5a918e(0x19b)],'longExposure':appNodes[_0x5a918e(0x132)][_0x5a918e(0x1d2)],'hideControls':appNodes[_0x5a918e(0x12a)][_0x5a918e(0x1d2)],'scaleFactor':parseFloat(appNodes[_0x5a918e(0x152)][_0x5a918e(0x19b)])};};const updateConfigNoEvent=()=>updateConfig();appNodes[_0x259fb4(0x267)][_0x259fb4(0x289)](_0x259fb4(0x1d6),updateConfigNoEvent),appNodes[_0x259fb4(0x1f6)][_0x259fb4(0x289)](_0x259fb4(0x1d6),updateConfigNoEvent),appNodes[_0x259fb4(0x134)][_0x259fb4(0x289)](_0x259fb4(0x1d6),updateConfigNoEvent),appNodes['autoLaunch'][_0x259fb4(0x289)](_0x259fb4(0x1de),()=>setTimeout(updateConfig,0x0)),appNodes[_0x259fb4(0x19c)][_0x259fb4(0x289)](_0x259fb4(0x1de),()=>setTimeout(updateConfig,0x0)),appNodes[_0x259fb4(0x247)][_0x259fb4(0x289)]('input',updateConfigNoEvent),appNodes[_0x259fb4(0x132)][_0x259fb4(0x289)](_0x259fb4(0x1de),()=>setTimeout(updateConfig,0x0)),appNodes['hideControls']['addEventListener'](_0x259fb4(0x1de),()=>setTimeout(updateConfig,0x0)),appNodes['fullscreen'][_0x259fb4(0x289)](_0x259fb4(0x1de),()=>setTimeout(toggleFullscreen,0x0)),appNodes[_0x259fb4(0x152)][_0x259fb4(0x289)](_0x259fb4(0x1d6),()=>{updateConfig(),handleResize();}),Object['keys'](nodeKeyToHelpKey)[_0x259fb4(0x27e)](_0x46f493=>{const _0x2aa062=_0x259fb4,_0x36c163=nodeKeyToHelpKey[_0x46f493];appNodes[_0x46f493][_0x2aa062(0x289)](_0x2aa062(0x1de),()=>{const _0x54a804=_0x2aa062;store[_0x54a804(0x145)]({'openHelpTopic':_0x36c163});});}),appNodes[_0x259fb4(0x25e)][_0x259fb4(0x289)]('click',()=>{store['setState']({'openHelpTopic':null});}),appNodes[_0x259fb4(0x1e3)]['addEventListener'](_0x259fb4(0x1de),()=>{store['setState']({'openHelpTopic':null});});const COLOR_NAMES=Object[_0x259fb4(0x1f2)](COLOR),COLOR_CODES=COLOR_NAMES[_0x259fb4(0x1c7)](_0x15c70d=>COLOR[_0x15c70d]),COLOR_CODES_W_INVIS=[...COLOR_CODES,INVISIBLE],COLOR_CODE_INDEXES=COLOR_CODES_W_INVIS['reduce']((_0x48279e,_0x275fc4,_0x56f5e3)=>{return _0x48279e[_0x275fc4]=_0x56f5e3,_0x48279e;},{}),COLOR_TUPLES={};COLOR_CODES[_0x259fb4(0x27e)](_0x11ef9e=>{const _0x114c65=_0x259fb4;COLOR_TUPLES[_0x11ef9e]={'r':parseInt(_0x11ef9e[_0x114c65(0x173)](0x1,0x2),0x10),'g':parseInt(_0x11ef9e[_0x114c65(0x173)](0x3,0x2),0x10),'b':parseInt(_0x11ef9e[_0x114c65(0x173)](0x5,0x2),0x10)};});function randomColorSimple(){const _0x55f309=_0x259fb4;return COLOR_CODES[Math[_0x55f309(0x251)]()*COLOR_CODES[_0x55f309(0x15c)]|0x0];}let lastColor;function randomColor(_0x79cce5){const _0x24a2e0=_0x259fb4,_0x3cbaf8=_0x79cce5&&_0x79cce5['notSame'],_0x49c12b=_0x79cce5&&_0x79cce5[_0x24a2e0(0x164)],_0x5e26cd=_0x79cce5&&_0x79cce5['limitWhite'];let _0x1e0003=randomColorSimple();_0x5e26cd&&_0x1e0003===COLOR[_0x24a2e0(0x212)]&&Math[_0x24a2e0(0x251)]()<0.6&&(_0x1e0003=randomColorSimple());if(_0x3cbaf8)while(_0x1e0003===lastColor){_0x1e0003=randomColorSimple();}else{if(_0x49c12b)while(_0x1e0003===_0x49c12b){_0x1e0003=randomColorSimple();}}return lastColor=_0x1e0003,_0x1e0003;}function whiteOrGold(){const _0x570a93=_0x259fb4;return Math[_0x570a93(0x251)]()<0.5?COLOR[_0x570a93(0x17a)]:COLOR[_0x570a93(0x212)];}function makePistilColor(_0x2226f6){const _0x3778a2=_0x259fb4;return _0x2226f6===COLOR[_0x3778a2(0x212)]||_0x2226f6===COLOR['Gold']?randomColor({'notColor':_0x2226f6}):whiteOrGold();}const crysanthemumShell=(_0x46ce09=0x1)=>{const _0x10fdb4=_0x259fb4,_0x5cf21e=Math['random']()<0.25,_0x3f90c4=Math[_0x10fdb4(0x251)]()<0.72,_0x4091ee=_0x3f90c4?randomColor({'limitWhite':!![]}):[randomColor(),randomColor({'notSame':!![]})],_0x2b136c=_0x3f90c4&&Math[_0x10fdb4(0x251)]()<0.42,_0x59743b=_0x2b136c&&makePistilColor(_0x4091ee),_0x1e4bb3=_0x3f90c4&&(Math[_0x10fdb4(0x251)]()<0.2||_0x4091ee===COLOR[_0x10fdb4(0x212)])?_0x59743b||randomColor({'notColor':_0x4091ee,'limitWhite':!![]}):null,_0xc29551=!_0x2b136c&&_0x4091ee!==COLOR[_0x10fdb4(0x212)]&&Math[_0x10fdb4(0x251)]()<0.42;let _0x4a1299=_0x5cf21e?1.1:1.25;if(isLowQuality)_0x4a1299*=0.8;if(isHighQuality)_0x4a1299=1.2;return{'shellSize':_0x46ce09,'spreadSize':0x12c+_0x46ce09*0x64,'starLife':0x384+_0x46ce09*0xc8,'starDensity':_0x4a1299,'color':_0x4091ee,'secondColor':_0x1e4bb3,'glitter':_0x5cf21e?_0x10fdb4(0x240):'','glitterColor':whiteOrGold(),'pistil':_0x2b136c,'pistilColor':_0x59743b,'streamers':_0xc29551};},ghostShell=(_0x326d64=0x1)=>{const _0x5a2798=_0x259fb4,_0x32282f=crysanthemumShell(_0x326d64);_0x32282f['starLife']*=1.5;let _0x2eebd4=randomColor({'notColor':COLOR[_0x5a2798(0x212)]});_0x32282f[_0x5a2798(0x17d)]=!![];const _0x4a2413=Math['random']()<0.42,_0x131a88=_0x4a2413&&makePistilColor(_0x2eebd4);return _0x32282f['color']=INVISIBLE,_0x32282f[_0x5a2798(0x192)]=_0x2eebd4,_0x32282f[_0x5a2798(0x201)]='',_0x32282f;},strobeShell=(_0x1d3b0a=0x1)=>{const _0x21cd37=_0x259fb4,_0x4ed05c=randomColor({'limitWhite':!![]});return{'shellSize':_0x1d3b0a,'spreadSize':0x118+_0x1d3b0a*0x5c,'starLife':0x44c+_0x1d3b0a*0xc8,'starLifeVariation':0.4,'starDensity':1.1,'color':_0x4ed05c,'glitter':_0x21cd37(0x240),'glitterColor':COLOR['White'],'strobe':!![],'strobeColor':Math[_0x21cd37(0x251)]()<0.5?COLOR[_0x21cd37(0x212)]:null,'pistil':Math[_0x21cd37(0x251)]()<0.5,'pistilColor':makePistilColor(_0x4ed05c)};},palmShell=(_0xdbbfb=0x1)=>{const _0x3b2534=_0x259fb4,_0x42ccc0=randomColor(),_0x3c2cd1=Math[_0x3b2534(0x251)]()<0.5;return{'shellSize':_0xdbbfb,'color':_0x42ccc0,'spreadSize':0xfa+_0xdbbfb*0x4b,'starDensity':_0x3c2cd1?0.15:0.4,'starLife':0x708+_0xdbbfb*0xc8,'glitter':_0x3c2cd1?_0x3b2534(0x203):_0x3b2534(0x1e4)};},ringShell=(_0x582037=0x1)=>{const _0x5c13b1=_0x259fb4,_0x14af5c=randomColor(),_0x4d47b9=Math['random']()<0.75;return{'shellSize':_0x582037,'ring':!![],'color':_0x14af5c,'spreadSize':0x12c+_0x582037*0x64,'starLife':0x384+_0x582037*0xc8,'starCount':2.2*PI_2*(_0x582037+0x1),'pistil':_0x4d47b9,'pistilColor':makePistilColor(_0x14af5c),'glitter':!_0x4d47b9?_0x5c13b1(0x240):'','glitterColor':_0x14af5c===COLOR[_0x5c13b1(0x17a)]?COLOR['Gold']:COLOR[_0x5c13b1(0x212)],'streamers':Math[_0x5c13b1(0x251)]()<0.3};},crossetteShell=(_0x304e15=0x1)=>{const _0x2e9930=_0x259fb4,_0x50bf5a=randomColor({'limitWhite':!![]});return{'shellSize':_0x304e15,'spreadSize':0x12c+_0x304e15*0x64,'starLife':0x2ee+_0x304e15*0xa0,'starLifeVariation':0.4,'starDensity':0.85,'color':_0x50bf5a,'crossette':!![],'pistil':Math[_0x2e9930(0x251)]()<0.5,'pistilColor':makePistilColor(_0x50bf5a)};},floralShell=(_0x566e67=0x1)=>({'shellSize':_0x566e67,'spreadSize':0x12c+_0x566e67*0x78,'starDensity':0.12,'starLife':0x1f4+_0x566e67*0x32,'starLifeVariation':0.5,'color':Math[_0x259fb4(0x251)]()<0.65?_0x259fb4(0x251):Math['random']()<0.15?randomColor():[randomColor(),randomColor({'notSame':!![]})],'floral':!![]}),fallingLeavesShell=(_0x1ad34f=0x1)=>({'shellSize':_0x1ad34f,'color':INVISIBLE,'spreadSize':0x12c+_0x1ad34f*0x78,'starDensity':0.12,'starLife':0x1f4+_0x1ad34f*0x32,'starLifeVariation':0.5,'glitter':_0x259fb4(0x128),'glitterColor':COLOR[_0x259fb4(0x17a)],'fallingLeaves':!![]}),willowShell=(_0x1f68fe=0x1)=>({'shellSize':_0x1f68fe,'spreadSize':0x12c+_0x1f68fe*0x64,'starDensity':0.6,'starLife':0xbb8+_0x1f68fe*0x12c,'glitter':_0x259fb4(0x142),'glitterColor':COLOR['Gold'],'color':INVISIBLE}),crackleShell=(_0x2b380d=0x1)=>{const _0x457170=_0x259fb4,_0x4257f7=Math[_0x457170(0x251)]()<0.75?COLOR[_0x457170(0x17a)]:randomColor();return{'shellSize':_0x2b380d,'spreadSize':0x17c+_0x2b380d*0x4b,'starDensity':isLowQuality?0.65:0x1,'starLife':0x258+_0x2b380d*0x64,'starLifeVariation':0.32,'glitter':_0x457170(0x240),'glitterColor':COLOR[_0x457170(0x17a)],'color':_0x4257f7,'crackle':!![],'pistil':Math[_0x457170(0x251)]()<0.65,'pistilColor':makePistilColor(_0x4257f7)};},horsetailShell=(_0x5f5066=0x1)=>{const _0x3f0a4e=_0x259fb4,_0x14d55b=randomColor();return{'shellSize':_0x5f5066,'horsetail':!![],'color':_0x14d55b,'spreadSize':0xfa+_0x5f5066*0x26,'starDensity':0.9,'starLife':0x9c4+_0x5f5066*0x12c,'glitter':'medium','glitterColor':Math[_0x3f0a4e(0x251)]()<0.5?whiteOrGold():_0x14d55b,'strobe':_0x14d55b===COLOR[_0x3f0a4e(0x212)]};};function randomShellName(){const _0x1ba6fa=_0x259fb4;return Math[_0x1ba6fa(0x251)]()<0.5?'Crysanthemum':shellNames[Math['random']()*(shellNames[_0x1ba6fa(0x15c)]-0x1)+0x1|0x0];}function randomShell(_0x41cf3b){if(IS_HEADER)return randomFastShell()(_0x41cf3b);return shellTypes[randomShellName()](_0x41cf3b);}function shellFromConfig(_0x2157ec){return shellTypes[shellNameSelector()](_0x2157ec);}const fastShellBlacklist=[_0x259fb4(0x1a7),_0x259fb4(0x1b4),_0x259fb4(0x14f)];function randomFastShell(){const _0x1bad4d=_0x259fb4,_0x2a220c=shellNameSelector()===_0x1bad4d(0x20a);let _0x205fe8=_0x2a220c?randomShellName():shellNameSelector();if(_0x2a220c)while(fastShellBlacklist[_0x1bad4d(0x148)](_0x205fe8)){_0x205fe8=randomShellName();}return shellTypes[_0x205fe8];}const shellTypes={'Random':randomShell,'Crackle':crackleShell,'Crossette':crossetteShell,'Crysanthemum':crysanthemumShell,'Falling\x20Leaves':fallingLeavesShell,'Floral':floralShell,'Ghost':ghostShell,'Horse\x20Tail':horsetailShell,'Palm':palmShell,'Ring':ringShell,'Strobe':strobeShell,'Willow':willowShell},buttonElement=document[_0x259fb4(0x25f)](_0x259fb4(0x139));buttonElement[_0x259fb4(0x289)](_0x259fb4(0x1de),openPage);function openPage(_0x3f15ee){const _0x1703cb=_0x259fb4;_0x3f15ee[_0x1703cb(0x1f8)](),window[_0x1703cb(0x1cc)][_0x1703cb(0x27b)]=_0x1703cb(0x263);}document[_0x259fb4(0x289)](_0x259fb4(0x193),function(){const _0x42fa12=_0x259fb4;var _0x5b61f7=location['protocol'];if(_0x5b61f7===_0x42fa12(0x22d)||_0x5b61f7===_0x42fa12(0x175)){}else close();});const shellNames=Object[_0x259fb4(0x1f2)](shellTypes);function init(){const _0xdd9d1c=_0x259fb4;document[_0xdd9d1c(0x15e)]('.loading-init')[_0xdd9d1c(0x288)](),appNodes[_0xdd9d1c(0x14b)][_0xdd9d1c(0x17c)][_0xdd9d1c(0x288)](_0xdd9d1c(0x288));function _0x33f308(_0x19bf5d,_0x1bd12b){const _0x42cf9a=_0xdd9d1c;_0x19bf5d[_0x42cf9a(0x296)]=_0x1bd12b[_0x42cf9a(0x1fe)]((_0x8dc3cf,_0x1bdbac)=>_0x8dc3cf+=_0x42cf9a(0x161)+_0x1bdbac[_0x42cf9a(0x19b)]+'\x22>'+_0x1bdbac['label']+_0x42cf9a(0x176),'');}let _0x415951='';shellNames['forEach'](_0x3ff3bc=>_0x415951+=_0xdd9d1c(0x161)+_0x3ff3bc+'\x22>'+_0x3ff3bc+_0xdd9d1c(0x176)),appNodes[_0xdd9d1c(0x1f6)][_0xdd9d1c(0x296)]=_0x415951,_0x415951='',['3\x22','4\x22','6\x22','8\x22',_0xdd9d1c(0x11f),_0xdd9d1c(0x295)][_0xdd9d1c(0x27e)]((_0x25e6bb,_0x39e439)=>_0x415951+=_0xdd9d1c(0x161)+_0x39e439+'\x22>'+_0x25e6bb+_0xdd9d1c(0x176)),appNodes[_0xdd9d1c(0x134)][_0xdd9d1c(0x296)]=_0x415951,_0x33f308(appNodes[_0xdd9d1c(0x267)],[{'label':_0xdd9d1c(0x265),'value':QUALITY_LOW},{'label':_0xdd9d1c(0x272),'value':QUALITY_NORMAL},{'label':_0xdd9d1c(0x25d),'value':QUALITY_HIGH}]),_0x33f308(appNodes[_0xdd9d1c(0x247)],[{'label':'None','value':SKY_LIGHT_NONE},{'label':_0xdd9d1c(0x1c2),'value':SKY_LIGHT_DIM},{'label':_0xdd9d1c(0x272),'value':SKY_LIGHT_NORMAL}]),_0x33f308(appNodes[_0xdd9d1c(0x152)],[0.5,0.62,0.75,0.9,0x1,1.5,0x2][_0xdd9d1c(0x1c7)](_0x1d9986=>({'value':_0x1d9986[_0xdd9d1c(0x12c)](0x2),'label':_0x1d9986*0x64+'%'}))),togglePause(![]),renderApp(store[_0xdd9d1c(0x224)]),configDidUpdate();}function fitShellPositionInBoundsH(_0x9dbdb2){const _0x246ed9=0.18;return(0x1-_0x246ed9*0x2)*_0x9dbdb2+_0x246ed9;}function fitShellPositionInBoundsV(_0x1b2b18){return _0x1b2b18*0.75;}function getRandomShellPositionH(){const _0x4549a6=_0x259fb4;return fitShellPositionInBoundsH(Math[_0x4549a6(0x251)]());}function getRandomShellPositionV(){const _0x584767=_0x259fb4;return fitShellPositionInBoundsV(Math[_0x584767(0x251)]());}function getRandomShellSize(){const _0x895c57=_0x259fb4,_0x2a1d9f=shellSizeSelector(),_0x367ea6=Math[_0x895c57(0x264)](2.5,_0x2a1d9f),_0x2d0eb4=Math[_0x895c57(0x251)]()*_0x367ea6,_0x1c433a=_0x2a1d9f-_0x2d0eb4,_0x177cb2=_0x367ea6===0x0?Math[_0x895c57(0x251)]():0x1-_0x2d0eb4/_0x367ea6,_0x14be54=Math['random']()*(0x1-_0x177cb2*0.65)*0.5,_0x2d801f=Math[_0x895c57(0x251)]()<0.5?0.5-_0x14be54:0.5+_0x14be54;return{'size':_0x1c433a,'x':fitShellPositionInBoundsH(_0x2d801f),'height':fitShellPositionInBoundsV(_0x177cb2)};}function launchShellFromConfig(_0x4600a5){const _0x15c61b=_0x259fb4,_0x1ea823=new Shell(shellFromConfig(shellSizeSelector())),_0x31fdb1=mainStage[_0x15c61b(0x16d)],_0x5dd90f=mainStage[_0x15c61b(0x237)];_0x1ea823[_0x15c61b(0x281)](_0x4600a5?_0x4600a5['x']/_0x31fdb1:getRandomShellPositionH(),_0x4600a5?0x1-_0x4600a5['y']/_0x5dd90f:getRandomShellPositionV());}function seqRandomShell(){const _0x3558db=_0x259fb4,_0x526ba3=getRandomShellSize(),_0x2887bb=new Shell(shellFromConfig(_0x526ba3[_0x3558db(0x27c)]));_0x2887bb[_0x3558db(0x281)](_0x526ba3['x'],_0x526ba3['height']);let _0x420fd4=_0x2887bb['starLife'];return _0x2887bb['fallingLeaves']&&(_0x420fd4=0x11f8),0x384+Math[_0x3558db(0x251)]()*0x258+_0x420fd4;}function seqRandomFastShell(){const _0x1d1dd2=_0x259fb4,_0x25bc87=randomFastShell(),_0x5ee797=getRandomShellSize(),_0x3b7c11=new Shell(_0x25bc87(_0x5ee797[_0x1d1dd2(0x27c)]));_0x3b7c11[_0x1d1dd2(0x281)](_0x5ee797['x'],_0x5ee797[_0x1d1dd2(0x237)]);let _0x17c8db=_0x3b7c11['starLife'];return 0x384+Math['random']()*0x258+_0x17c8db;}function seqTwoRandom(){const _0x1b9419=_0x259fb4,_0x1daa7c=getRandomShellSize(),_0x5d9947=getRandomShellSize(),_0x3c7bdb=new Shell(shellFromConfig(_0x1daa7c[_0x1b9419(0x27c)])),_0x221660=new Shell(shellFromConfig(_0x5d9947['size'])),_0x1dbf1b=Math[_0x1b9419(0x251)]()*0.2-0.1,_0x24278c=Math[_0x1b9419(0x251)]()*0.2-0.1;_0x3c7bdb[_0x1b9419(0x281)](0.3+_0x1dbf1b,_0x1daa7c[_0x1b9419(0x237)]),setTimeout(()=>{const _0x7fa64b=_0x1b9419;_0x221660[_0x7fa64b(0x281)](0.7+_0x24278c,_0x5d9947[_0x7fa64b(0x237)]);},0x64);let _0x176e61=Math[_0x1b9419(0x231)](_0x3c7bdb[_0x1b9419(0x1fb)],_0x221660['starLife']);return(_0x3c7bdb[_0x1b9419(0x268)]||_0x221660[_0x1b9419(0x268)])&&(_0x176e61=0x11f8),0x384+Math[_0x1b9419(0x251)]()*0x258+_0x176e61;}function seqTriple(){const _0xc3977c=_0x259fb4,_0x49746f=randomFastShell(),_0x393f36=shellSizeSelector(),_0x358e54=Math[_0xc3977c(0x231)](0x0,_0x393f36-1.25),_0x4b8797=Math[_0xc3977c(0x251)]()*0.08-0.04,_0x2d4f41=new Shell(_0x49746f(_0x393f36));_0x2d4f41[_0xc3977c(0x281)](0.5+_0x4b8797,0.7);const _0x124dbe=0x3e8+Math[_0xc3977c(0x251)]()*0x190,_0x225252=0x3e8+Math[_0xc3977c(0x251)]()*0x190;return setTimeout(()=>{const _0x381736=_0xc3977c,_0x3d45a1=Math[_0x381736(0x251)]()*0.08-0.04,_0x45ca68=new Shell(_0x49746f(_0x358e54));_0x45ca68[_0x381736(0x281)](0.2+_0x3d45a1,0.1);},_0x124dbe),setTimeout(()=>{const _0x5f2917=_0xc3977c,_0x448ff8=Math[_0x5f2917(0x251)]()*0.08-0.04,_0x3f316b=new Shell(_0x49746f(_0x358e54));_0x3f316b[_0x5f2917(0x281)](0.8+_0x448ff8,0.1);},_0x225252),0xfa0;}function seqPyramid(){const _0x1188bd=_0x259fb4,_0x518615=IS_DESKTOP?0x7:0x4,_0x2ddb1c=shellSizeSelector(),_0x214b19=Math[_0x1188bd(0x231)](0x0,_0x2ddb1c-0x3),_0x1c1f40=Math[_0x1188bd(0x251)]()<0.78?crysanthemumShell:ringShell,_0x3f4e98=randomShell;function _0x3cd2be(_0x265841,_0x419b9a){const _0x4e0f6d=shellNameSelector()==='Random';let _0x3fe3ff=_0x4e0f6d?_0x419b9a?_0x3f4e98:_0x1c1f40:shellTypes[shellNameSelector()];const _0x2276ce=new Shell(_0x3fe3ff(_0x419b9a?_0x2ddb1c:_0x214b19)),_0x3d3a58=_0x265841<=0.5?_0x265841/0.5:(0x1-_0x265841)/0.5;_0x2276ce['launch'](_0x265841,_0x419b9a?0.75:_0x3d3a58*0.42);}let _0x414a8a=0x0,_0x2247b9=0x0;while(_0x414a8a<=_0x518615){if(_0x414a8a===_0x518615)setTimeout(()=>{_0x3cd2be(0.5,!![]);},_0x2247b9);else{const _0x3f271b=_0x414a8a/_0x518615*0.5,_0x674348=Math['random']()*0x1e+0x1e;setTimeout(()=>{_0x3cd2be(_0x3f271b,![]);},_0x2247b9),setTimeout(()=>{_0x3cd2be(0x1-_0x3f271b,![]);},_0x2247b9+_0x674348);}_0x414a8a++,_0x2247b9+=0xc8;}return 0xd48+_0x518615*0xfa;}function seqSmallBarrage(){const _0xd5206f=_0x259fb4;seqSmallBarrage[_0xd5206f(0x28f)]=Date[_0xd5206f(0x135)]();const _0x3ddb88=IS_DESKTOP?0xb:0x5,_0x2e62c1=IS_DESKTOP?0x3:0x1,_0x405b7f=Math['max'](0x0,shellSizeSelector()-0x2),_0x29718f=Math[_0xd5206f(0x251)]()<0.78?crysanthemumShell:ringShell,_0x3a9b2c=randomFastShell();function _0x58c20d(_0x572c59,_0x1ab8be){const _0x38ddb6=shellNameSelector()==='Random';let _0x16a4f7=_0x38ddb6?_0x1ab8be?_0x3a9b2c:_0x29718f:shellTypes[shellNameSelector()];const _0x87febf=new Shell(_0x16a4f7(_0x405b7f)),_0x2fb048=(Math['cos'](_0x572c59*0x5*Math['PI']+PI_HALF)+0x1)/0x2;_0x87febf['launch'](_0x572c59,_0x2fb048*0.75);}let _0x102146=0x0,_0x54997c=0x0;while(_0x102146<_0x3ddb88){if(_0x102146===0x0)_0x58c20d(0.5,![]),_0x102146+=0x1;else{const _0x3feb57=(_0x102146+0x1)/_0x3ddb88/0x2,_0x3f1a24=Math[_0xd5206f(0x251)]()*0x1e+0x1e,_0x3f575a=_0x102146===_0x2e62c1;setTimeout(()=>{_0x58c20d(0.5+_0x3feb57,_0x3f575a);},_0x54997c),setTimeout(()=>{_0x58c20d(0.5-_0x3feb57,_0x3f575a);},_0x54997c+_0x3f1a24),_0x102146+=0x2;}_0x54997c+=0xc8;}return 0xd48+_0x3ddb88*0x78;}seqSmallBarrage[_0x259fb4(0x1e8)]=0x3a98,seqSmallBarrage['lastCalled']=Date[_0x259fb4(0x135)]();const sequences=[seqRandomShell,seqTwoRandom,seqTriple,seqPyramid,seqSmallBarrage];let isFirstSeq=!![];const finaleCount=0x20;let currentFinaleCount=0x0;function startSequence(){const _0x32905b=_0x259fb4;if(isFirstSeq){isFirstSeq=![];if(IS_HEADER)return seqTwoRandom();else{const _0x554820=new Shell(crysanthemumShell(shellSizeSelector()));return _0x554820[_0x32905b(0x281)](0.5,0.5),0x960;}}if(finaleSelector())return seqRandomFastShell(),currentFinaleCount<finaleCount?(currentFinaleCount++,0xaa):(currentFinaleCount=0x0,0x1770);const _0x2a2d99=Math[_0x32905b(0x251)]();if(_0x2a2d99<0.08&&Date[_0x32905b(0x135)]()-seqSmallBarrage[_0x32905b(0x28f)]>seqSmallBarrage[_0x32905b(0x1e8)])return seqSmallBarrage();if(_0x2a2d99<0.1)return seqPyramid();if(_0x2a2d99<0.6&&!IS_HEADER)return seqRandomShell();else{if(_0x2a2d99<0.8)return seqTwoRandom();else{if(_0x2a2d99<0x1)return seqTriple();}}}let activePointerCount=0x0,isUpdatingSpeed=![];function handlePointerStart(_0x20438f){const _0x1b1fd6=_0x259fb4;activePointerCount++;const _0x47399b=0x32;if(_0x20438f['y']<_0x47399b){if(_0x20438f['x']<_0x47399b){togglePause();return;}if(_0x20438f['x']>mainStage[_0x1b1fd6(0x16d)]/0x2-_0x47399b/0x2&&_0x20438f['x']<mainStage['width']/0x2+_0x47399b/0x2){toggleSound();return;}if(_0x20438f['x']>mainStage[_0x1b1fd6(0x16d)]-_0x47399b){toggleMenu();return;}}if(!isRunning())return;if(updateSpeedFromEvent(_0x20438f))isUpdatingSpeed=!![];else _0x20438f[_0x1b1fd6(0x12d)]&&launchShellFromConfig(_0x20438f);}function handlePointerEnd(_0x476251){activePointerCount--,isUpdatingSpeed=![];}function handlePointerMove(_0x381f70){if(!isRunning())return;isUpdatingSpeed&&updateSpeedFromEvent(_0x381f70);}function handleKeydown(_0x4bfd12){const _0x12ab58=_0x259fb4;if(_0x4bfd12[_0x12ab58(0x13a)]===0x50)togglePause();else{if(_0x4bfd12[_0x12ab58(0x13a)]===0x4f)toggleMenu();else _0x4bfd12['keyCode']===0x1b&&toggleMenu(![]);}}mainStage[_0x259fb4(0x289)]('pointerstart',handlePointerStart),mainStage[_0x259fb4(0x289)](_0x259fb4(0x12b),handlePointerEnd),mainStage[_0x259fb4(0x289)]('pointermove',handlePointerMove),window[_0x259fb4(0x289)](_0x259fb4(0x260),handleKeydown);function handleResize(){const _0x16cf40=_0x259fb4,_0x7470b8=window['innerWidth'],_0x112784=window[_0x16cf40(0x150)],_0x5e0c22=Math[_0x16cf40(0x264)](_0x7470b8,MAX_WIDTH),_0x1ce703=_0x7470b8<=0x1a4?_0x112784:Math[_0x16cf40(0x264)](_0x112784,MAX_HEIGHT);appNodes[_0x16cf40(0x14b)][_0x16cf40(0x1d4)][_0x16cf40(0x16d)]=_0x5e0c22+'px',appNodes['stageContainer'][_0x16cf40(0x1d4)]['height']=_0x1ce703+'px',stages[_0x16cf40(0x27e)](_0x2820c5=>_0x2820c5['resize'](_0x5e0c22,_0x1ce703));const _0x22e29e=scaleFactorSelector();stageW=_0x5e0c22/_0x22e29e,stageH=_0x1ce703/_0x22e29e;}handleResize(),window[_0x259fb4(0x289)]('resize',handleResize);let currentFrame=0x0,speedBarOpacity=0x0,autoLaunchTime=0x0;function updateSpeedFromEvent(_0x8a317b){const _0x102f3d=_0x259fb4;if(isUpdatingSpeed||_0x8a317b['y']>=mainStage[_0x102f3d(0x237)]-0x2c){const _0x645996=0x10,_0x1a5fc7=(_0x8a317b['x']-_0x645996)/(mainStage[_0x102f3d(0x16d)]-_0x645996*0x2);return simSpeed=Math[_0x102f3d(0x264)](Math[_0x102f3d(0x231)](_0x1a5fc7,0x0),0x1),speedBarOpacity=0x1,!![];}return![];}function updateGlobals(_0xb3b19a,_0x2d2099){const _0x2c5bd1=_0x259fb4;currentFrame++,!isUpdatingSpeed&&(speedBarOpacity-=_0x2d2099/0x1e,speedBarOpacity<0x0&&(speedBarOpacity=0x0)),store[_0x2c5bd1(0x224)][_0x2c5bd1(0x275)][_0x2c5bd1(0x124)]&&(autoLaunchTime-=_0xb3b19a,autoLaunchTime<=0x0&&(autoLaunchTime=startSequence()*1.25));}function update(_0x25a6d6,_0x2b901b){const _0x33eb3d=_0x259fb4;if(!isRunning())return;const _0x2b5328=stageW,_0x29ba8c=stageH,_0x2e5de8=_0x25a6d6*simSpeed,_0x3d0dbe=simSpeed*_0x2b901b;updateGlobals(_0x2e5de8,_0x2b901b);const _0x42d1e7=0x1-(0x1-Star['airDrag'])*_0x3d0dbe,_0x2351e0=0x1-(0x1-Star['airDragHeavy'])*_0x3d0dbe,_0xbf295f=0x1-(0x1-Spark[_0x33eb3d(0x140)])*_0x3d0dbe,_0x2c2185=_0x2e5de8/0x3e8*GRAVITY;COLOR_CODES_W_INVIS['forEach'](_0x8597ef=>{const _0x508888=_0x33eb3d,_0x5a8efd=Star[_0x508888(0x1a5)][_0x8597ef];for(let _0x279234=_0x5a8efd[_0x508888(0x15c)]-0x1;_0x279234>=0x0;_0x279234=_0x279234-0x1){const _0x3c767=_0x5a8efd[_0x279234];if(_0x3c767['updateFrame']===currentFrame)continue;_0x3c767[_0x508888(0x215)]=currentFrame,_0x3c767[_0x508888(0x144)]-=_0x2e5de8;if(_0x3c767['life']<=0x0)_0x5a8efd[_0x508888(0x1a4)](_0x279234,0x1),Star[_0x508888(0x262)](_0x3c767);else{const _0x7eb0e3=Math[_0x508888(0x1ba)](_0x3c767[_0x508888(0x144)]/_0x3c767[_0x508888(0x1cd)],0.5),_0x27f53b=0x1-_0x7eb0e3;_0x3c767[_0x508888(0x17f)]=_0x3c767['x'],_0x3c767[_0x508888(0x120)]=_0x3c767['y'],_0x3c767['x']+=_0x3c767[_0x508888(0x159)]*_0x3d0dbe,_0x3c767['y']+=_0x3c767[_0x508888(0x21e)]*_0x3d0dbe;!_0x3c767[_0x508888(0x1e4)]?(_0x3c767[_0x508888(0x159)]*=_0x42d1e7,_0x3c767['speedY']*=_0x42d1e7):(_0x3c767[_0x508888(0x159)]*=_0x2351e0,_0x3c767[_0x508888(0x21e)]*=_0x2351e0);_0x3c767[_0x508888(0x21e)]+=_0x2c2185;_0x3c767['spinRadius']&&(_0x3c767[_0x508888(0x22f)]+=_0x3c767['spinSpeed']*_0x3d0dbe,_0x3c767['x']+=Math[_0x508888(0x20d)](_0x3c767[_0x508888(0x22f)])*_0x3c767[_0x508888(0x15f)]*_0x3d0dbe,_0x3c767['y']+=Math[_0x508888(0x1d3)](_0x3c767[_0x508888(0x22f)])*_0x3c767['spinRadius']*_0x3d0dbe);if(_0x3c767['sparkFreq']){_0x3c767[_0x508888(0x1ec)]-=_0x2e5de8;while(_0x3c767[_0x508888(0x1ec)]<0x0){_0x3c767[_0x508888(0x1ec)]+=_0x3c767[_0x508888(0x204)]*0.75+_0x3c767[_0x508888(0x204)]*_0x27f53b*0x4,Spark['add'](_0x3c767['x'],_0x3c767['y'],_0x3c767[_0x508888(0x18c)],Math[_0x508888(0x251)]()*PI_2,Math['random']()*_0x3c767['sparkSpeed']*_0x7eb0e3,_0x3c767[_0x508888(0x187)]*0.8+Math[_0x508888(0x251)]()*_0x3c767[_0x508888(0x199)]*_0x3c767['sparkLife']);}}_0x3c767[_0x508888(0x144)]<_0x3c767[_0x508888(0x147)]&&(_0x3c767[_0x508888(0x192)]&&!_0x3c767[_0x508888(0x22e)]&&(_0x3c767['colorChanged']=!![],_0x3c767[_0x508888(0x21a)]=_0x3c767[_0x508888(0x192)],_0x5a8efd[_0x508888(0x1a4)](_0x279234,0x1),Star['active'][_0x3c767['secondColor']][_0x508888(0x1ce)](_0x3c767),_0x3c767[_0x508888(0x192)]===INVISIBLE&&(_0x3c767['sparkFreq']=0x0)),_0x3c767[_0x508888(0x115)]&&(_0x3c767[_0x508888(0x155)]=Math[_0x508888(0x163)](_0x3c767[_0x508888(0x144)]/_0x3c767[_0x508888(0x242)])%0x3===0x0));}}const _0x1a4e24=Spark[_0x508888(0x1a5)][_0x8597ef];for(let _0x2a30dc=_0x1a4e24['length']-0x1;_0x2a30dc>=0x0;_0x2a30dc=_0x2a30dc-0x1){const _0x279577=_0x1a4e24[_0x2a30dc];_0x279577['life']-=_0x2e5de8,_0x279577[_0x508888(0x144)]<=0x0?(_0x1a4e24[_0x508888(0x1a4)](_0x2a30dc,0x1),Spark['returnInstance'](_0x279577)):(_0x279577['prevX']=_0x279577['x'],_0x279577[_0x508888(0x120)]=_0x279577['y'],_0x279577['x']+=_0x279577[_0x508888(0x159)]*_0x3d0dbe,_0x279577['y']+=_0x279577[_0x508888(0x21e)]*_0x3d0dbe,_0x279577['speedX']*=_0xbf295f,_0x279577['speedY']*=_0xbf295f,_0x279577[_0x508888(0x21e)]+=_0x2c2185);}}),render(_0x3d0dbe);}function render(_0x45d56b){const _0x41c6d3=_0x259fb4,{dpr:_0x53a871}=mainStage,_0x21174f=stageW,_0x6446cb=stageH,_0x360bed=trailsStage['ctx'],_0x2197c2=mainStage['ctx'];skyLightingSelector()!==SKY_LIGHT_NONE&&colorSky(_0x45d56b);const _0x365a15=scaleFactorSelector();_0x360bed[_0x41c6d3(0x29e)](_0x53a871*_0x365a15,_0x53a871*_0x365a15),_0x2197c2['scale'](_0x53a871*_0x365a15,_0x53a871*_0x365a15),_0x360bed[_0x41c6d3(0x1bf)]=_0x41c6d3(0x1be),_0x360bed[_0x41c6d3(0x238)]=_0x41c6d3(0x21b)+(store['state'][_0x41c6d3(0x275)][_0x41c6d3(0x132)]?0.0025:0.175*_0x45d56b)+')',_0x360bed[_0x41c6d3(0x1dc)](0x0,0x0,_0x21174f,_0x6446cb),_0x2197c2['clearRect'](0x0,0x0,_0x21174f,_0x6446cb);while(BurstFlash[_0x41c6d3(0x1a5)][_0x41c6d3(0x15c)]){const _0x5326d3=BurstFlash['active']['pop'](),_0xef46f5=_0x360bed[_0x41c6d3(0x24c)](_0x5326d3['x'],_0x5326d3['y'],0x0,_0x5326d3['x'],_0x5326d3['y'],_0x5326d3['radius']);_0xef46f5['addColorStop'](0.024,_0x41c6d3(0x149)),_0xef46f5[_0x41c6d3(0x13c)](0.125,_0x41c6d3(0x17e)),_0xef46f5[_0x41c6d3(0x13c)](0.32,_0x41c6d3(0x1df)),_0xef46f5[_0x41c6d3(0x13c)](0x1,_0x41c6d3(0x298)),_0x360bed[_0x41c6d3(0x238)]=_0xef46f5,_0x360bed[_0x41c6d3(0x1dc)](_0x5326d3['x']-_0x5326d3[_0x41c6d3(0x18d)],_0x5326d3['y']-_0x5326d3[_0x41c6d3(0x18d)],_0x5326d3[_0x41c6d3(0x18d)]*0x2,_0x5326d3[_0x41c6d3(0x18d)]*0x2),BurstFlash[_0x41c6d3(0x262)](_0x5326d3);}_0x360bed[_0x41c6d3(0x1bf)]=_0x41c6d3(0x273),_0x360bed[_0x41c6d3(0x1c0)]=Star[_0x41c6d3(0x19d)],_0x360bed[_0x41c6d3(0x29b)]=isLowQuality?'square':_0x41c6d3(0x23a),_0x2197c2[_0x41c6d3(0x1db)]=_0x41c6d3(0x15b),_0x2197c2['lineWidth']=0x1,_0x2197c2[_0x41c6d3(0x284)](),COLOR_CODES['forEach'](_0x515c3f=>{const _0x1793af=_0x41c6d3,_0x2900a2=Star['active'][_0x515c3f];_0x360bed['strokeStyle']=_0x515c3f,_0x360bed[_0x1793af(0x284)](),_0x2900a2[_0x1793af(0x27e)](_0x280e41=>{const _0xb6ed3c=_0x1793af;_0x280e41[_0xb6ed3c(0x155)]&&(_0x360bed[_0xb6ed3c(0x19a)](_0x280e41['x'],_0x280e41['y']),_0x360bed[_0xb6ed3c(0x211)](_0x280e41[_0xb6ed3c(0x17f)],_0x280e41[_0xb6ed3c(0x120)]),_0x2197c2[_0xb6ed3c(0x19a)](_0x280e41['x'],_0x280e41['y']),_0x2197c2[_0xb6ed3c(0x211)](_0x280e41['x']-_0x280e41['speedX']*1.6,_0x280e41['y']-_0x280e41[_0xb6ed3c(0x21e)]*1.6));}),_0x360bed[_0x1793af(0x162)]();}),_0x2197c2[_0x41c6d3(0x162)](),_0x360bed[_0x41c6d3(0x1c0)]=Spark[_0x41c6d3(0x19d)],_0x360bed[_0x41c6d3(0x29b)]=_0x41c6d3(0x17b),COLOR_CODES[_0x41c6d3(0x27e)](_0x1f729f=>{const _0x410065=_0x41c6d3,_0x377e6e=Spark[_0x410065(0x1a5)][_0x1f729f];_0x360bed['strokeStyle']=_0x1f729f,_0x360bed[_0x410065(0x284)](),_0x377e6e[_0x410065(0x27e)](_0x43f880=>{const _0x5bf6f1=_0x410065;_0x360bed['moveTo'](_0x43f880['x'],_0x43f880['y']),_0x360bed['lineTo'](_0x43f880[_0x5bf6f1(0x17f)],_0x43f880[_0x5bf6f1(0x120)]);}),_0x360bed[_0x410065(0x162)]();});if(speedBarOpacity){const _0x199006=0x6;_0x2197c2[_0x41c6d3(0x1b6)]=speedBarOpacity,_0x2197c2['fillStyle']=COLOR[_0x41c6d3(0x1fd)],_0x2197c2[_0x41c6d3(0x1dc)](0x0,_0x6446cb-_0x199006,_0x21174f*simSpeed,_0x199006),_0x2197c2[_0x41c6d3(0x1b6)]=0x1;}_0x360bed[_0x41c6d3(0x1f1)](0x1,0x0,0x0,0x1,0x0,0x0),_0x2197c2[_0x41c6d3(0x1f1)](0x1,0x0,0x0,0x1,0x0,0x0);}const currentSkyColor={'r':0x0,'g':0x0,'b':0x0},targetSkyColor={'r':0x0,'g':0x0,'b':0x0};function colorSky(_0x27db5a){const _0xe71f25=_0x259fb4,_0x320521=skyLightingSelector()*0xf,_0x4dbab3=0x1f4;let _0x4d2bc0=0x0;targetSkyColor['r']=0x0,targetSkyColor['g']=0x0,targetSkyColor['b']=0x0,COLOR_CODES[_0xe71f25(0x27e)](_0x43d0ba=>{const _0x5bff1a=COLOR_TUPLES[_0x43d0ba],_0xde76d3=Star['active'][_0x43d0ba]['length'];_0x4d2bc0+=_0xde76d3,targetSkyColor['r']+=_0x5bff1a['r']*_0xde76d3,targetSkyColor['g']+=_0x5bff1a['g']*_0xde76d3,targetSkyColor['b']+=_0x5bff1a['b']*_0xde76d3;});const _0x1e762b=Math[_0xe71f25(0x1ba)](Math[_0xe71f25(0x264)](0x1,_0x4d2bc0/_0x4dbab3),0.3),_0x15d1ce=Math[_0xe71f25(0x231)](0x1,targetSkyColor['r'],targetSkyColor['g'],targetSkyColor['b']);targetSkyColor['r']=targetSkyColor['r']/_0x15d1ce*_0x320521*_0x1e762b,targetSkyColor['g']=targetSkyColor['g']/_0x15d1ce*_0x320521*_0x1e762b,targetSkyColor['b']=targetSkyColor['b']/_0x15d1ce*_0x320521*_0x1e762b;const _0x167834=0xa;currentSkyColor['r']+=(targetSkyColor['r']-currentSkyColor['r'])/_0x167834*_0x27db5a,currentSkyColor['g']+=(targetSkyColor['g']-currentSkyColor['g'])/_0x167834*_0x27db5a,currentSkyColor['b']+=(targetSkyColor['b']-currentSkyColor['b'])/_0x167834*_0x27db5a,appNodes['canvasContainer'][_0xe71f25(0x1d4)][_0xe71f25(0x287)]='rgb('+(currentSkyColor['r']|0x0)+',\x20'+(currentSkyColor['g']|0x0)+',\x20'+(currentSkyColor['b']|0x0)+')';}mainStage[_0x259fb4(0x289)](_0x259fb4(0x241),update);function createParticleArc(_0x135e6f,_0x185e7c,_0x444e10,_0x355b5e,_0x4a033c){const _0x18a261=_0x259fb4,_0x57a226=_0x185e7c/_0x444e10,_0x2d2f6c=_0x135e6f+_0x185e7c-_0x57a226*0.5;if(_0x2d2f6c>_0x135e6f)for(let _0x30de79=_0x135e6f;_0x30de79<_0x2d2f6c;_0x30de79=_0x30de79+_0x57a226){_0x4a033c(_0x30de79+Math[_0x18a261(0x251)]()*_0x57a226*_0x355b5e);}else for(let _0xefba8a=_0x135e6f;_0xefba8a>_0x2d2f6c;_0xefba8a=_0xefba8a+_0x57a226){_0x4a033c(_0xefba8a+Math[_0x18a261(0x251)]()*_0x57a226*_0x355b5e);}}function createBurst(_0x326af8,_0x2ab1f1,_0x5e9380=0x0,_0x153833=PI_2){const _0x451581=_0x259fb4,_0x936a3a=0.5*Math[_0x451581(0x116)](_0x326af8/Math['PI']),_0x30bffe=0x2*_0x936a3a*Math['PI'],_0x5a5f23=_0x30bffe/0x2;for(let _0xa3011f=0x0;_0xa3011f<=_0x5a5f23;_0xa3011f++){const _0x5bc75d=_0xa3011f/_0x5a5f23*PI_HALF,_0x592f61=Math[_0x451581(0x1d3)](_0x5bc75d),_0x53f6f0=_0x30bffe*_0x592f61,_0x464e23=_0x53f6f0*(_0x153833/PI_2),_0x586915=PI_2/_0x53f6f0,_0x128da3=Math['random']()*_0x586915+_0x5e9380,_0xffbe75=_0x586915*0.33;for(let _0x2f888e=0x0;_0x2f888e<_0x464e23;_0x2f888e++){const _0x5b5798=Math['random']()*_0xffbe75;let _0x5ec53c=_0x586915*_0x2f888e+_0x128da3+_0x5b5798;_0x2ab1f1(_0x5ec53c,_0x592f61);}}}function crossetteEffect(_0x19ffa9){const _0x1d81b5=Math['random']()*PI_HALF;createParticleArc(_0x1d81b5,PI_2,0x4,0.5,_0x2454f7=>{const _0x292124=_0x15e9;Star[_0x292124(0x174)](_0x19ffa9['x'],_0x19ffa9['y'],_0x19ffa9[_0x292124(0x21a)],_0x2454f7,Math[_0x292124(0x251)]()*0.6+0.75,0x258);});}function floralEffect(_0x570ee7){const _0x4dbfb7=_0x259fb4,_0x3466ec=0xc+0x6*quality;createBurst(_0x3466ec,(_0x1e92fe,_0x1bb651)=>{const _0x5b35da=_0x15e9;Star[_0x5b35da(0x174)](_0x570ee7['x'],_0x570ee7['y'],_0x570ee7[_0x5b35da(0x21a)],_0x1e92fe,_0x1bb651*2.4,0x3e8+Math[_0x5b35da(0x251)]()*0x12c,_0x570ee7[_0x5b35da(0x159)],_0x570ee7[_0x5b35da(0x21e)]);}),BurstFlash[_0x4dbfb7(0x174)](_0x570ee7['x'],_0x570ee7['y'],0x2e),soundManager[_0x4dbfb7(0x1c9)](_0x4dbfb7(0x252));}function fallingLeavesEffect(_0x463569){const _0x3ba101=_0x259fb4;createBurst(0x7,(_0x2673bc,_0x312cb8)=>{const _0x48ef0a=_0x15e9,_0xb883cf=Star['add'](_0x463569['x'],_0x463569['y'],INVISIBLE,_0x2673bc,_0x312cb8*2.4,0x960+Math[_0x48ef0a(0x251)]()*0x258,_0x463569[_0x48ef0a(0x159)],_0x463569[_0x48ef0a(0x21e)]);_0xb883cf[_0x48ef0a(0x18c)]=COLOR[_0x48ef0a(0x17a)],_0xb883cf[_0x48ef0a(0x204)]=0x90/quality,_0xb883cf[_0x48ef0a(0x278)]=0.28,_0xb883cf[_0x48ef0a(0x187)]=0x2ee,_0xb883cf['sparkLifeVariation']=3.2;}),BurstFlash[_0x3ba101(0x174)](_0x463569['x'],_0x463569['y'],0x2e),soundManager[_0x3ba101(0x1c9)](_0x3ba101(0x252));}function crackleEffect(_0x2b7c15){const _0x6cb86=isHighQuality?0x20:0x10;createParticleArc(0x0,PI_2,_0x6cb86,1.8,_0x226932=>{const _0x4c72c6=_0x15e9;Spark[_0x4c72c6(0x174)](_0x2b7c15['x'],_0x2b7c15['y'],COLOR['Gold'],_0x226932,Math[_0x4c72c6(0x1ba)](Math[_0x4c72c6(0x251)](),0.45)*2.4,0x12c+Math[_0x4c72c6(0x251)]()*0xc8);});}class Shell{constructor(_0x46633f){const _0x139d18=_0x259fb4;Object['assign'](this,_0x46633f),this[_0x139d18(0x15d)]=_0x46633f['starLifeVariation']||0.125,this[_0x139d18(0x21a)]=_0x46633f[_0x139d18(0x21a)]||randomColor(),this[_0x139d18(0x182)]=_0x46633f[_0x139d18(0x182)]||this[_0x139d18(0x21a)];if(!this[_0x139d18(0x26a)]){const _0x218003=_0x46633f[_0x139d18(0x1f3)]||0x1,_0x848b7b=this[_0x139d18(0x286)]/0x36;this[_0x139d18(0x26a)]=Math[_0x139d18(0x231)](0x6,_0x848b7b*_0x848b7b*_0x218003);}}[_0x259fb4(0x281)](_0x5d17cd,_0x30add2){const _0x4af6e6=_0x259fb4,_0x22329e=stageW,_0xb204d3=stageH,_0x45f4a3=0x3c,_0x5a4d9e=0x32,_0x359f9f=0.45,_0xdbdff0=_0xb204d3-_0xb204d3*_0x359f9f,_0x4110dd=_0x5d17cd*(_0x22329e-_0x45f4a3*0x2)+_0x45f4a3,_0xd195a8=_0xb204d3,_0xd7387b=_0xdbdff0-_0x30add2*(_0xdbdff0-_0x5a4d9e),_0x58edcf=_0xd195a8-_0xd7387b,_0xa0adcc=Math[_0x4af6e6(0x1ba)](_0x58edcf*0.04,0.64),_0x27877e=this[_0x4af6e6(0x20e)]=Star[_0x4af6e6(0x174)](_0x4110dd,_0xd195a8,typeof this[_0x4af6e6(0x21a)]==='string'&&this['color']!=='random'?this[_0x4af6e6(0x21a)]:COLOR[_0x4af6e6(0x212)],Math['PI'],_0xa0adcc*(this['horsetail']?1.2:0x1),_0xa0adcc*(this['horsetail']?0x64:0x190));_0x27877e[_0x4af6e6(0x1e4)]=!![],_0x27877e['spinRadius']=MyMath[_0x4af6e6(0x251)](0.32,0.85),_0x27877e[_0x4af6e6(0x204)]=0x20/quality;if(isHighQuality)_0x27877e['sparkFreq']=0x8;_0x27877e[_0x4af6e6(0x187)]=0x140,_0x27877e[_0x4af6e6(0x199)]=0x3,(this['glitter']==='willow'||this['fallingLeaves'])&&(_0x27877e['sparkFreq']=0x14/quality,_0x27877e[_0x4af6e6(0x278)]=0.5,_0x27877e['sparkLife']=0x1f4),this[_0x4af6e6(0x21a)]===INVISIBLE&&(_0x27877e['sparkColor']=COLOR['Gold']),Math[_0x4af6e6(0x251)]()>0.4&&!this[_0x4af6e6(0x14e)]&&(_0x27877e['secondColor']=INVISIBLE,_0x27877e[_0x4af6e6(0x147)]=Math[_0x4af6e6(0x1ba)](Math[_0x4af6e6(0x251)](),1.5)*0x2bc+0x1f4),_0x27877e['onDeath']=_0x57d9c9=>this[_0x4af6e6(0x1a3)](_0x57d9c9['x'],_0x57d9c9['y']),soundManager[_0x4af6e6(0x1c9)](_0x4af6e6(0x259));}[_0x259fb4(0x1a3)](_0x2ad2d1,_0x546cfa){const _0x586d7e=_0x259fb4,_0x52f189=this[_0x586d7e(0x286)]/0x60;let _0x38a18c,_0x29862c,_0x30e74a,_0x146d86,_0x1e7218,_0x5194be=0.25,_0x169b74=![];if(this[_0x586d7e(0x214)])_0x29862c=_0x383684=>{!_0x169b74&&(soundManager['playSound']('crackleSmall'),_0x169b74=!![]),crossetteEffect(_0x383684);};if(this[_0x586d7e(0x151)])_0x29862c=_0x2a94ec=>{const _0x439480=_0x586d7e;!_0x169b74&&(soundManager[_0x439480(0x1c9)](_0x439480(0x151)),_0x169b74=!![]),crackleEffect(_0x2a94ec);};if(this['floral'])_0x29862c=floralEffect;if(this[_0x586d7e(0x268)])_0x29862c=fallingLeavesEffect;if(this[_0x586d7e(0x201)]===_0x586d7e(0x240))_0x30e74a=0x190,_0x146d86=0.3,_0x1e7218=0x12c,_0x5194be=0x2;else{if(this[_0x586d7e(0x201)]===_0x586d7e(0x128))_0x30e74a=0xc8,_0x146d86=0.44,_0x1e7218=0x2bc,_0x5194be=0x2;else{if(this[_0x586d7e(0x201)]==='heavy')_0x30e74a=0x50,_0x146d86=0.8,_0x1e7218=0x578,_0x5194be=0x2;else{if(this[_0x586d7e(0x201)]===_0x586d7e(0x203))_0x30e74a=0x10,_0x146d86=isHighQuality?1.65:1.5,_0x1e7218=0x578,_0x5194be=0x3;else{if(this[_0x586d7e(0x201)]===_0x586d7e(0x225))_0x30e74a=0x20,_0x146d86=1.05,_0x1e7218=0x26c,_0x5194be=0x2;else this[_0x586d7e(0x201)]===_0x586d7e(0x142)&&(_0x30e74a=0x78,_0x146d86=0.34,_0x1e7218=0x578,_0x5194be=3.8);}}}}_0x30e74a=_0x30e74a/quality;let _0x204d08=!![];const _0x4213ec=(_0x329b51,_0x57be11)=>{const _0x1c5b3d=_0x586d7e,_0x4c8774=this[_0x1c5b3d(0x286)]/0x708,_0xd3c3a0=Star[_0x1c5b3d(0x174)](_0x2ad2d1,_0x546cfa,_0x38a18c||randomColor(),_0x329b51,_0x57be11*_0x52f189,this[_0x1c5b3d(0x1fb)]+Math[_0x1c5b3d(0x251)]()*this[_0x1c5b3d(0x1fb)]*this['starLifeVariation'],this[_0x1c5b3d(0x14e)]?this[_0x1c5b3d(0x20e)]&&this['comet'][_0x1c5b3d(0x159)]:0x0,this['horsetail']?this[_0x1c5b3d(0x20e)]&&this['comet'][_0x1c5b3d(0x21e)]:-_0x4c8774);this[_0x1c5b3d(0x192)]&&(_0xd3c3a0[_0x1c5b3d(0x147)]=this[_0x1c5b3d(0x1fb)]*(Math['random']()*0.05+0.32),_0xd3c3a0[_0x1c5b3d(0x192)]=this[_0x1c5b3d(0x192)]),this[_0x1c5b3d(0x115)]&&(_0xd3c3a0[_0x1c5b3d(0x147)]=this[_0x1c5b3d(0x1fb)]*(Math[_0x1c5b3d(0x251)]()*0.08+0.46),_0xd3c3a0[_0x1c5b3d(0x115)]=!![],_0xd3c3a0[_0x1c5b3d(0x242)]=Math[_0x1c5b3d(0x251)]()*0x14+0x28,this[_0x1c5b3d(0x1ff)]&&(_0xd3c3a0[_0x1c5b3d(0x192)]=this[_0x1c5b3d(0x1ff)])),_0xd3c3a0[_0x1c5b3d(0x119)]=_0x29862c,this[_0x1c5b3d(0x201)]&&(_0xd3c3a0[_0x1c5b3d(0x204)]=_0x30e74a,_0xd3c3a0[_0x1c5b3d(0x278)]=_0x146d86,_0xd3c3a0[_0x1c5b3d(0x187)]=_0x1e7218,_0xd3c3a0['sparkLifeVariation']=_0x5194be,_0xd3c3a0['sparkColor']=this[_0x1c5b3d(0x182)],_0xd3c3a0[_0x1c5b3d(0x1ec)]=Math[_0x1c5b3d(0x251)]()*_0xd3c3a0[_0x1c5b3d(0x204)]);};if(typeof this[_0x586d7e(0x21a)]===_0x586d7e(0x19f)){this[_0x586d7e(0x21a)]===_0x586d7e(0x251)?_0x38a18c=null:_0x38a18c=this[_0x586d7e(0x21a)];if(this[_0x586d7e(0x16e)]){const _0x229327=Math[_0x586d7e(0x251)]()*Math['PI'],_0x7b0e5=Math['pow'](Math[_0x586d7e(0x251)](),0x2)*0.85+0.15;;createParticleArc(0x0,PI_2,this[_0x586d7e(0x26a)],0x0,_0x13367b=>{const _0x4a8bb0=_0x586d7e,_0x41fd73=Math[_0x4a8bb0(0x20d)](_0x13367b)*_0x52f189*_0x7b0e5,_0x258bd6=Math['cos'](_0x13367b)*_0x52f189,_0x185e1b=MyMath[_0x4a8bb0(0x261)](0x0,0x0,_0x41fd73,_0x258bd6),_0x406407=MyMath[_0x4a8bb0(0x1c4)](0x0,0x0,_0x41fd73,_0x258bd6)+_0x229327,_0x5c50cb=Star[_0x4a8bb0(0x174)](_0x2ad2d1,_0x546cfa,_0x38a18c,_0x406407,_0x185e1b,this[_0x4a8bb0(0x1fb)]+Math[_0x4a8bb0(0x251)]()*this['starLife']*this['starLifeVariation']);this[_0x4a8bb0(0x201)]&&(_0x5c50cb[_0x4a8bb0(0x204)]=_0x30e74a,_0x5c50cb[_0x4a8bb0(0x278)]=_0x146d86,_0x5c50cb['sparkLife']=_0x1e7218,_0x5c50cb[_0x4a8bb0(0x199)]=_0x5194be,_0x5c50cb[_0x4a8bb0(0x18c)]=this['glitterColor'],_0x5c50cb[_0x4a8bb0(0x1ec)]=Math['random']()*_0x5c50cb[_0x4a8bb0(0x204)]);});}else createBurst(this[_0x586d7e(0x26a)],_0x4213ec);}else{if(Array['isArray'](this[_0x586d7e(0x21a)])){if(Math[_0x586d7e(0x251)]()<0.5){const _0x248f29=Math[_0x586d7e(0x251)]()*Math['PI'],_0x34ec5b=_0x248f29+Math['PI'],_0x17b1c0=Math['PI'];_0x38a18c=this[_0x586d7e(0x21a)][0x0],createBurst(this[_0x586d7e(0x26a)],_0x4213ec,_0x248f29,_0x17b1c0),_0x38a18c=this[_0x586d7e(0x21a)][0x1],createBurst(this['starCount'],_0x4213ec,_0x34ec5b,_0x17b1c0);}else _0x38a18c=this['color'][0x0],createBurst(this[_0x586d7e(0x26a)]/0x2,_0x4213ec),_0x38a18c=this[_0x586d7e(0x21a)][0x1],createBurst(this[_0x586d7e(0x26a)]/0x2,_0x4213ec);}else throw new Error('Invalid\x20shell\x20color.\x20Expected\x20string\x20or\x20array\x20of\x20strings,\x20but\x20got:\x20'+this[_0x586d7e(0x21a)]);}if(this[_0x586d7e(0x1c8)]){const _0x45cc30=new Shell({'spreadSize':this['spreadSize']*0.5,'starLife':this[_0x586d7e(0x1fb)]*0.6,'starLifeVariation':this[_0x586d7e(0x15d)],'starDensity':1.4,'color':this[_0x586d7e(0x294)],'glitter':'light','glitterColor':this[_0x586d7e(0x294)]===COLOR[_0x586d7e(0x17a)]?COLOR['Gold']:COLOR[_0x586d7e(0x212)]});_0x45cc30[_0x586d7e(0x1a3)](_0x2ad2d1,_0x546cfa);}if(this[_0x586d7e(0x17d)]){const _0xb374e2=new Shell({'spreadSize':this['spreadSize']*0.9,'starLife':this['starLife']*0.8,'starLifeVariation':this[_0x586d7e(0x15d)],'starCount':Math[_0x586d7e(0x163)](Math[_0x586d7e(0x231)](0x6,this[_0x586d7e(0x286)]/0x2d)),'color':COLOR['White'],'glitter':_0x586d7e(0x225)});_0xb374e2[_0x586d7e(0x1a3)](_0x2ad2d1,_0x546cfa);}BurstFlash['add'](_0x2ad2d1,_0x546cfa,this[_0x586d7e(0x286)]/0x4);if(this['comet']){const _0x2e3bfc=0x2,_0x3d03c7=Math['min'](_0x2e3bfc,shellSizeSelector()-this['shellSize']),_0x3ca9ba=(0x1-_0x3d03c7/_0x2e3bfc)*0.3+0.7;soundManager[_0x586d7e(0x1c9)](_0x586d7e(0x1a3),_0x3ca9ba);}}}const BurstFlash={'active':[],'_pool':[],'_new'(){return{};},'add'(_0x372a6c,_0x5d2777,_0x3427c8){const _0x482a66=_0x259fb4,_0x4a6699=this['_pool']['pop']()||this[_0x482a66(0x1ed)]();return _0x4a6699['x']=_0x372a6c,_0x4a6699['y']=_0x5d2777,_0x4a6699['radius']=_0x3427c8,this[_0x482a66(0x1a5)][_0x482a66(0x1ce)](_0x4a6699),_0x4a6699;},'returnInstance'(_0x52f8a4){const _0xd85dc3=_0x259fb4;this[_0xd85dc3(0x11b)][_0xd85dc3(0x1ce)](_0x52f8a4);}};function createParticleCollection(){const _0x4d5482=_0x259fb4,_0xffad89={};return COLOR_CODES_W_INVIS[_0x4d5482(0x27e)](_0x1e1990=>{_0xffad89[_0x1e1990]=[];}),_0xffad89;}const Star={'drawWidth':0x3,'airDrag':0.98,'airDragHeavy':0.992,'active':createParticleCollection(),'_pool':[],'_new'(){return{};},'add'(_0x3f89a7,_0x50a72f,_0x17b5aa,_0x3c64fc,_0x31c1c6,_0xdde8ea,_0x1d3bfa,_0x4e8645){const _0x272994=_0x259fb4,_0x27241f=this[_0x272994(0x11b)][_0x272994(0x290)]()||this[_0x272994(0x1ed)]();return _0x27241f[_0x272994(0x155)]=!![],_0x27241f[_0x272994(0x1e4)]=![],_0x27241f['x']=_0x3f89a7,_0x27241f['y']=_0x50a72f,_0x27241f['prevX']=_0x3f89a7,_0x27241f[_0x272994(0x120)]=_0x50a72f,_0x27241f[_0x272994(0x21a)]=_0x17b5aa,_0x27241f[_0x272994(0x159)]=Math[_0x272994(0x20d)](_0x3c64fc)*_0x31c1c6+(_0x1d3bfa||0x0),_0x27241f[_0x272994(0x21e)]=Math[_0x272994(0x1d3)](_0x3c64fc)*_0x31c1c6+(_0x4e8645||0x0),_0x27241f[_0x272994(0x144)]=_0xdde8ea,_0x27241f['fullLife']=_0xdde8ea,_0x27241f[_0x272994(0x22f)]=Math[_0x272994(0x251)]()*PI_2,_0x27241f['spinSpeed']=0.8,_0x27241f[_0x272994(0x15f)]=0x0,_0x27241f['sparkFreq']=0x0,_0x27241f[_0x272994(0x278)]=0x1,_0x27241f[_0x272994(0x1ec)]=0x0,_0x27241f[_0x272994(0x18c)]=_0x17b5aa,_0x27241f[_0x272994(0x187)]=0x2ee,_0x27241f['sparkLifeVariation']=0.25,_0x27241f[_0x272994(0x115)]=![],this[_0x272994(0x1a5)][_0x17b5aa][_0x272994(0x1ce)](_0x27241f),_0x27241f;},'returnInstance'(_0x1d7b2e){const _0x5949fa=_0x259fb4;_0x1d7b2e[_0x5949fa(0x119)]&&_0x1d7b2e[_0x5949fa(0x119)](_0x1d7b2e),_0x1d7b2e['onDeath']=null,_0x1d7b2e[_0x5949fa(0x192)]=null,_0x1d7b2e[_0x5949fa(0x147)]=0x0,_0x1d7b2e['colorChanged']=![],this[_0x5949fa(0x11b)][_0x5949fa(0x1ce)](_0x1d7b2e);}},Spark={'drawWidth':0x0,'airDrag':0.9,'active':createParticleCollection(),'_pool':[],'_new'(){return{};},'add'(_0x350fc9,_0x5872af,_0x201d27,_0x2bdd9d,_0x3f1beb,_0x4f70b1){const _0xa8fc66=_0x259fb4,_0x3ee4a1=this['_pool'][_0xa8fc66(0x290)]()||this[_0xa8fc66(0x1ed)]();return _0x3ee4a1['x']=_0x350fc9,_0x3ee4a1['y']=_0x5872af,_0x3ee4a1[_0xa8fc66(0x17f)]=_0x350fc9,_0x3ee4a1[_0xa8fc66(0x120)]=_0x5872af,_0x3ee4a1[_0xa8fc66(0x21a)]=_0x201d27,_0x3ee4a1['speedX']=Math[_0xa8fc66(0x20d)](_0x2bdd9d)*_0x3f1beb,_0x3ee4a1[_0xa8fc66(0x21e)]=Math['cos'](_0x2bdd9d)*_0x3f1beb,_0x3ee4a1[_0xa8fc66(0x144)]=_0x4f70b1,this['active'][_0x201d27][_0xa8fc66(0x1ce)](_0x3ee4a1),_0x3ee4a1;},'returnInstance'(_0x4523c4){const _0x10403b=_0x259fb4;this[_0x10403b(0x11b)]['push'](_0x4523c4);}},soundManager={'baseURL':_0x259fb4(0x219),'ctx':new(window[(_0x259fb4(0x226))]||window[(_0x259fb4(0x196))])(),'sources':{'lift':{'volume':0x1,'playbackRateMin':0.85,'playbackRateMax':0.95,'fileNames':[_0x259fb4(0x183),_0x259fb4(0x1a9),'lift3.mp3']},'burst':{'volume':0x1,'playbackRateMin':0.8,'playbackRateMax':0.9,'fileNames':[_0x259fb4(0x23e),_0x259fb4(0x28b)]},'burstSmall':{'volume':0.25,'playbackRateMin':0.8,'playbackRateMax':0x1,'fileNames':[_0x259fb4(0x266),_0x259fb4(0x22c)]},'crackle':{'volume':0.2,'playbackRateMin':0x1,'playbackRateMax':0x1,'fileNames':[_0x259fb4(0x1a1)]},'crackleSmall':{'volume':0.3,'playbackRateMin':0x1,'playbackRateMax':0x1,'fileNames':[_0x259fb4(0x291)]}},'preload'(){const _0x218486=_0x259fb4,_0x4298cf=[];function _0x1eeb3d(_0x190a76){const _0x4373c3=_0x15e9;if(_0x190a76[_0x4373c3(0x202)]>=0xc8&&_0x190a76[_0x4373c3(0x202)]<0x12c)return _0x190a76;const _0x550066=new Error(_0x190a76['statusText']);_0x550066[_0x4373c3(0x1f0)]=_0x190a76;throw _0x550066;}const _0x45832d=Object[_0x218486(0x1f2)](this['sources']);return _0x45832d[_0x218486(0x27e)](_0x3097af=>{const _0x309aee=_0x218486,_0x3d70c4=this[_0x309aee(0x25c)][_0x3097af],{fileNames:_0xa3b4aa}=_0x3d70c4,_0x3ac341=[];_0xa3b4aa[_0x309aee(0x27e)](_0x5d8a48=>{const _0x3c3a09=_0x309aee,_0xf12cd9=this['baseURL']+_0x5d8a48,_0x4e0513=fetch(_0xf12cd9)[_0x3c3a09(0x190)](_0x1eeb3d)['then'](_0x587b03=>_0x587b03[_0x3c3a09(0x197)]())[_0x3c3a09(0x190)](_0x18bb2d=>new Promise(_0x39b42c=>{const _0x37e67a=_0x3c3a09;this[_0x37e67a(0x129)]['decodeAudioData'](_0x18bb2d,_0x39b42c);}));_0x3ac341['push'](_0x4e0513),_0x4298cf['push'](_0x4e0513);}),Promise[_0x309aee(0x235)](_0x3ac341)[_0x309aee(0x190)](_0x400350=>{const _0x33a234=_0x309aee;_0x3d70c4[_0x33a234(0x1f9)]=_0x400350;});}),Promise[_0x218486(0x235)](_0x4298cf);},'pauseAll'(){const _0x58a2e4=_0x259fb4;this[_0x58a2e4(0x129)][_0x58a2e4(0x1e1)]();},'resumeAll'(){const _0x5311e7=_0x259fb4;this['playSound'](_0x5311e7(0x259),0x1),setTimeout(()=>{const _0x2cfbf7=_0x5311e7;this[_0x2cfbf7(0x129)][_0x2cfbf7(0x1b8)]();},0xfa);},'_lastSmallBurstTime':0x0,'playSound'(_0xda0b89,_0x3458be=0x1){const _0x12bb83=_0x259fb4;_0x3458be=MyMath[_0x12bb83(0x1d8)](_0x3458be,0x0,0x1);if(!canPlaySoundSelector()||simSpeed<0.95)return;if(_0xda0b89===_0x12bb83(0x252)){const _0x9243c2=Date[_0x12bb83(0x135)]();if(_0x9243c2-this[_0x12bb83(0x200)]<0x14)return;this[_0x12bb83(0x200)]=_0x9243c2;}const _0x573f24=this['sources'][_0xda0b89];if(!_0x573f24)throw new Error(_0x12bb83(0x1d5)+_0xda0b89+_0x12bb83(0x1aa));const _0x1a7600=_0x573f24['volume'],_0x179404=MyMath[_0x12bb83(0x251)](_0x573f24[_0x12bb83(0x194)],_0x573f24[_0x12bb83(0x1f5)]),_0x1f83dc=_0x1a7600*_0x3458be,_0x31d417=_0x179404*(0x2-_0x3458be),_0x4a36c1=this[_0x12bb83(0x129)][_0x12bb83(0x11c)]();_0x4a36c1[_0x12bb83(0x186)][_0x12bb83(0x19b)]=_0x1f83dc;const _0x355899=MyMath['randomChoice'](_0x573f24[_0x12bb83(0x1f9)]),_0x3de998=this[_0x12bb83(0x129)][_0x12bb83(0x205)]();_0x3de998[_0x12bb83(0x239)]['value']=_0x31d417,_0x3de998[_0x12bb83(0x28c)]=_0x355899,_0x3de998[_0x12bb83(0x121)](_0x4a36c1),_0x4a36c1[_0x12bb83(0x121)](this['ctx'][_0x12bb83(0x277)]),_0x3de998[_0x12bb83(0x14a)](0x0);}};function setLoadingStatus(_0x350fcc){const _0x337edc=_0x259fb4;document['querySelector']('.loading-init__status')[_0x337edc(0x160)]=_0x350fcc;}IS_HEADER?init():(setLoadingStatus(_0x259fb4(0x1f7)),setTimeout(()=>{const _0x14eeb0=_0x259fb4;soundManager[_0x14eeb0(0x23b)]()[_0x14eeb0(0x190)](init,_0x1b8051=>{const _0x34897b=_0x14eeb0;return init(),Promise[_0x34897b(0x250)](_0x1b8051);});},0x0));const myTags=[_0x259fb4(0x137),_0x259fb4(0x1a0),_0x259fb4(0x27d),'Cũng','Có',_0x259fb4(0x1c3),'Đến','Từ',_0x259fb4(0x1bc),'Ai','Đó','Nụ',_0x259fb4(0x18e),'Đã','Là',_0x259fb4(0x1bc),_0x259fb4(0x1bb),'Thuốc'];var tagCloud=TagCloud(_0x259fb4(0x14d),myTags,{'radius':0xc8,'maxSpeed':_0x259fb4(0x24d),'initSpeed':_0x259fb4(0x24d),'direction':0x87,'keep':!![]}),colors=[_0x259fb4(0x220),_0x259fb4(0x26b),_0x259fb4(0x29f),'#7FBC00',_0x259fb4(0x1e7),'01A6F0'],random_color=colors[Math['floor'](Math[_0x259fb4(0x251)]()*colors[_0x259fb4(0x15c)])];document[_0x259fb4(0x15e)](_0x259fb4(0x14d))[_0x259fb4(0x1d4)]['color']=random_color;var c=document[_0x259fb4(0x25f)]('c'),w,h,hw,hh,ctx=c[_0x259fb4(0x1dd)]('2d'),opts={'strings':['HAPPY',_0x259fb4(0x179)],'charSize':0x1e,'charSpacing':0x23,'lineHeight':0x28,'cx':0x0,'cy':0x0,'fireworkPrevPoints':0xa,'fireworkBaseLineWidth':0x5,'fireworkAddedLineWidth':0x8,'fireworkSpawnTime':0xc8,'fireworkBaseReachTime':0x1e,'fireworkAddedReachTime':0x1e,'fireworkCircleBaseSize':0x14,'fireworkCircleAddedSize':0xa,'fireworkCircleBaseTime':0x1e,'fireworkCircleAddedTime':0x1e,'fireworkCircleFadeBaseTime':0xa,'fireworkCircleFadeAddedTime':0x5,'fireworkBaseShards':0x5,'fireworkAddedShards':0x5,'fireworkShardPrevPoints':0x3,'fireworkShardBaseVel':0x4,'fireworkShardAddedVel':0x2,'fireworkShardBaseSize':0x3,'fireworkShardAddedSize':0x3,'gravity':0.1,'upFlow':-0.1,'letterContemplatingWaitTime':0x168,'balloonSpawnTime':0x14,'balloonBaseInflateTime':0xa,'balloonAddedInflateTime':0xa,'balloonBaseSize':0x14,'balloonAddedSize':0x14,'balloonBaseVel':0.4,'balloonAddedVel':0.4,'balloonBaseRadian':-(Math['PI']/0x2-0.5),'balloonAddedRadian':-0x1},calc={'totalWidth':opts[_0x259fb4(0x1c1)]*Math[_0x259fb4(0x231)](opts[_0x259fb4(0x117)][0x0]['length'],opts[_0x259fb4(0x117)][0x1][_0x259fb4(0x15c)])},Tau=Math['PI']*0x2,TauQuarter=Tau/0x4,letters=[];ctx[_0x259fb4(0x222)]=opts[_0x259fb4(0x274)]+'px\x20Verdana';function Letter(_0xd6ed4d,_0x369581,_0x57cbc4){const _0x33752c=_0x259fb4;this['char']=_0xd6ed4d,this['x']=_0x369581,this['y']=_0x57cbc4,this['dx']=-ctx['measureText'](_0xd6ed4d)['width']/0x2,this['dy']=+opts[_0x33752c(0x274)]/0x2,this[_0x33752c(0x221)]=this['y']-hh;var _0x31a347=_0x369581/calc[_0x33752c(0x223)]*0x168;this[_0x33752c(0x21a)]=_0x33752c(0x1b1)['replace'](_0x33752c(0x16b),_0x31a347),this[_0x33752c(0x141)]=_0x33752c(0x1cb)[_0x33752c(0x1b2)]('hue',_0x31a347),this[_0x33752c(0x280)]='hsl(hue,80%,light%)'[_0x33752c(0x1b2)]('hue',_0x31a347),this[_0x33752c(0x13e)]=_0x33752c(0x20f)['replace'](_0x33752c(0x16b),_0x31a347),this[_0x33752c(0x168)]();}Letter[_0x259fb4(0x1ab)][_0x259fb4(0x168)]=function(){const _0x5ae76f=_0x259fb4;this[_0x5ae76f(0x11e)]=_0x5ae76f(0x1d9),this[_0x5ae76f(0x297)]=0x0,this[_0x5ae76f(0x1ee)]=![],this[_0x5ae76f(0x208)]=opts[_0x5ae76f(0x181)]*Math[_0x5ae76f(0x251)]()|0x0,this[_0x5ae76f(0x1d1)]=opts[_0x5ae76f(0x217)]+opts[_0x5ae76f(0x254)]*Math['random']()|0x0,this['lineWidth']=opts['fireworkBaseLineWidth']+opts[_0x5ae76f(0x11d)]*Math[_0x5ae76f(0x251)](),this['prevPoints']=[[0x0,hh,0x0]];},Letter[_0x259fb4(0x1ab)][_0x259fb4(0x18b)]=function(){const _0x546b27=_0x259fb4;if(this[_0x546b27(0x11e)]===_0x546b27(0x1d9)){if(!this[_0x546b27(0x1ee)])++this[_0x546b27(0x297)],this[_0x546b27(0x297)]>=this[_0x546b27(0x208)]&&(this['tick']=0x0,this[_0x546b27(0x1ee)]=!![]);else{++this[_0x546b27(0x297)];var _0x42c383=this['tick']/this[_0x546b27(0x1d1)],_0x3985c8=Math[_0x546b27(0x20d)](_0x42c383*TauQuarter),_0x3c8886=_0x42c383*this['x'],_0x4dc219=hh+_0x3985c8*this['fireworkDy'];if(this[_0x546b27(0x24b)][_0x546b27(0x15c)]>opts[_0x546b27(0x16c)])this[_0x546b27(0x24b)][_0x546b27(0x283)]();this['prevPoints'][_0x546b27(0x1ce)]([_0x3c8886,_0x4dc219,_0x42c383*this[_0x546b27(0x1c0)]]);var _0x2c957d=0x1/(this[_0x546b27(0x24b)][_0x546b27(0x15c)]-0x1);for(var _0x806efa=0x1;_0x806efa<this['prevPoints']['length'];++_0x806efa){var _0x51c471=this['prevPoints'][_0x806efa],_0x2688a4=this[_0x546b27(0x24b)][_0x806efa-0x1];ctx[_0x546b27(0x1db)]=this['alphaColor'][_0x546b27(0x1b2)](_0x546b27(0x232),_0x806efa/this['prevPoints']['length']),ctx[_0x546b27(0x1c0)]=_0x51c471[0x2]*_0x2c957d*_0x806efa,ctx[_0x546b27(0x284)](),ctx[_0x546b27(0x19a)](_0x51c471[0x0],_0x51c471[0x1]),ctx[_0x546b27(0x211)](_0x2688a4[0x0],_0x2688a4[0x1]),ctx[_0x546b27(0x162)]();}if(this[_0x546b27(0x297)]>=this['reachTime']){this[_0x546b27(0x11e)]='contemplate',this[_0x546b27(0x24a)]=opts[_0x546b27(0x29a)]+opts['fireworkCircleAddedSize']*Math[_0x546b27(0x251)](),this[_0x546b27(0x184)]=opts['fireworkCircleBaseTime']+opts[_0x546b27(0x244)]*Math[_0x546b27(0x251)]()|0x0,this[_0x546b27(0x26d)]=!![],this[_0x546b27(0x206)]=![],this['circleFadeTime']=opts[_0x546b27(0x158)]+opts[_0x546b27(0x243)]*Math[_0x546b27(0x251)]()|0x0,this[_0x546b27(0x297)]=0x0,this[_0x546b27(0x123)]=0x0,this[_0x546b27(0x24f)]=[];var _0x577c73=opts[_0x546b27(0x153)]+opts['fireworkAddedShards']*Math['random']()|0x0,_0x34534f=Tau/_0x577c73,_0x147382=Math[_0x546b27(0x1d3)](_0x34534f),_0xc32727=Math[_0x546b27(0x20d)](_0x34534f),_0x3c8886=0x1,_0x4dc219=0x0;for(var _0x806efa=0x0;_0x806efa<_0x577c73;++_0x806efa){var _0x27cf90=_0x3c8886;_0x3c8886=_0x3c8886*_0x147382-_0x4dc219*_0xc32727,_0x4dc219=_0x4dc219*_0x147382+_0x27cf90*_0xc32727,this[_0x546b27(0x24f)][_0x546b27(0x1ce)](new Shard(this['x'],this['y'],_0x3c8886,_0x4dc219,this[_0x546b27(0x13e)]));}}}}else{if(this[_0x546b27(0x11e)]==='contemplate'){++this[_0x546b27(0x297)];if(this[_0x546b27(0x26d)]){++this[_0x546b27(0x123)];var _0x2a005e=this['tick2']/this[_0x546b27(0x184)],_0x2ee212=-Math['cos'](_0x2a005e*Math['PI'])/0x2+0.5;ctx[_0x546b27(0x284)](),ctx[_0x546b27(0x238)]=this[_0x546b27(0x141)][_0x546b27(0x1b2)](_0x546b27(0x240),0x32+0x32*_0x2a005e)[_0x546b27(0x1b2)](_0x546b27(0x232),_0x2a005e),ctx['beginPath'](),ctx['arc'](this['x'],this['y'],_0x2ee212*this[_0x546b27(0x24a)],0x0,Tau),ctx['fill'](),this[_0x546b27(0x123)]>this['circleCompleteTime']&&(this[_0x546b27(0x123)]=0x0,this[_0x546b27(0x26d)]=![],this[_0x546b27(0x206)]=!![]);}else{if(this['circleFading']){ctx[_0x546b27(0x238)]=this['lightColor'][_0x546b27(0x1b2)](_0x546b27(0x240),0x46),ctx[_0x546b27(0x276)](this[_0x546b27(0x255)],this['x']+this['dx'],this['y']+this['dy']),++this['tick2'];var _0x2a005e=this[_0x546b27(0x123)]/this[_0x546b27(0x191)],_0x2ee212=-Math[_0x546b27(0x1d3)](_0x2a005e*Math['PI'])/0x2+0.5;ctx[_0x546b27(0x284)](),ctx['fillStyle']=this[_0x546b27(0x141)]['replace'](_0x546b27(0x240),0x64)[_0x546b27(0x1b2)](_0x546b27(0x232),0x1-_0x2ee212),ctx[_0x546b27(0x1ef)](this['x'],this['y'],this[_0x546b27(0x24a)],0x0,Tau),ctx['fill']();if(this[_0x546b27(0x123)]>=this['circleFadeTime'])this[_0x546b27(0x206)]=![];}else ctx['fillStyle']=this[_0x546b27(0x280)][_0x546b27(0x1b2)](_0x546b27(0x240),0x46),ctx[_0x546b27(0x276)](this[_0x546b27(0x255)],this['x']+this['dx'],this['y']+this['dy']);}for(var _0x806efa=0x0;_0x806efa<this['shards'][_0x546b27(0x15c)];++_0x806efa){this[_0x546b27(0x24f)][_0x806efa][_0x546b27(0x18b)](),!this['shards'][_0x806efa][_0x546b27(0x1b9)]&&(this[_0x546b27(0x24f)][_0x546b27(0x1a4)](_0x806efa,0x1),--_0x806efa);}if(this[_0x546b27(0x297)]>opts['letterContemplatingWaitTime']){this[_0x546b27(0x11e)]=_0x546b27(0x138),this[_0x546b27(0x297)]=0x0,this[_0x546b27(0x28d)]=!![],this['spawnTime']=opts[_0x546b27(0x20c)]*Math[_0x546b27(0x251)]()|0x0,this['inflating']=![],this[_0x546b27(0x227)]=opts[_0x546b27(0x1b0)]+opts[_0x546b27(0x171)]*Math[_0x546b27(0x251)]()|0x0,this[_0x546b27(0x27c)]=opts[_0x546b27(0x1af)]+opts[_0x546b27(0x1a2)]*Math['random']()|0x0;var _0x44882a=opts[_0x546b27(0x26e)]+opts[_0x546b27(0x1e6)]*Math[_0x546b27(0x251)](),_0x2ea549=opts['balloonBaseVel']+opts[_0x546b27(0x122)]*Math[_0x546b27(0x251)]();this['vx']=Math['cos'](_0x44882a)*_0x2ea549,this['vy']=Math[_0x546b27(0x20d)](_0x44882a)*_0x2ea549;}}else{if(this[_0x546b27(0x11e)]===_0x546b27(0x138)){ctx[_0x546b27(0x1db)]=this[_0x546b27(0x280)][_0x546b27(0x1b2)](_0x546b27(0x240),0x50);if(this[_0x546b27(0x28d)])++this[_0x546b27(0x297)],ctx[_0x546b27(0x238)]=this[_0x546b27(0x280)]['replace']('light',0x46),ctx[_0x546b27(0x276)](this['char'],this['x']+this['dx'],this['y']+this['dy']),this[_0x546b27(0x297)]>=this['spawnTime']&&(this[_0x546b27(0x297)]=0x0,this['spawning']=![],this[_0x546b27(0x157)]=!![]);else{if(this[_0x546b27(0x157)]){++this[_0x546b27(0x297)];var _0x2a005e=this[_0x546b27(0x297)]/this['inflateTime'],_0x3c8886=this['cx']=this['x'],_0x4dc219=this['cy']=this['y']-this[_0x546b27(0x27c)]*_0x2a005e;ctx[_0x546b27(0x238)]=this[_0x546b27(0x13e)]['replace'](_0x546b27(0x232),_0x2a005e),ctx['beginPath'](),generateBalloonPath(_0x3c8886,_0x4dc219,this[_0x546b27(0x27c)]*_0x2a005e),ctx[_0x546b27(0x1a6)](),ctx[_0x546b27(0x284)](),ctx[_0x546b27(0x19a)](_0x3c8886,_0x4dc219),ctx[_0x546b27(0x211)](_0x3c8886,this['y']),ctx[_0x546b27(0x162)](),ctx[_0x546b27(0x238)]=this[_0x546b27(0x280)]['replace']('light',0x46),ctx[_0x546b27(0x276)](this['char'],this['x']+this['dx'],this['y']+this['dy']),this[_0x546b27(0x297)]>=this['inflateTime']&&(this[_0x546b27(0x297)]=0x0,this[_0x546b27(0x157)]=![]);}else{this['cx']+=this['vx'],this['cy']+=this['vy']+=opts[_0x546b27(0x1cf)],ctx[_0x546b27(0x238)]=this['color'],ctx[_0x546b27(0x284)](),generateBalloonPath(this['cx'],this['cy'],this[_0x546b27(0x27c)]),ctx[_0x546b27(0x1a6)](),ctx[_0x546b27(0x284)](),ctx[_0x546b27(0x19a)](this['cx'],this['cy']),ctx[_0x546b27(0x211)](this['cx'],this['cy']+this[_0x546b27(0x27c)]),ctx[_0x546b27(0x162)](),ctx[_0x546b27(0x238)]=this['lightColor'][_0x546b27(0x1b2)]('light',0x46),ctx[_0x546b27(0x276)](this[_0x546b27(0x255)],this['cx']+this['dx'],this['cy']+this['dy']+this['size']);if(this['cy']+this[_0x546b27(0x27c)]<-hh||this['cx']<-hw||this['cy']>hw)this['phase']=_0x546b27(0x130);}}}}}};function updateCanvasSize(){const _0x5a92d3=_0x259fb4;w=c[_0x5a92d3(0x16d)]=window[_0x5a92d3(0x24e)],h=c[_0x5a92d3(0x237)]=window[_0x5a92d3(0x150)],hw=w/0x2,hh=h/0x2,opts['cx']=w/0x2,opts['cy']=h/0x2,ctx[_0x5a92d3(0x222)]=opts[_0x5a92d3(0x274)]+'px\x20Verdana';}function _0x238a(){const _0x46a8eb=['butt','classList','streamers','rgba(255,\x20160,\x2020,\x200.2)','prevX','Tự\x20động\x20bắn\x20chuỗi\x20pháo\x20hoa.\x20Hãy\x20ngồi\x20lại\x20và\x20thưởng\x20thức\x20chương\x20trình\x20hoặc\x20tắt\x20để\x20có\x20toàn\x20quyền\x20kiểm\x20soát.','fireworkSpawnTime','glitterColor','lift1.mp3','circleCompleteTime','Ẩn\x20các\x20điều\x20khiển\x20mờ\x20dọc\x20theo\x20đầu\x20màn\x20hình.\x20Hữu\x20ích\x20cho\x20ảnh\x20chụp\x20màn\x20hình\x20hoặc\x20chỉ\x20là\x20trải\x20nghiệm\x20liền\x20mạch\x20hơn.\x20Khi\x20bị\x20ẩn,\x20bạn\x20vẫn\x20có\x20thể\x20nhấn\x20vào\x20góc\x20trên\x20bên\x20phải\x20để\x20mở\x20lại\x20menu\x20này.','gain','sparkLife','fullscreen','1.2','shell','step','sparkColor','radius','Cười','.controls','then','circleFadeTime','secondColor','DOMContentLoaded','playbackRateMin','44EgqEVr','webkitAudioContext','arrayBuffer','fullscreenEnabled','sparkLifeVariation','moveTo','value','finaleMode','drawWidth','toggle','string','Niềm','crackle1.mp3','balloonAddedSize','burst','splice','active','fill','Falling\x20Leaves','7fFjqhf','lift2.mp3','\x22\x20doesn\x27t\x20exist.','prototype','clear','Ánh\x20sáng\x20bầu\x20trời','hide','balloonBaseSize','balloonBaseInflateTime','hsl(hue,80%,50%)','replace','error','Floral','.sky-lighting','globalAlpha','getItem','resume','alive','pow','Thang','Một','.menu__inner-wrap','source-over','globalCompositeOperation','lineWidth','charSpacing','Dim','Thể','pointAngle','soundBtnSVG','148pmiPXN','map','pistil','playSound','Chất\x20lượng\x20đồ\x20họa\x20tổng\x20thể.\x20Nếu\x20hoạt\x20ảnh\x20không\x20chạy\x20mượt\x20mà,\x20hãy\x20thử\x20giảm\x20chất\x20lượng.\x20Chất\x20lượng\x20cao\x20làm\x20tăng\x20đáng\x20kể\x20lượng\x20tia\x20lửa\x20được\x20hiển\x20thị\x20và\x20có\x20thể\x20gây\x20ra\x20độ\x20trễ.','hsla(hue,80%,light%,alp)','location','fullLife','push','upFlow','setItem','reachTime','checked','cos','style','Sound\x20of\x20type\x20\x22','input','Kích\x20cỡ','clamp','firework','.quality-ui-label','strokeStyle','fillRect','getContext','click','rgba(255,\x20140,\x2020,\x200.11)','.pause-btn','suspend','finale','helpModalOverlay','heavy','bezierCurveTo','balloonAddedRadian','FFBA01','cooldown','boolean','lineHeight','75666vCsKwe','sparkTimer','_new','spawned','arc','response','setTransform','keys','starDensity','Chuyển\x20đổi\x20chế\x20độ\x20toàn\x20màn\x20hình.','playbackRateMax','shellType','Lighting\x20Fuses','preventDefault','buffers','trails-canvas','starLife','Loại','Blue','reduce','strobeColor','_lastSmallBurstTime','glitter','status','thick','sparkFreq','createBufferSource','circleFading','.auto-launch-label','spawningTime','assign','Random','.help-modal','balloonSpawnTime','sin','comet','hsla(hue,80%,50%,alp)','.finale-mode','lineTo','White','58209jqDeiW','crossette','updateFrame','Cho\x20phép\x20mở\x20rộng\x20kích\x20thước\x20của\x20tất\x20cả\x20pháo\x20hoa,\x20về\x20cơ\x20bản\x20là\x20đưa\x20bạn\x20đến\x20gần\x20hơn\x20hoặc\x20ra\x20xa\x20hơn.\x20Đối\x20với\x20kích\x20thước\x20vỏ\x20lớn\x20hơn,\x20có\x20thể\x20giảm\x20tỷ\x20lệ\x20một\x20chút,\x20đặc\x20biệt\x20là\x20trên\x20điện\x20thoại\x20hoặc\x20máy\x20tính\x20bảng.','fireworkBaseReachTime','stringify','https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/','color','rgba(0,\x200,\x200,\x20','.help-modal__body','paused','speedY','parse','#34A853','fireworkDy','font','totalWidth','state','streamer','AudioContext','inflateTime','Open\x20Shutter','_listeners','1.1','play','burst-sm-2.mp3','http:','colorChanged','spinAngle','xlink:href','max','alp','Experimental\x20effect\x20that\x20preserves\x20long\x20streaks\x20of\x20light,\x20similar\x20to\x20leaving\x20a\x20camera\x20shutter\x20open.','.help-modal__overlay','all','.form-option--fullscreen','height','fillStyle','playbackRate','round','preload','fullscreenchange','off','burst1.mp3','.shell-type-label','light','ticker','strobeFreq','fireworkCircleFadeAddedTime','fireworkCircleAddedTime','menuInnerWrap','_dispatch','skyLighting','helpModal','helpModalHeader','circleFinalSize','prevPoints','createRadialGradient','fast','innerWidth','shards','reject','random','burstSmall','pause','fireworkAddedReachTime','char','Kích\x20thước\x20của\x20pháo\x20hoa.\x20Được\x20mô\x20phỏng\x20theo\x20kích\x20thước\x20vỏ\x20pháo\x20hoa\x20thực,\x20vỏ\x20lớn\x20hơn\x20có\x20các\x20vụ\x20nổ\x20lớn\x20hơn\x20với\x20nhiều\x20sao\x20hơn\x20và\x20đôi\x20khi\x20có\x20nhiều\x20hiệu\x20ứng\x20phức\x20tạp\x20hơn.\x20Tuy\x20nhiên,\x20vỏ\x20lớn\x20hơn\x20cũng\x20đòi\x20hỏi\x20sức\x20mạnh\x20xử\x20lý\x20nhiều\x20hơn\x20và\x20có\x20thể\x20gây\x20ra\x20hiện\x20tượng\x20giật\x20lag.','.canvas-container','requestAnimationFrame','lift','exitFullscreen','.shell-type','sources','High','helpModalCloseBtn','getElementById','keydown','pointDist','returnInstance','https://thanhnice.github.io/forever/index1.html','min','Low','burst-sm-1.mp3','quality','fallingLeaves','setAttribute','starCount','#FBBC05','controls','circleCreating','balloonBaseRadian','resumeAll','11578818XvvGwc','px\x20Verdana','Normal','lighten','charSize','config','fillText','destination','sparkSpeed','resize','fireworkShardPrevPoints','href','size','Vui','forEach','hardwareConcurrency','lightColor','launch','requestFullscreen','shift','beginPath','_INVISIBLE_','spreadSize','backgroundColor','remove','addEventListener','configSize','burst2.mp3','buffer','spawning','#111','lastCalled','pop','crackle-sm-1.mp3','helpModalBody','cm_fireworks_data','pistilColor','16\x22','innerHTML','tick','rgba(255,\x20120,\x2020,\x200)','menuOpen','fireworkCircleBaseSize','lineCap','1256NWFZod','Tỉ\x20lệ','scale','#4285F4','strobe','sqrt','strings','#icon-','onDeath','.sound-btn','_pool','createGain','fireworkAddedLineWidth','phase','12\x22','prevY','connect','balloonAddedVel','tick2','autoLaunch','110763ezCIHm','finaleModeFormOption','subscribe','medium','ctx','hideControls','pointerend','toFixed','onCanvas','#14fc56','#e60aff','done','Loại\x20pháo\x20hoa\x20sẽ\x20được\x20bắn.\x20Chọn\x20\x22Ngẫu\x20nhiên\x22\x20để\x20có\x20loại\x20đẹp!','longExposure','#000','shellSize','now','Chiếu\x20sáng\x20nền\x20khi\x20pháo\x20hoa\x20nổ.\x20Nếu\x20nền\x20trông\x20quá\x20sáng\x20trên\x20màn\x20hình\x20của\x20bạn,\x20hãy\x20thử\x20đặt\x20nó\x20thành\x20\x22Mờ\x22\x20hoặc\x20\x22Không\x22.','Rồi','balloon','openPage','keyCode','.hide-controls-label','addColorStop','11212650pAkpkS','alphaColor','pauseAll','airDrag','lightAlphaColor','willow','pauseBtnSVG','life','setState','fullscreenElement','transitionTime','includes','rgba(255,\x20255,\x20255,\x201)','start','stageContainer','46714063ZbNoZZ','.content','horsetail','Willow','innerHeight','crackle','scaleFactor','fireworkBaseShards','.form-option--finale-mode','visible','7702655TfmHmm','inflating','fireworkCircleFadeBaseTime','speedX','fireworkShardAddedSize','#fff','length','starLifeVariation','querySelector','spinRadius','textContent','<option\x20value=\x22','stroke','floor','notColor','.stage-container','openHelpTopic','#icon-sound-','reset','documentElement','.help-modal__close-btn','hue','fireworkPrevPoints','width','ring','.hide-controls','.shell-size','balloonAddedInflateTime','gravity','substr','add','https:','</option>','canvasContainer','translate','BIRTHDAY!','Gold'];_0x238a=function(){return _0x46a8eb;};return _0x238a();}updateCanvasSize();function Shard(_0x452f5a,_0x49ebe1,_0x48a05b,_0x56ec43,_0x2b00cc){const _0x43be4c=_0x259fb4;var _0x1f7b7f=opts['fireworkShardBaseVel']+opts['fireworkShardAddedVel']*Math[_0x43be4c(0x251)]();this['vx']=_0x48a05b*_0x1f7b7f,this['vy']=_0x56ec43*_0x1f7b7f,this['x']=_0x452f5a,this['y']=_0x49ebe1,this[_0x43be4c(0x24b)]=[[_0x452f5a,_0x49ebe1]],this[_0x43be4c(0x21a)]=_0x2b00cc,this[_0x43be4c(0x1b9)]=!![],this['size']=opts['fireworkShardBaseSize']+opts[_0x43be4c(0x15a)]*Math[_0x43be4c(0x251)]();}Shard[_0x259fb4(0x1ab)][_0x259fb4(0x18b)]=function(){const _0x456db3=_0x259fb4;this['x']+=this['vx'],this['y']+=this['vy']+=opts[_0x456db3(0x172)];if(this[_0x456db3(0x24b)]['length']>opts[_0x456db3(0x27a)])this[_0x456db3(0x24b)][_0x456db3(0x283)]();this[_0x456db3(0x24b)]['push']([this['x'],this['y']]);var _0x71304b=this[_0x456db3(0x27c)]/this[_0x456db3(0x24b)][_0x456db3(0x15c)];for(var _0x12ebf0=0x0;_0x12ebf0<this[_0x456db3(0x24b)][_0x456db3(0x15c)]-0x1;++_0x12ebf0){var _0xf4bed0=this['prevPoints'][_0x12ebf0],_0x5849ea=this['prevPoints'][_0x12ebf0+0x1];ctx[_0x456db3(0x1db)]=this[_0x456db3(0x21a)][_0x456db3(0x1b2)](_0x456db3(0x232),_0x12ebf0/this[_0x456db3(0x24b)]['length']),ctx[_0x456db3(0x1c0)]=_0x12ebf0*_0x71304b,ctx['beginPath'](),ctx[_0x456db3(0x19a)](_0xf4bed0[0x0],_0xf4bed0[0x1]),ctx[_0x456db3(0x211)](_0x5849ea[0x0],_0x5849ea[0x1]),ctx[_0x456db3(0x162)]();}if(this[_0x456db3(0x24b)][0x0][0x1]>hh)this[_0x456db3(0x1b9)]=![];};function generateBalloonPath(_0x199d1c,_0x3a5d85,_0x53c695){const _0x5099e4=_0x259fb4;ctx['moveTo'](_0x199d1c,_0x3a5d85),ctx[_0x5099e4(0x1e5)](_0x199d1c-_0x53c695/0x2,_0x3a5d85-_0x53c695/0x2,_0x199d1c-_0x53c695/0x4,_0x3a5d85-_0x53c695,_0x199d1c,_0x3a5d85-_0x53c695),ctx['bezierCurveTo'](_0x199d1c+_0x53c695/0x4,_0x3a5d85-_0x53c695,_0x199d1c+_0x53c695/0x2,_0x3a5d85-_0x53c695/0x2,_0x199d1c,_0x3a5d85);}function _0x15e9(_0x3b6392,_0x2022e7){const _0x238a3a=_0x238a();return _0x15e9=function(_0x15e96f,_0x8abe12){_0x15e96f=_0x15e96f-0x115;let _0x6d891a=_0x238a3a[_0x15e96f];return _0x6d891a;},_0x15e9(_0x3b6392,_0x2022e7);}function anim(){const _0x922ee=_0x259fb4;window[_0x922ee(0x258)](anim),ctx[_0x922ee(0x238)]=_0x922ee(0x28e),ctx[_0x922ee(0x1dc)](0x0,0x0,w,h),ctx[_0x922ee(0x178)](hw,hh);var _0x49ddbe=!![];for(var _0x211a03=0x0;_0x211a03<letters[_0x922ee(0x15c)];++_0x211a03){letters[_0x211a03]['step']();if(letters[_0x211a03][_0x922ee(0x11e)]!==_0x922ee(0x130))_0x49ddbe=![];}ctx[_0x922ee(0x178)](-hw,-hh);if(_0x49ddbe){for(var _0x211a03=0x0;_0x211a03<letters[_0x922ee(0x15c)];++_0x211a03)letters[_0x211a03][_0x922ee(0x168)]();}}for(var i=0x0;i<opts['strings']['length'];++i){for(var j=0x0;j<opts[_0x259fb4(0x117)][i][_0x259fb4(0x15c)];++j){letters[_0x259fb4(0x1ce)](new Letter(opts[_0x259fb4(0x117)][i][j],j*opts['charSpacing']+opts[_0x259fb4(0x1c1)]/0x2-opts[_0x259fb4(0x117)][i][_0x259fb4(0x15c)]*opts[_0x259fb4(0x274)]/0x2,i*opts[_0x259fb4(0x1ea)]+opts[_0x259fb4(0x1ea)]/0x2-opts[_0x259fb4(0x117)][_0x259fb4(0x15c)]*opts[_0x259fb4(0x1ea)]/0x2));}}anim(),window[_0x259fb4(0x289)](_0x259fb4(0x279),function(){const _0x3beac2=_0x259fb4;updateCanvasSize(),ctx[_0x3beac2(0x222)]=opts[_0x3beac2(0x274)]+_0x3beac2(0x271);}),window[_0x259fb4(0x289)]('orientationchange',updateCanvasSize);
+'use strict';
+console.clear();
+
+// This is a prime example of what starts out as a simple project
+// and snowballs way beyond its intended size. It's a little clunky
+// reading/working on this single file, but here it is anyways :)
+
+const IS_MOBILE = window.innerWidth <= 640;
+const IS_DESKTOP = window.innerWidth > 800;
+const IS_HEADER = IS_DESKTOP && window.innerHeight < 300;
+// Detect high end devices. This will be a moving target.
+const IS_HIGH_END_DEVICE = (() => {
+    const hwConcurrency = navigator.hardwareConcurrency;
+    if (!hwConcurrency) {
+        return false;
+    }
+    // Large screens indicate a full size computer, which often have hyper threading these days.
+    // So a quad core desktop machine has 8 cores. We'll place a higher min threshold there.
+    const minCount = window.innerWidth <= 1024 ? 4 : 8;
+    return hwConcurrency >= minCount;
+})();
+// Prevent canvases from getting too large on ridiculous screen sizes.
+// 8K - can restrict this if needed
+const MAX_WIDTH = 7680;
+const MAX_HEIGHT = 4320;
+const GRAVITY = 0.9; // Acceleration in px/s
+let simSpeed = 1;
+
+function getDefaultScaleFactor() {
+    if (IS_MOBILE) return 0.9;
+    if (IS_HEADER) return 0.75;
+    return 1;
+}
+
+// Width/height values that take scale into account.
+// USE THESE FOR DRAWING POSITIONS
+let stageW, stageH;
+
+// All quality globals will be overwritten and updated via `configDidUpdate`.
+let quality = 1;
+let isLowQuality = false;
+let isNormalQuality = true;
+let isHighQuality = false;
+
+const QUALITY_LOW = 1;
+const QUALITY_NORMAL = 2;
+const QUALITY_HIGH = 3;
+
+const SKY_LIGHT_NONE = 0;
+const SKY_LIGHT_DIM = 1;
+const SKY_LIGHT_NORMAL = 2;
+
+const COLOR = {
+    Red: '#ff0043',
+    Green: '#14fc56',
+    Blue: '#1e7fff',
+    Purple: '#e60aff',
+    Gold: '#ffbf36',
+    White: '#ffffff'
+};
+
+// Special invisible color (not rendered, and therefore not in COLOR map)
+const INVISIBLE = '_INVISIBLE_';
+
+const PI_2 = Math.PI * 2;
+const PI_HALF = Math.PI * 0.5;
+
+// Stage.disableHighDPI = true;
+const trailsStage = new Stage('trails-canvas');
+const mainStage = new Stage('main-canvas');
+const stages = [
+    trailsStage,
+    mainStage
+];
+
+
+
+// Fullscreen helpers, using Fscreen for prefixes.
+function fullscreenEnabled() {
+    return fscreen.fullscreenEnabled;
+}
+
+// Note that fullscreen state is synced to store, and the store should be the source
+// of truth for whether the app is in fullscreen mode or not.
+function isFullscreen() {
+    return !!fscreen.fullscreenElement;
+}
+
+// Attempt to toggle fullscreen mode.
+function toggleFullscreen() {
+    if (fullscreenEnabled()) {
+        if (isFullscreen()) {
+            fscreen.exitFullscreen();
+        } else {
+            fscreen.requestFullscreen(document.documentElement);
+        }
+    }
+}
+
+// Sync fullscreen changes with store. An event listener is necessary because the user can
+// toggle fullscreen mode directly through the browser, and we want to react to that.
+fscreen.addEventListener('fullscreenchange', () => {
+    store.setState({ fullscreen: isFullscreen() });
+});
+
+
+
+
+// Simple state container; the source of truth.
+const store = {
+    _listeners: new Set(),
+    _dispatch(prevState) {
+        this._listeners.forEach(listener => listener(this.state, prevState))
+    },
+
+    state: {
+        // will be unpaused in init()
+        paused: true,
+        soundEnabled: true,
+        menuOpen: false,
+        openHelpTopic: null,
+        fullscreen: isFullscreen(),
+        // Note that config values used for <select>s must be strings, unless manually converting values to strings
+        // at render time, and parsing on change.
+        config: {
+            quality: String(IS_HIGH_END_DEVICE ? QUALITY_HIGH : QUALITY_NORMAL), // will be mirrored to a global variable named `quality` in `configDidUpdate`, for perf.
+            shell: 'Random',
+            size: IS_DESKTOP ?
+                '3' // Desktop default
+                :
+                IS_HEADER ?
+                '1.2' // Profile header default (doesn't need to be an int)
+                :
+                '2', // Mobile default
+            autoLaunch: true,
+            finale: false,
+            skyLighting: SKY_LIGHT_NORMAL + '',
+            hideControls: IS_HEADER,
+            longExposure: false,
+            scaleFactor: getDefaultScaleFactor()
+        }
+    },
+
+    setState(nextState) {
+        const prevState = this.state;
+        this.state = Object.assign({}, this.state, nextState);
+        this._dispatch(prevState);
+        this.persist();
+    },
+
+    subscribe(listener) {
+        this._listeners.add(listener);
+        return () => this._listeners.remove(listener);
+    },
+
+    // Load / persist select state to localStorage
+    // Mutates state because `store.load()` should only be called once immediately after store is created, before any subscriptions.
+    load() {
+        const serializedData = localStorage.getItem('cm_fireworks_data');
+        if (serializedData) {
+            const {
+                schemaVersion,
+                data
+            } = JSON.parse(serializedData);
+
+            const config = this.state.config;
+            switch (schemaVersion) {
+                case '1.1':
+                    config.quality = data.quality;
+                    config.size = data.size;
+                    config.skyLighting = data.skyLighting;
+                    break;
+                case '1.2':
+                    config.quality = data.quality;
+                    config.size = data.size;
+                    config.skyLighting = data.skyLighting;
+                    config.scaleFactor = data.scaleFactor;
+                    break;
+                default:
+                    throw new Error('version switch should be exhaustive');
+            }
+            console.log(`Loaded config (schema version ${schemaVersion})`);
+        }
+        // Deprecated data format. Checked with care (it's not namespaced).
+        else if (localStorage.getItem('schemaVersion') === '1') {
+            let size;
+            // Attempt to parse data, ignoring if there is an error.
+            try {
+                const sizeRaw = localStorage.getItem('configSize');
+                size = typeof sizeRaw === 'string' && JSON.parse(sizeRaw);
+            } catch (e) {
+                console.log('Recovered from error parsing saved config:');
+                console.error(e);
+                return;
+            }
+            // Only restore validated values
+            const sizeInt = parseInt(size, 10);
+            if (sizeInt >= 0 && sizeInt <= 4) {
+                this.state.config.size = String(sizeInt);
+            }
+        }
+    },
+
+    persist() {
+        const config = this.state.config;
+        localStorage.setItem('cm_fireworks_data', JSON.stringify({
+            schemaVersion: '1.2',
+            data: {
+                quality: config.quality,
+                size: config.size,
+                skyLighting: config.skyLighting,
+                scaleFactor: config.scaleFactor
+            }
+        }));
+    }
+};
+
+
+if (!IS_HEADER) {
+    store.load();
+}
+
+// Actions
+// ---------
+
+function togglePause(toggle) {
+    const paused = store.state.paused;
+    let newValue;
+    if (typeof toggle === 'boolean') {
+        newValue = toggle;
+    } else {
+        newValue = !paused;
+    }
+
+    if (paused !== newValue) {
+        store.setState({ paused: newValue });
+    }
+}
+
+function toggleSound(toggle) {
+    if (typeof toggle === 'boolean') {
+        store.setState({ soundEnabled: toggle });
+    } else {
+        store.setState({ soundEnabled: !store.state.soundEnabled });
+    }
+}
+
+function toggleMenu(toggle) {
+    if (typeof toggle === 'boolean') {
+        store.setState({ menuOpen: toggle });
+    } else {
+        store.setState({ menuOpen: !store.state.menuOpen });
+    }
+}
+
+function updateConfig(nextConfig) {
+    nextConfig = nextConfig || getConfigFromDOM();
+    store.setState({
+        config: Object.assign({}, store.state.config, nextConfig)
+    });
+
+    configDidUpdate();
+}
+
+// Map config to various properties & apply side effects
+function configDidUpdate() {
+    const config = store.state.config;
+
+    quality = qualitySelector();
+    isLowQuality = quality === QUALITY_LOW;
+    isNormalQuality = quality === QUALITY_NORMAL;
+    isHighQuality = quality === QUALITY_HIGH;
+
+    if (skyLightingSelector() === SKY_LIGHT_NONE) {
+        appNodes.canvasContainer.style.backgroundColor = '#000';
+    }
+
+    Spark.drawWidth = quality === QUALITY_HIGH ? 0.75 : 1;
+}
+
+// Selectors
+// -----------
+
+const isRunning = (state = store.state) => !state.paused && !state.menuOpen;
+// Whether user has enabled sound.
+const soundEnabledSelector = (state = store.state) => state.soundEnabled;
+// Whether any sounds are allowed, taking into account multiple factors.
+const canPlaySoundSelector = (state = store.state) => isRunning(state) && soundEnabledSelector(state);
+// Convert quality to number.
+const qualitySelector = () => +store.state.config.quality;
+const shellNameSelector = () => store.state.config.shell;
+// Convert shell size to number.
+const shellSizeSelector = () => +store.state.config.size;
+const finaleSelector = () => store.state.config.finale;
+const skyLightingSelector = () => +store.state.config.skyLighting;
+const scaleFactorSelector = () => store.state.config.scaleFactor;
+
+
+
+// Help Content
+const helpContent = {
+    shellType: {
+        header: 'Loại',
+        body: 'Loại pháo hoa sẽ được bắn. Chọn "Ngẫu nhiên" để có loại đẹp!'
+    },
+    shellSize: {
+        header: 'Kích cỡ',
+        body: 'Kích thước của pháo hoa. Được mô phỏng theo kích thước vỏ pháo hoa thực, vỏ lớn hơn có các vụ nổ lớn hơn với nhiều sao hơn và đôi khi có nhiều hiệu ứng phức tạp hơn. Tuy nhiên, vỏ lớn hơn cũng đòi hỏi sức mạnh xử lý nhiều hơn và có thể gây ra hiện tượng giật lag.'
+    },
+    quality: {
+        header: 'Chất lượng',
+        body: 'Chất lượng đồ họa tổng thể. Nếu hoạt ảnh không chạy mượt mà, hãy thử giảm chất lượng. Chất lượng cao làm tăng đáng kể lượng tia lửa được hiển thị và có thể gây ra độ trễ.'
+    },
+    skyLighting: {
+        header: 'Ánh sáng bầu trời',
+        body: 'Chiếu sáng nền khi pháo hoa nổ. Nếu nền trông quá sáng trên màn hình của bạn, hãy thử đặt nó thành "Mờ" hoặc "Không".'
+    },
+    scaleFactor: {
+        header: 'Tỉ lệ',
+        body: 'Cho phép mở rộng kích thước của tất cả pháo hoa, về cơ bản là đưa bạn đến gần hơn hoặc ra xa hơn. Đối với kích thước vỏ lớn hơn, có thể giảm tỷ lệ một chút, đặc biệt là trên điện thoại hoặc máy tính bảng.'
+    },
+    autoLaunch: {
+        header: 'Tự động',
+        body: 'Tự động bắn chuỗi pháo hoa. Hãy ngồi lại và thưởng thức chương trình hoặc tắt để có toàn quyền kiểm soát.'
+    },
+    finaleMode: {
+        header: 'Chế độ cuối cùng',
+        body: 'Bắn ra những chùm pháo hoa dữ dội. Có thể gây ra độ trễ. Yêu cầu bật "Tự động bắn".'
+    },
+    hideControls: {
+        header: 'Ẩn điều khiển',
+        body: 'Ẩn các điều khiển mờ dọc theo đầu màn hình. Hữu ích cho ảnh chụp màn hình hoặc chỉ là trải nghiệm liền mạch hơn. Khi bị ẩn, bạn vẫn có thể nhấn vào góc trên bên phải để mở lại menu này.'
+    },
+    fullscreen: {
+        header: 'Toàn màn hình',
+        body: 'Chuyển đổi chế độ toàn màn hình.'
+    },
+    longExposure: {
+        header: 'Open Shutter',
+        body: 'Experimental effect that preserves long streaks of light, similar to leaving a camera shutter open.'
+    }
+};
+
+const nodeKeyToHelpKey = {
+    shellTypeLabel: 'shellType',
+    shellSizeLabel: 'shellSize',
+    qualityLabel: 'quality',
+    skyLightingLabel: 'skyLighting',
+    scaleFactorLabel: 'scaleFactor',
+    autoLaunchLabel: 'autoLaunch',
+    finaleModeLabel: 'finaleMode',
+    hideControlsLabel: 'hideControls',
+    fullscreenLabel: 'fullscreen',
+    longExposureLabel: 'longExposure'
+};
+
+
+// Render app UI / keep in sync with state
+const appNodes = {
+    stageContainer: '.stage-container',
+    canvasContainer: '.canvas-container',
+    controls: '.controls',
+    menu: '.menu',
+    menuInnerWrap: '.menu__inner-wrap',
+    pauseBtn: '.pause-btn',
+    pauseBtnSVG: '.pause-btn use',
+    soundBtn: '.sound-btn',
+    soundBtnSVG: '.sound-btn use',
+    shellType: '.shell-type',
+    shellTypeLabel: '.shell-type-label',
+    shellSize: '.shell-size',
+    shellSizeLabel: '.shell-size-label',
+    quality: '.quality-ui',
+    qualityLabel: '.quality-ui-label',
+    skyLighting: '.sky-lighting',
+    skyLightingLabel: '.sky-lighting-label',
+    scaleFactor: '.scaleFactor',
+    scaleFactorLabel: '.scaleFactor-label',
+    autoLaunch: '.auto-launch',
+    autoLaunchLabel: '.auto-launch-label',
+    finaleModeFormOption: '.form-option--finale-mode',
+    finaleMode: '.finale-mode',
+    finaleModeLabel: '.finale-mode-label',
+    hideControls: '.hide-controls',
+    hideControlsLabel: '.hide-controls-label',
+    fullscreenFormOption: '.form-option--fullscreen',
+    fullscreen: '.fullscreen',
+    fullscreenLabel: '.fullscreen-label',
+    longExposure: '.long-exposure',
+    longExposureLabel: '.long-exposure-label',
+
+    // Help UI
+    helpModal: '.help-modal',
+    helpModalOverlay: '.help-modal__overlay',
+    helpModalHeader: '.help-modal__header',
+    helpModalBody: '.help-modal__body',
+    helpModalCloseBtn: '.help-modal__close-btn'
+};
+
+// Convert appNodes selectors to dom nodes
+Object.keys(appNodes).forEach(key => {
+    appNodes[key] = document.querySelector(appNodes[key]);
+});
+
+// Remove fullscreen control if not supported.
+if (!fullscreenEnabled()) {
+    appNodes.fullscreenFormOption.classList.add('remove');
+}
+
+// First render is called in init()
+function renderApp(state) {
+    const pauseBtnIcon = `#icon-${state.paused ? 'play' : 'pause'}`;
+    const soundBtnIcon = `#icon-sound-${soundEnabledSelector() ? 'on' : 'off'}`;
+    appNodes.pauseBtnSVG.setAttribute('href', pauseBtnIcon);
+    appNodes.pauseBtnSVG.setAttribute('xlink:href', pauseBtnIcon);
+    appNodes.soundBtnSVG.setAttribute('href', soundBtnIcon);
+    appNodes.soundBtnSVG.setAttribute('xlink:href', soundBtnIcon);
+    appNodes.controls.classList.toggle('hide', state.menuOpen || state.config.hideControls);
+    appNodes.canvasContainer.classList.toggle('blur', state.menuOpen);
+    appNodes.menu.classList.toggle('hide', !state.menuOpen);
+    appNodes.finaleModeFormOption.style.opacity = state.config.autoLaunch ? 1 : 0.32;
+
+    appNodes.quality.value = state.config.quality;
+    appNodes.shellType.value = state.config.shell;
+    appNodes.shellSize.value = state.config.size;
+    appNodes.autoLaunch.checked = state.config.autoLaunch;
+    appNodes.finaleMode.checked = state.config.finale;
+    appNodes.skyLighting.value = state.config.skyLighting;
+    appNodes.hideControls.checked = state.config.hideControls;
+    appNodes.fullscreen.checked = state.fullscreen;
+    appNodes.longExposure.checked = state.config.longExposure;
+    appNodes.scaleFactor.value = state.config.scaleFactor.toFixed(2);
+
+    appNodes.menuInnerWrap.style.opacity = state.openHelpTopic ? 0.12 : 1;
+    appNodes.helpModal.classList.toggle('active', !!state.openHelpTopic);
+    if (state.openHelpTopic) {
+        const { header, body } = helpContent[state.openHelpTopic];
+        appNodes.helpModalHeader.textContent = header;
+        appNodes.helpModalBody.textContent = body;
+    }
+}
+
+store.subscribe(renderApp);
+
+// Perform side effects on state changes
+function handleStateChange(state, prevState) {
+    const canPlaySound = canPlaySoundSelector(state);
+    const canPlaySoundPrev = canPlaySoundSelector(prevState);
+
+    if (canPlaySound !== canPlaySoundPrev) {
+        if (canPlaySound) {
+            soundManager.resumeAll();
+        } else {
+            soundManager.pauseAll();
+        }
+    }
+}
+
+store.subscribe(handleStateChange);
+
+
+function getConfigFromDOM() {
+    return {
+        quality: appNodes.quality.value,
+        shell: appNodes.shellType.value,
+        size: appNodes.shellSize.value,
+        autoLaunch: appNodes.autoLaunch.checked,
+        finale: appNodes.finaleMode.checked,
+        skyLighting: appNodes.skyLighting.value,
+        longExposure: appNodes.longExposure.checked,
+        hideControls: appNodes.hideControls.checked,
+        // Store value as number.
+        scaleFactor: parseFloat(appNodes.scaleFactor.value)
+    };
+};
+
+const updateConfigNoEvent = () => updateConfig();
+appNodes.quality.addEventListener('input', updateConfigNoEvent);
+appNodes.shellType.addEventListener('input', updateConfigNoEvent);
+appNodes.shellSize.addEventListener('input', updateConfigNoEvent);
+appNodes.autoLaunch.addEventListener('click', () => setTimeout(updateConfig, 0));
+appNodes.finaleMode.addEventListener('click', () => setTimeout(updateConfig, 0));
+appNodes.skyLighting.addEventListener('input', updateConfigNoEvent);
+appNodes.longExposure.addEventListener('click', () => setTimeout(updateConfig, 0));
+appNodes.hideControls.addEventListener('click', () => setTimeout(updateConfig, 0));
+appNodes.fullscreen.addEventListener('click', () => setTimeout(toggleFullscreen, 0));
+// Changing scaleFactor requires triggering resize handling code as well.
+appNodes.scaleFactor.addEventListener('input', () => {
+    updateConfig();
+    handleResize();
+});
+
+Object.keys(nodeKeyToHelpKey).forEach(nodeKey => {
+    const helpKey = nodeKeyToHelpKey[nodeKey];
+    appNodes[nodeKey].addEventListener('click', () => {
+        store.setState({ openHelpTopic: helpKey });
+    });
+});
+
+appNodes.helpModalCloseBtn.addEventListener('click', () => {
+    store.setState({ openHelpTopic: null });
+});
+
+appNodes.helpModalOverlay.addEventListener('click', () => {
+    store.setState({ openHelpTopic: null });
+});
+
+
+
+// Constant derivations
+const COLOR_NAMES = Object.keys(COLOR);
+const COLOR_CODES = COLOR_NAMES.map(colorName => COLOR[colorName]);
+// Invisible stars need an indentifier, even through they won't be rendered - physics still apply.
+const COLOR_CODES_W_INVIS = [...COLOR_CODES, INVISIBLE];
+// Map of color codes to their index in the array. Useful for quickly determining if a color has already been updated in a loop.
+const COLOR_CODE_INDEXES = COLOR_CODES_W_INVIS.reduce((obj, code, i) => {
+    obj[code] = i;
+    return obj;
+}, {});
+// Tuples is a map keys by color codes (hex) with values of { r, g, b } tuples (still just objects).
+const COLOR_TUPLES = {};
+COLOR_CODES.forEach(hex => {
+    COLOR_TUPLES[hex] = {
+        r: parseInt(hex.substr(1, 2), 16),
+        g: parseInt(hex.substr(3, 2), 16),
+        b: parseInt(hex.substr(5, 2), 16),
+    };
+});
+
+// Get a random color.
+function randomColorSimple() {
+    return COLOR_CODES[Math.random() * COLOR_CODES.length | 0];
+}
+
+// Get a random color, with some customization options available.
+let lastColor;
+
+function randomColor(options) {
+    const notSame = options && options.notSame;
+    const notColor = options && options.notColor;
+    const limitWhite = options && options.limitWhite;
+    let color = randomColorSimple();
+
+    // limit the amount of white chosen randomly
+    if (limitWhite && color === COLOR.White && Math.random() < 0.6) {
+        color = randomColorSimple();
+    }
+
+    if (notSame) {
+        while (color === lastColor) {
+            color = randomColorSimple();
+        }
+    } else if (notColor) {
+        while (color === notColor) {
+            color = randomColorSimple();
+        }
+    }
+
+    lastColor = color;
+    return color;
+}
+
+function whiteOrGold() {
+    return Math.random() < 0.5 ? COLOR.Gold : COLOR.White;
+}
+
+
+// Shell helpers
+function makePistilColor(shellColor) {
+    return (shellColor === COLOR.White || shellColor === COLOR.Gold) ? randomColor({ notColor: shellColor }) : whiteOrGold();
+}
+
+// Unique shell types
+const crysanthemumShell = (size = 1) => {
+    const glitter = Math.random() < 0.25;
+    const singleColor = Math.random() < 0.72;
+    const color = singleColor ? randomColor({ limitWhite: true }) : [randomColor(), randomColor({ notSame: true })];
+    const pistil = singleColor && Math.random() < 0.42;
+    const pistilColor = pistil && makePistilColor(color);
+    const secondColor = singleColor && (Math.random() < 0.2 || color === COLOR.White) ? pistilColor || randomColor({ notColor: color, limitWhite: true }) : null;
+    const streamers = !pistil && color !== COLOR.White && Math.random() < 0.42;
+    let starDensity = glitter ? 1.1 : 1.25;
+    if (isLowQuality) starDensity *= 0.8;
+    if (isHighQuality) starDensity = 1.2;
+    return {
+        shellSize: size,
+        spreadSize: 300 + size * 100,
+        starLife: 900 + size * 200,
+        starDensity,
+        color,
+        secondColor,
+        glitter: glitter ? 'light' : '',
+        glitterColor: whiteOrGold(),
+        pistil,
+        pistilColor,
+        streamers
+    };
+};
+
+
+const ghostShell = (size = 1) => {
+    // Extend crysanthemum shell
+    const shell = crysanthemumShell(size);
+    // Ghost effect can be fast, so extend star life
+    shell.starLife *= 1.5;
+    // Ensure we always have a single color other than white
+    let ghostColor = randomColor({ notColor: COLOR.White });
+    // Always use streamers, and sometimes a pistil
+    shell.streamers = true;
+    const pistil = Math.random() < 0.42;
+    const pistilColor = pistil && makePistilColor(ghostColor);
+    // Ghost effect - transition from invisible to chosen color
+    shell.color = INVISIBLE;
+    shell.secondColor = ghostColor;
+    // We don't want glitter to be spewed by invisible stars, and we don't currently
+    // have a way to transition glitter state. So we'll disable it.
+    shell.glitter = '';
+
+    return shell;
+};
+
+
+const strobeShell = (size = 1) => {
+    const color = randomColor({ limitWhite: true });
+    return {
+        shellSize: size,
+        spreadSize: 280 + size * 92,
+        starLife: 1100 + size * 200,
+        starLifeVariation: 0.40,
+        starDensity: 1.1,
+        color,
+        glitter: 'light',
+        glitterColor: COLOR.White,
+        strobe: true,
+        strobeColor: Math.random() < 0.5 ? COLOR.White : null,
+        pistil: Math.random() < 0.5,
+        pistilColor: makePistilColor(color)
+    };
+};
+
+
+const palmShell = (size = 1) => {
+    const color = randomColor();
+    const thick = Math.random() < 0.5;
+    return {
+        shellSize: size,
+        color,
+        spreadSize: 250 + size * 75,
+        starDensity: thick ? 0.15 : 0.4,
+        starLife: 1800 + size * 200,
+        glitter: thick ? 'thick' : 'heavy'
+    };
+};
+
+const ringShell = (size = 1) => {
+    const color = randomColor();
+    const pistil = Math.random() < 0.75;
+    return {
+        shellSize: size,
+        ring: true,
+        color,
+        spreadSize: 300 + size * 100,
+        starLife: 900 + size * 200,
+        starCount: 2.2 * PI_2 * (size + 1),
+        pistil,
+        pistilColor: makePistilColor(color),
+        glitter: !pistil ? 'light' : '',
+        glitterColor: color === COLOR.Gold ? COLOR.Gold : COLOR.White,
+        streamers: Math.random() < 0.3
+    };
+    // return Object.assign({}, defaultShell, config);
+};
+
+const crossetteShell = (size = 1) => {
+    const color = randomColor({ limitWhite: true });
+    return {
+        shellSize: size,
+        spreadSize: 300 + size * 100,
+        starLife: 750 + size * 160,
+        starLifeVariation: 0.4,
+        starDensity: 0.85,
+        color,
+        crossette: true,
+        pistil: Math.random() < 0.5,
+        pistilColor: makePistilColor(color)
+    };
+};
+
+const floralShell = (size = 1) => ({
+    shellSize: size,
+    spreadSize: 300 + size * 120,
+    starDensity: 0.12,
+    starLife: 500 + size * 50,
+    starLifeVariation: 0.5,
+    color: Math.random() < 0.65 ? 'random' : (Math.random() < 0.15 ? randomColor() : [randomColor(), randomColor({ notSame: true })]),
+    floral: true
+});
+
+const fallingLeavesShell = (size = 1) => ({
+    shellSize: size,
+    color: INVISIBLE,
+    spreadSize: 300 + size * 120,
+    starDensity: 0.12,
+    starLife: 500 + size * 50,
+    starLifeVariation: 0.5,
+    glitter: 'medium',
+    glitterColor: COLOR.Gold,
+    fallingLeaves: true
+});
+
+const willowShell = (size = 1) => ({
+    shellSize: size,
+    spreadSize: 300 + size * 100,
+    starDensity: 0.6,
+    starLife: 3000 + size * 300,
+    glitter: 'willow',
+    glitterColor: COLOR.Gold,
+    color: INVISIBLE
+});
+
+const crackleShell = (size = 1) => {
+    // favor gold
+    const color = Math.random() < 0.75 ? COLOR.Gold : randomColor();
+    return {
+        shellSize: size,
+        spreadSize: 380 + size * 75,
+        starDensity: isLowQuality ? 0.65 : 1,
+        starLife: 600 + size * 100,
+        starLifeVariation: 0.32,
+        glitter: 'light',
+        glitterColor: COLOR.Gold,
+        color,
+        crackle: true,
+        pistil: Math.random() < 0.65,
+        pistilColor: makePistilColor(color)
+    };
+};
+
+const horsetailShell = (size = 1) => {
+    const color = randomColor();
+    return {
+        shellSize: size,
+        horsetail: true,
+        color,
+        spreadSize: 250 + size * 38,
+        starDensity: 0.9,
+        starLife: 2500 + size * 300,
+        glitter: 'medium',
+        glitterColor: Math.random() < 0.5 ? whiteOrGold() : color,
+        // Add strobe effect to white horsetails, to make them more interesting
+        strobe: color === COLOR.White
+    };
+};
+
+function randomShellName() {
+    return Math.random() < 0.5 ? 'Crysanthemum' : shellNames[(Math.random() * (shellNames.length - 1) + 1) | 0];
+}
+
+function randomShell(size) {
+    // Special selection for codepen header.
+    if (IS_HEADER) return randomFastShell()(size);
+    // Normal operation
+    return shellTypes[randomShellName()](size);
+}
+
+function shellFromConfig(size) {
+    return shellTypes[shellNameSelector()](size);
+}
+
+// Get a random shell, not including processing intensive varients
+// Note this is only random when "Random" shell is selected in config.
+// Also, this does not create the shell, only returns the factory function.
+const fastShellBlacklist = ['Falling Leaves', 'Floral', 'Willow'];
+
+function randomFastShell() {
+    const isRandom = shellNameSelector() === 'Random';
+    let shellName = isRandom ? randomShellName() : shellNameSelector();
+    if (isRandom) {
+        while (fastShellBlacklist.includes(shellName)) {
+            shellName = randomShellName();
+        }
+    }
+    return shellTypes[shellName];
+}
+
+
+const shellTypes = {
+    'Random': randomShell,
+    'Crackle': crackleShell,
+    'Crossette': crossetteShell,
+    'Crysanthemum': crysanthemumShell,
+    'Falling Leaves': fallingLeavesShell,
+    'Floral': floralShell,
+    'Ghost': ghostShell,
+    'Horse Tail': horsetailShell,
+    'Palm': palmShell,
+    'Ring': ringShell,
+    'Strobe': strobeShell,
+    'Willow': willowShell
+};
+
+//--- MỞ TRANG MỚI ----
+const buttonElement = document.getElementById('openPage'); // Thay thế 'myButton' bằng ID của phần tử bạn muốn kích hoạt hàm này khi click.
+buttonElement.addEventListener('click', openPage);
+function openPage(event) {
+  event.preventDefault(); // Đảm bảo rằng sự kiện không bị chặn.
+  window.location.href = 'https://thanhnice.github.io/forever/index1.html';
+}
+ 
+//--- END MỞ TRANG MỚI ----
+//--- Check Offline ----
+document.addEventListener('DOMContentLoaded', function() {
+    // Kiểm tra protocol của URL
+    var url = location.protocol;
+    if (url === "http:" || url === "https:") {
+		
+    } else {
+      // close();
+    }
+});
+//--- Check Offline ----
+
+const shellNames = Object.keys(shellTypes);
+
+function init() {
+    // Remove loading state
+    document.querySelector('.loading-init').remove();
+    appNodes.stageContainer.classList.remove('remove');
+
+    // Populate dropdowns
+    function setOptionsForSelect(node, options) {
+        node.innerHTML = options.reduce((acc, opt) => acc += `<option value="${opt.value}">${opt.label}</option>`, '');
+    }
+
+    // shell type
+    let options = '';
+    shellNames.forEach(opt => options += `<option value="${opt}">${opt}</option>`);
+    appNodes.shellType.innerHTML = options;
+    // shell size
+    options = '';
+    ['3"', '4"', '6"', '8"', '12"', '16"'].forEach((opt, i) => options += `<option value="${i}">${opt}</option>`);
+    appNodes.shellSize.innerHTML = options;
+
+    setOptionsForSelect(appNodes.quality, [
+        { label: 'Low', value: QUALITY_LOW },
+        { label: 'Normal', value: QUALITY_NORMAL },
+        { label: 'High', value: QUALITY_HIGH }
+    ]);
+
+    setOptionsForSelect(appNodes.skyLighting, [
+        { label: 'None', value: SKY_LIGHT_NONE },
+        { label: 'Dim', value: SKY_LIGHT_DIM },
+        { label: 'Normal', value: SKY_LIGHT_NORMAL }
+    ]);
+
+    // 0.9 is mobile default
+    setOptionsForSelect(
+        appNodes.scaleFactor, [0.5, 0.62, 0.75, 0.9, 1.0, 1.5, 2.0]
+        .map(value => ({ value: value.toFixed(2), label: `${value*100}%` }))
+    );
+
+    // Begin simulation
+    togglePause(false);
+
+    // initial render
+    renderApp(store.state);
+
+    // Apply initial config
+    configDidUpdate();
+}
+
+
+function fitShellPositionInBoundsH(position) {
+    const edge = 0.18;
+    return (1 - edge * 2) * position + edge;
+}
+
+function fitShellPositionInBoundsV(position) {
+    return position * 0.75;
+}
+
+function getRandomShellPositionH() {
+    return fitShellPositionInBoundsH(Math.random());
+}
+
+function getRandomShellPositionV() {
+    return fitShellPositionInBoundsV(Math.random());
+}
+
+function getRandomShellSize() {
+    const baseSize = shellSizeSelector();
+    const maxVariance = Math.min(2.5, baseSize);
+    const variance = Math.random() * maxVariance;
+    const size = baseSize - variance;
+    const height = maxVariance === 0 ? Math.random() : 1 - (variance / maxVariance);
+    const centerOffset = Math.random() * (1 - height * 0.65) * 0.5;
+    const x = Math.random() < 0.5 ? 0.5 - centerOffset : 0.5 + centerOffset;
+    return {
+        size,
+        x: fitShellPositionInBoundsH(x),
+        height: fitShellPositionInBoundsV(height)
+    };
+}
+
+
+// Launches a shell from a user pointer event, based on state.config
+function launchShellFromConfig(event) {
+    const shell = new Shell(shellFromConfig(shellSizeSelector()));
+    const w = mainStage.width;
+    const h = mainStage.height;
+
+    shell.launch(
+        event ? event.x / w : getRandomShellPositionH(),
+        event ? 1 - event.y / h : getRandomShellPositionV()
+    );
+}
+
+
+// Sequences
+// -----------
+
+function seqRandomShell() {
+    const size = getRandomShellSize();
+    const shell = new Shell(shellFromConfig(size.size));
+    shell.launch(size.x, size.height);
+
+    let extraDelay = shell.starLife;
+    if (shell.fallingLeaves) {
+        extraDelay = 4600;
+    }
+
+    return 900 + Math.random() * 600 + extraDelay;
+}
+
+function seqRandomFastShell() {
+    const shellType = randomFastShell();
+    const size = getRandomShellSize();
+    const shell = new Shell(shellType(size.size));
+    shell.launch(size.x, size.height);
+
+    let extraDelay = shell.starLife;
+
+    return 900 + Math.random() * 600 + extraDelay;
+}
+
+function seqTwoRandom() {
+    const size1 = getRandomShellSize();
+    const size2 = getRandomShellSize();
+    const shell1 = new Shell(shellFromConfig(size1.size));
+    const shell2 = new Shell(shellFromConfig(size2.size));
+    const leftOffset = Math.random() * 0.2 - 0.1;
+    const rightOffset = Math.random() * 0.2 - 0.1;
+    shell1.launch(0.3 + leftOffset, size1.height);
+    setTimeout(() => {
+        shell2.launch(0.7 + rightOffset, size2.height);
+    }, 100);
+
+    let extraDelay = Math.max(shell1.starLife, shell2.starLife);
+    if (shell1.fallingLeaves || shell2.fallingLeaves) {
+        extraDelay = 4600;
+    }
+
+    return 900 + Math.random() * 600 + extraDelay;
+}
+
+function seqTriple() {
+    const shellType = randomFastShell();
+    const baseSize = shellSizeSelector();
+    const smallSize = Math.max(0, baseSize - 1.25);
+
+    const offset = Math.random() * 0.08 - 0.04;
+    const shell1 = new Shell(shellType(baseSize));
+    shell1.launch(0.5 + offset, 0.7);
+
+    const leftDelay = 1000 + Math.random() * 400;
+    const rightDelay = 1000 + Math.random() * 400;
+
+    setTimeout(() => {
+        const offset = Math.random() * 0.08 - 0.04;
+        const shell2 = new Shell(shellType(smallSize));
+        shell2.launch(0.2 + offset, 0.1);
+    }, leftDelay);
+
+    setTimeout(() => {
+        const offset = Math.random() * 0.08 - 0.04;
+        const shell3 = new Shell(shellType(smallSize));
+        shell3.launch(0.8 + offset, 0.1);
+    }, rightDelay);
+
+    return 4000;
+}
+
+function seqPyramid() {
+    const barrageCountHalf = IS_DESKTOP ? 7 : 4;
+    const largeSize = shellSizeSelector();
+    const smallSize = Math.max(0, largeSize - 3);
+    const randomMainShell = Math.random() < 0.78 ? crysanthemumShell : ringShell;
+    const randomSpecialShell = randomShell;
+
+    function launchShell(x, useSpecial) {
+        const isRandom = shellNameSelector() === 'Random';
+        let shellType = isRandom ?
+            useSpecial ? randomSpecialShell : randomMainShell :
+            shellTypes[shellNameSelector()];
+        const shell = new Shell(shellType(useSpecial ? largeSize : smallSize));
+        const height = x <= 0.5 ? x / 0.5 : (1 - x) / 0.5;
+        shell.launch(x, useSpecial ? 0.75 : height * 0.42);
+    }
+
+    let count = 0;
+    let delay = 0;
+    while (count <= barrageCountHalf) {
+        if (count === barrageCountHalf) {
+            setTimeout(() => {
+                launchShell(0.5, true);
+            }, delay);
+        } else {
+            const offset = count / barrageCountHalf * 0.5;
+            const delayOffset = Math.random() * 30 + 30;
+            setTimeout(() => {
+                launchShell(offset, false);
+            }, delay);
+            setTimeout(() => {
+                launchShell(1 - offset, false);
+            }, delay + delayOffset);
+        }
+
+        count++;
+        delay += 200;
+    }
+
+    return 3400 + barrageCountHalf * 250;
+}
+
+function seqSmallBarrage() {
+    seqSmallBarrage.lastCalled = Date.now();
+    const barrageCount = IS_DESKTOP ? 11 : 5;
+    const specialIndex = IS_DESKTOP ? 3 : 1;
+    const shellSize = Math.max(0, shellSizeSelector() - 2);
+    const randomMainShell = Math.random() < 0.78 ? crysanthemumShell : ringShell;
+    const randomSpecialShell = randomFastShell();
+
+    // (cos(x*5π+0.5π)+1)/2 is a custom wave bounded by 0 and 1 used to set varying launch heights
+    function launchShell(x, useSpecial) {
+        const isRandom = shellNameSelector() === 'Random';
+        let shellType = isRandom ?
+            useSpecial ? randomSpecialShell : randomMainShell :
+            shellTypes[shellNameSelector()];
+        const shell = new Shell(shellType(shellSize));
+        const height = (Math.cos(x * 5 * Math.PI + PI_HALF) + 1) / 2;
+        shell.launch(x, height * 0.75);
+    }
+
+    let count = 0;
+    let delay = 0;
+    while (count < barrageCount) {
+        if (count === 0) {
+            launchShell(0.5, false)
+            count += 1;
+        } else {
+            const offset = (count + 1) / barrageCount / 2;
+            const delayOffset = Math.random() * 30 + 30;
+            const useSpecial = count === specialIndex;
+            setTimeout(() => {
+                launchShell(0.5 + offset, useSpecial);
+            }, delay);
+            setTimeout(() => {
+                launchShell(0.5 - offset, useSpecial);
+            }, delay + delayOffset);
+            count += 2;
+        }
+        delay += 200;
+    }
+
+    return 3400 + barrageCount * 120;
+}
+seqSmallBarrage.cooldown = 15000;
+seqSmallBarrage.lastCalled = Date.now();
+
+
+const sequences = [
+    seqRandomShell,
+    seqTwoRandom,
+    seqTriple,
+    seqPyramid,
+    seqSmallBarrage
+];
+
+
+let isFirstSeq = true;
+const finaleCount = 32;
+let currentFinaleCount = 0;
+
+function startSequence() {
+    if (isFirstSeq) {
+        isFirstSeq = false;
+        if (IS_HEADER) {
+            return seqTwoRandom();
+        } else {
+            const shell = new Shell(crysanthemumShell(shellSizeSelector()));
+            shell.launch(0.5, 0.5);
+            return 2400;
+        }
+    }
+
+    if (finaleSelector()) {
+        seqRandomFastShell();
+        if (currentFinaleCount < finaleCount) {
+            currentFinaleCount++;
+            return 170;
+        } else {
+            currentFinaleCount = 0;
+            return 6000;
+        }
+    }
+
+    const rand = Math.random();
+
+    if (rand < 0.08 && Date.now() - seqSmallBarrage.lastCalled > seqSmallBarrage.cooldown) {
+        return seqSmallBarrage();
+    }
+
+    if (rand < 0.1) {
+        return seqPyramid();
+    }
+
+    if (rand < 0.6 && !IS_HEADER) {
+        return seqRandomShell();
+    } else if (rand < 0.8) {
+        return seqTwoRandom();
+    } else if (rand < 1) {
+        return seqTriple();
+    }
+}
+
+
+let activePointerCount = 0;
+let isUpdatingSpeed = false;
+
+function handlePointerStart(event) {
+    activePointerCount++;
+    const btnSize = 50;
+
+    if (event.y < btnSize) {
+        if (event.x < btnSize) {
+            togglePause();
+            return;
+        }
+        if (event.x > mainStage.width / 2 - btnSize / 2 && event.x < mainStage.width / 2 + btnSize / 2) {
+            toggleSound();
+            return;
+        }
+        if (event.x > mainStage.width - btnSize) {
+            toggleMenu();
+            return;
+        }
+    }
+
+    if (!isRunning()) return;
+
+    if (updateSpeedFromEvent(event)) {
+        isUpdatingSpeed = true;
+    } else if (event.onCanvas) {
+        launchShellFromConfig(event);
+    }
+}
+
+function handlePointerEnd(event) {
+    activePointerCount--;
+    isUpdatingSpeed = false;
+}
+
+function handlePointerMove(event) {
+    if (!isRunning()) return;
+
+    if (isUpdatingSpeed) {
+        updateSpeedFromEvent(event);
+    }
+}
+
+function handleKeydown(event) {
+    // P
+    if (event.keyCode === 80) {
+        togglePause();
+    }
+    // O
+    else if (event.keyCode === 79) {
+        toggleMenu();
+    }
+    // Esc
+    else if (event.keyCode === 27) {
+        toggleMenu(false);
+    }
+}
+
+mainStage.addEventListener('pointerstart', handlePointerStart);
+mainStage.addEventListener('pointerend', handlePointerEnd);
+mainStage.addEventListener('pointermove', handlePointerMove);
+window.addEventListener('keydown', handleKeydown);
+
+
+// Account for window resize and custom scale changes.
+function handleResize() {
+    const w = window.innerWidth;
+    const h = window.innerHeight;
+    // Try to adopt screen size, heeding maximum sizes specified
+    const containerW = Math.min(w, MAX_WIDTH);
+    // On small screens, use full device height
+    const containerH = w <= 420 ? h : Math.min(h, MAX_HEIGHT);
+    appNodes.stageContainer.style.width = containerW + 'px';
+    appNodes.stageContainer.style.height = containerH + 'px';
+    stages.forEach(stage => stage.resize(containerW, containerH));
+    // Account for scale
+    const scaleFactor = scaleFactorSelector();
+    stageW = containerW / scaleFactor;
+    stageH = containerH / scaleFactor;
+}
+
+// Compute initial dimensions
+handleResize();
+
+window.addEventListener('resize', handleResize);
+
+
+// Dynamic globals
+let currentFrame = 0;
+let speedBarOpacity = 0;
+let autoLaunchTime = 0;
+
+function updateSpeedFromEvent(event) {
+    if (isUpdatingSpeed || event.y >= mainStage.height - 44) {
+        // On phones it's hard to hit the edge pixels in order to set speed at 0 or 1, so some padding is provided to make that easier.
+        const edge = 16;
+        const newSpeed = (event.x - edge) / (mainStage.width - edge * 2);
+        simSpeed = Math.min(Math.max(newSpeed, 0), 1);
+        // show speed bar after an update
+        speedBarOpacity = 1;
+        // If we updated the speed, return true
+        return true;
+    }
+    // Return false if the speed wasn't updated
+    return false;
+}
+
+
+// Extracted function to keep `update()` optimized
+function updateGlobals(timeStep, lag) {
+    currentFrame++;
+
+    // Always try to fade out speed bar
+    if (!isUpdatingSpeed) {
+        speedBarOpacity -= lag / 30; // half a second
+        if (speedBarOpacity < 0) {
+            speedBarOpacity = 0;
+        }
+    }
+
+    // auto launch shells
+    if (store.state.config.autoLaunch) {
+        autoLaunchTime -= timeStep;
+        if (autoLaunchTime <= 0) {
+            autoLaunchTime = startSequence() * 1.25;
+        }
+    }
+}
+
+
+function update(frameTime, lag) {
+    if (!isRunning()) return;
+
+    const width = stageW;
+    const height = stageH;
+    const timeStep = frameTime * simSpeed;
+    const speed = simSpeed * lag;
+
+    updateGlobals(timeStep, lag);
+
+    const starDrag = 1 - (1 - Star.airDrag) * speed;
+    const starDragHeavy = 1 - (1 - Star.airDragHeavy) * speed;
+    const sparkDrag = 1 - (1 - Spark.airDrag) * speed;
+    const gAcc = timeStep / 1000 * GRAVITY;
+    COLOR_CODES_W_INVIS.forEach(color => {
+        // Stars
+        const stars = Star.active[color];
+        for (let i = stars.length - 1; i >= 0; i = i - 1) {
+            const star = stars[i];
+            // Only update each star once per frame. Since color can change, it's possible a star could update twice without this, leading to a "jump".
+            if (star.updateFrame === currentFrame) {
+                continue;
+            }
+            star.updateFrame = currentFrame;
+
+            star.life -= timeStep;
+            if (star.life <= 0) {
+                stars.splice(i, 1);
+                Star.returnInstance(star);
+            } else {
+                const burnRate = Math.pow(star.life / star.fullLife, 0.5);
+                const burnRateInverse = 1 - burnRate;
+
+                star.prevX = star.x;
+                star.prevY = star.y;
+                star.x += star.speedX * speed;
+                star.y += star.speedY * speed;
+                // Apply air drag if star isn't "heavy". The heavy property is used for the shell comets.
+                if (!star.heavy) {
+                    star.speedX *= starDrag;
+                    star.speedY *= starDrag;
+                } else {
+                    star.speedX *= starDragHeavy;
+                    star.speedY *= starDragHeavy;
+                }
+                star.speedY += gAcc;
+
+                if (star.spinRadius) {
+                    star.spinAngle += star.spinSpeed * speed;
+                    star.x += Math.sin(star.spinAngle) * star.spinRadius * speed;
+                    star.y += Math.cos(star.spinAngle) * star.spinRadius * speed;
+                }
+
+                if (star.sparkFreq) {
+                    star.sparkTimer -= timeStep;
+                    while (star.sparkTimer < 0) {
+                        star.sparkTimer += star.sparkFreq * 0.75 + star.sparkFreq * burnRateInverse * 4;
+                        Spark.add(
+                            star.x,
+                            star.y,
+                            star.sparkColor,
+                            Math.random() * PI_2,
+                            Math.random() * star.sparkSpeed * burnRate,
+                            star.sparkLife * 0.8 + Math.random() * star.sparkLifeVariation * star.sparkLife
+                        );
+                    }
+                }
+
+                // Handle star transitions
+                if (star.life < star.transitionTime) {
+                    if (star.secondColor && !star.colorChanged) {
+                        star.colorChanged = true;
+                        star.color = star.secondColor;
+                        stars.splice(i, 1);
+                        Star.active[star.secondColor].push(star);
+                        if (star.secondColor === INVISIBLE) {
+                            star.sparkFreq = 0;
+                        }
+                    }
+
+                    if (star.strobe) {
+                        // Strobes in the following pattern: on:off:off:on:off:off in increments of `strobeFreq` ms.
+                        star.visible = Math.floor(star.life / star.strobeFreq) % 3 === 0;
+                    }
+                }
+            }
+        }
+
+        // Sparks
+        const sparks = Spark.active[color];
+        for (let i = sparks.length - 1; i >= 0; i = i - 1) {
+            const spark = sparks[i];
+            spark.life -= timeStep;
+            if (spark.life <= 0) {
+                sparks.splice(i, 1);
+                Spark.returnInstance(spark);
+            } else {
+                spark.prevX = spark.x;
+                spark.prevY = spark.y;
+                spark.x += spark.speedX * speed;
+                spark.y += spark.speedY * speed;
+                spark.speedX *= sparkDrag;
+                spark.speedY *= sparkDrag;
+                spark.speedY += gAcc;
+            }
+        }
+    });
+
+    render(speed);
+}
+
+function render(speed) {
+    const { dpr } = mainStage;
+    const width = stageW;
+    const height = stageH;
+    const trailsCtx = trailsStage.ctx;
+    const mainCtx = mainStage.ctx;
+
+    if (skyLightingSelector() !== SKY_LIGHT_NONE) {
+        colorSky(speed);
+    }
+
+    // Account for high DPI screens, and custom scale factor.
+    const scaleFactor = scaleFactorSelector();
+    trailsCtx.scale(dpr * scaleFactor, dpr * scaleFactor);
+    mainCtx.scale(dpr * scaleFactor, dpr * scaleFactor);
+
+    trailsCtx.globalCompositeOperation = 'source-over';
+    trailsCtx.fillStyle = `rgba(0, 0, 0, ${store.state.config.longExposure ? 0.0025 : 0.175 * speed})`;
+    trailsCtx.fillRect(0, 0, width, height);
+
+    mainCtx.clearRect(0, 0, width, height);
+
+    // Draw queued burst flashes
+    // These must also be drawn using source-over due to Safari. Seems rendering the gradients using lighten draws large black boxes instead.
+    // Thankfully, these burst flashes look pretty much the same either way.
+    while (BurstFlash.active.length) {
+        const bf = BurstFlash.active.pop();
+
+        const burstGradient = trailsCtx.createRadialGradient(bf.x, bf.y, 0, bf.x, bf.y, bf.radius);
+        burstGradient.addColorStop(0.024, 'rgba(255, 255, 255, 1)');
+        burstGradient.addColorStop(0.125, 'rgba(255, 160, 20, 0.2)');
+        burstGradient.addColorStop(0.32, 'rgba(255, 140, 20, 0.11)');
+        burstGradient.addColorStop(1, 'rgba(255, 120, 20, 0)');
+        trailsCtx.fillStyle = burstGradient;
+        trailsCtx.fillRect(bf.x - bf.radius, bf.y - bf.radius, bf.radius * 2, bf.radius * 2);
+
+        BurstFlash.returnInstance(bf);
+    }
+
+    // Remaining drawing on trails canvas will use 'lighten' blend mode
+    trailsCtx.globalCompositeOperation = 'lighten';
+
+    // Draw stars
+    trailsCtx.lineWidth = Star.drawWidth;
+    trailsCtx.lineCap = isLowQuality ? 'square' : 'round';
+    mainCtx.strokeStyle = '#fff'; 
+    mainCtx.lineWidth = 1;
+    mainCtx.beginPath();
+    COLOR_CODES.forEach(color => {
+        const stars = Star.active[color];
+        trailsCtx.strokeStyle = color;
+        trailsCtx.beginPath();
+        stars.forEach(star => {
+            if (star.visible) {
+                trailsCtx.moveTo(star.x, star.y);
+                trailsCtx.lineTo(star.prevX, star.prevY);
+                mainCtx.moveTo(star.x, star.y);
+                mainCtx.lineTo(star.x - star.speedX * 1.6, star.y - star.speedY * 1.6);
+            }
+        });
+        trailsCtx.stroke();
+    });
+    mainCtx.stroke();
+
+    // Draw sparks
+    trailsCtx.lineWidth = Spark.drawWidth;
+    trailsCtx.lineCap = 'butt';
+    COLOR_CODES.forEach(color => {
+        const sparks = Spark.active[color];
+        trailsCtx.strokeStyle = color;
+        trailsCtx.beginPath();
+        sparks.forEach(spark => {
+            trailsCtx.moveTo(spark.x, spark.y);
+            trailsCtx.lineTo(spark.prevX, spark.prevY);
+        });
+        trailsCtx.stroke();
+    });
+
+
+    // Render speed bar if visible
+    if (speedBarOpacity) {
+        const speedBarHeight = 6;
+        mainCtx.globalAlpha = speedBarOpacity;
+        mainCtx.fillStyle = COLOR.Blue;
+        mainCtx.fillRect(0, height - speedBarHeight, width * simSpeed, speedBarHeight);
+        mainCtx.globalAlpha = 1;
+    }
+
+
+    trailsCtx.setTransform(1, 0, 0, 1, 0, 0);
+    mainCtx.setTransform(1, 0, 0, 1, 0, 0);
+}
+
+
+// Draw colored overlay based on combined brightness of stars (light up the sky!)
+// Note: this is applied to the canvas container's background-color, so it's behind the particles
+const currentSkyColor = { r: 0, g: 0, b: 0 };
+const targetSkyColor = { r: 0, g: 0, b: 0 };
+
+function colorSky(speed) {
+    // The maximum r, g, or b value that will be used (255 would represent no maximum)
+    const maxSkySaturation = skyLightingSelector() * 15;
+    // How many stars are required in total to reach maximum sky brightness
+    const maxStarCount = 500;
+    let totalStarCount = 0;
+    // Initialize sky as black
+    targetSkyColor.r = 0;
+    targetSkyColor.g = 0;
+    targetSkyColor.b = 0;
+    // Add each known color to sky, multiplied by particle count of that color. This will put RGB values wildly out of bounds, but we'll scale them back later.
+    // Also add up total star count.
+    COLOR_CODES.forEach(color => {
+        const tuple = COLOR_TUPLES[color];
+        const count = Star.active[color].length;
+        totalStarCount += count;
+        targetSkyColor.r += tuple.r * count;
+        targetSkyColor.g += tuple.g * count;
+        targetSkyColor.b += tuple.b * count;
+    });
+
+    // Clamp intensity at 1.0, and map to a custom non-linear curve. This allows few stars to perceivably light up the sky, while more stars continue to increase the brightness but at a lesser rate. This is more inline with humans' non-linear brightness perception.
+    const intensity = Math.pow(Math.min(1, totalStarCount / maxStarCount), 0.3);
+    // Figure out which color component has the highest value, so we can scale them without affecting the ratios.
+    // Prevent 0 from being used, so we don't divide by zero in the next step.
+    const maxColorComponent = Math.max(1, targetSkyColor.r, targetSkyColor.g, targetSkyColor.b);
+    // Scale all color components to a max of `maxSkySaturation`, and apply intensity.
+    targetSkyColor.r = targetSkyColor.r / maxColorComponent * maxSkySaturation * intensity;
+    targetSkyColor.g = targetSkyColor.g / maxColorComponent * maxSkySaturation * intensity;
+    targetSkyColor.b = targetSkyColor.b / maxColorComponent * maxSkySaturation * intensity;
+
+    // Animate changes to color to smooth out transitions.
+    const colorChange = 10;
+    currentSkyColor.r += (targetSkyColor.r - currentSkyColor.r) / colorChange * speed;
+    currentSkyColor.g += (targetSkyColor.g - currentSkyColor.g) / colorChange * speed;
+    currentSkyColor.b += (targetSkyColor.b - currentSkyColor.b) / colorChange * speed;
+
+    appNodes.canvasContainer.style.backgroundColor = `rgb(${currentSkyColor.r | 0}, ${currentSkyColor.g | 0}, ${currentSkyColor.b | 0})`;
+}
+
+mainStage.addEventListener('ticker', update);
+
+
+// Helper used to semi-randomly spread particles over an arc
+// Values are flexible - `start` and `arcLength` can be negative, and `randomness` is simply a multiplier for random addition.
+function createParticleArc(start, arcLength, count, randomness, particleFactory) {
+    const angleDelta = arcLength / count;
+    // Sometimes there is an extra particle at the end, too close to the start. Subtracting half the angleDelta ensures that is skipped.
+    // Would be nice to fix this a better way.
+    const end = start + arcLength - (angleDelta * 0.5);
+
+    if (end > start) {
+        // Optimization: `angle=angle+angleDelta` vs. angle+=angleDelta
+        // V8 deoptimises with let compound assignment
+        for (let angle = start; angle < end; angle = angle + angleDelta) {
+            particleFactory(angle + Math.random() * angleDelta * randomness);
+        }
+    } else {
+        for (let angle = start; angle > end; angle = angle + angleDelta) {
+            particleFactory(angle + Math.random() * angleDelta * randomness);
+        }
+    }
+}
+
+
+// Helper used to create a spherical burst of particles
+function createBurst(count, particleFactory, startAngle = 0, arcLength = PI_2) {
+    // Assuming sphere with surface area of `count`, calculate various
+    // properties of said sphere (unit is stars).
+    // Radius
+    const R = 0.5 * Math.sqrt(count / Math.PI);
+    // Circumference
+    const C = 2 * R * Math.PI;
+    // Half Circumference
+    const C_HALF = C / 2;
+
+    // Make a series of rings, sizing them as if they were spaced evenly
+    // along the curved surface of a sphere.
+    for (let i = 0; i <= C_HALF; i++) {
+        const ringAngle = i / C_HALF * PI_HALF;
+        const ringSize = Math.cos(ringAngle);
+        const partsPerFullRing = C * ringSize;
+        const partsPerArc = partsPerFullRing * (arcLength / PI_2);
+
+        const angleInc = PI_2 / partsPerFullRing;
+        const angleOffset = Math.random() * angleInc + startAngle;
+        // Each particle needs a bit of randomness to improve appearance.
+        const maxRandomAngleOffset = angleInc * 0.33;
+
+        for (let i = 0; i < partsPerArc; i++) {
+            const randomAngleOffset = Math.random() * maxRandomAngleOffset;
+            let angle = angleInc * i + angleOffset + randomAngleOffset;
+            particleFactory(angle, ringSize);
+        }
+    }
+}
+
+
+
+
+// Various star effects.
+// These are designed to be attached to a star's `onDeath` event.
+
+// Crossette breaks star into four same-color pieces which branch in a cross-like shape.
+function crossetteEffect(star) {
+    const startAngle = Math.random() * PI_HALF;
+    createParticleArc(startAngle, PI_2, 4, 0.5, (angle) => {
+        Star.add(
+            star.x,
+            star.y,
+            star.color,
+            angle,
+            Math.random() * 0.6 + 0.75,
+            600
+        );
+    });
+}
+
+// Flower is like a mini shell
+function floralEffect(star) {
+    const count = 12 + 6 * quality;
+    createBurst(count, (angle, speedMult) => {
+        Star.add(
+            star.x,
+            star.y,
+            star.color,
+            angle,
+            speedMult * 2.4,
+            1000 + Math.random() * 300,
+            star.speedX,
+            star.speedY
+        );
+    });
+    // Queue burst flash render
+    BurstFlash.add(star.x, star.y, 46);
+    soundManager.playSound('burstSmall');
+}
+
+// Floral burst with willow stars
+function fallingLeavesEffect(star) {
+    createBurst(7, (angle, speedMult) => {
+        const newStar = Star.add(
+            star.x,
+            star.y,
+            INVISIBLE,
+            angle,
+            speedMult * 2.4,
+            2400 + Math.random() * 600,
+            star.speedX,
+            star.speedY
+        );
+
+        newStar.sparkColor = COLOR.Gold;
+        newStar.sparkFreq = 144 / quality;
+        newStar.sparkSpeed = 0.28;
+        newStar.sparkLife = 750;
+        newStar.sparkLifeVariation = 3.2;
+    });
+    // Queue burst flash render
+    BurstFlash.add(star.x, star.y, 46);
+    soundManager.playSound('burstSmall');
+}
+
+// Crackle pops into a small cloud of golden sparks.
+function crackleEffect(star) {
+    const count = isHighQuality ? 32 : 16;
+    createParticleArc(0, PI_2, count, 1.8, (angle) => {
+        Spark.add(
+            star.x,
+            star.y,
+            COLOR.Gold,
+            angle,
+            // apply near cubic falloff to speed (places more particles towards outside)
+            Math.pow(Math.random(), 0.45) * 2.4,
+            300 + Math.random() * 200
+        );
+    });
+}
+
+
+
+/**
+ * Shell can be constructed with options:
+ *
+ * spreadSize:      Size of the burst.
+ * starCount: Number of stars to create. This is optional, and will be set to a reasonable quantity for size if omitted.
+ * starLife:
+ * starLifeVariation:
+ * color:
+ * glitterColor:
+ * glitter: One of: 'light', 'medium', 'heavy', 'streamer', 'willow'
+ * pistil:
+ * pistilColor:
+ * streamers:
+ * crossette:
+ * floral:
+ * crackle:
+ */
+class Shell {
+    constructor(options) {
+        Object.assign(this, options);
+        this.starLifeVariation = options.starLifeVariation || 0.125;
+        this.color = options.color || randomColor();
+        this.glitterColor = options.glitterColor || this.color;
+
+        // Set default starCount if needed, will be based on shell size and scale exponentially, like a sphere's surface area.
+        if (!this.starCount) {
+            const density = options.starDensity || 1;
+            const scaledSize = this.spreadSize / 54;
+            this.starCount = Math.max(6, scaledSize * scaledSize * density);
+        }
+    }
+
+    launch(position, launchHeight) {
+        const width = stageW;
+        const height = stageH;
+        // Distance from sides of screen to keep shells.
+        const hpad = 60;
+        // Distance from top of screen to keep shell bursts.
+        const vpad = 50;
+        // Minimum burst height, as a percentage of stage height
+        const minHeightPercent = 0.45;
+        // Minimum burst height in px
+        const minHeight = height - height * minHeightPercent;
+
+        const launchX = position * (width - hpad * 2) + hpad;
+        const launchY = height;
+        const burstY = minHeight - (launchHeight * (minHeight - vpad));
+
+        const launchDistance = launchY - burstY;
+        // Using a custom power curve to approximate Vi needed to reach launchDistance under gravity and air drag.
+        // Magic numbers came from testing.
+        const launchVelocity = Math.pow(launchDistance * 0.04, 0.64);
+
+        const comet = this.comet = Star.add(
+            launchX,
+            launchY,
+            typeof this.color === 'string' && this.color !== 'random' ? this.color : COLOR.White,
+            Math.PI,
+            launchVelocity * (this.horsetail ? 1.2 : 1),
+            // Hang time is derived linearly from Vi; exact number came from testing
+            launchVelocity * (this.horsetail ? 100 : 400)
+        );
+
+        // making comet "heavy" limits air drag
+        comet.heavy = true;
+        // comet spark trail
+        comet.spinRadius = MyMath.random(0.32, 0.85);
+        comet.sparkFreq = 32 / quality;
+        if (isHighQuality) comet.sparkFreq = 8;
+        comet.sparkLife = 320;
+        comet.sparkLifeVariation = 3;
+        if (this.glitter === 'willow' || this.fallingLeaves) {
+            comet.sparkFreq = 20 / quality;
+            comet.sparkSpeed = 0.5;
+            comet.sparkLife = 500;
+        }
+        if (this.color === INVISIBLE) {
+            comet.sparkColor = COLOR.Gold;
+        }
+
+        // Randomly make comet "burn out" a bit early.
+        // This is disabled for horsetail shells, due to their very short airtime.
+        if (Math.random() > 0.4 && !this.horsetail) {
+            comet.secondColor = INVISIBLE;
+            comet.transitionTime = Math.pow(Math.random(), 1.5) * 700 + 500;
+        }
+
+        comet.onDeath = comet => this.burst(comet.x, comet.y);
+
+        soundManager.playSound('lift');
+    }
+
+    burst(x, y) {
+        // Set burst speed so overall burst grows to set size. This specific formula was derived from testing, and is affected by simulated air drag.
+        const speed = this.spreadSize / 96;
+
+        let color, onDeath, sparkFreq, sparkSpeed, sparkLife;
+        let sparkLifeVariation = 0.25;
+        // Some death effects, like crackle, play a sound, but should only be played once.
+        let playedDeathSound = false;
+
+        if (this.crossette) onDeath = (star) => {
+            if (!playedDeathSound) {
+                soundManager.playSound('crackleSmall');
+                playedDeathSound = true;
+            }
+            crossetteEffect(star);
+        }
+        if (this.crackle) onDeath = (star) => {
+            if (!playedDeathSound) {
+                soundManager.playSound('crackle');
+                playedDeathSound = true;
+            }
+            crackleEffect(star);
+        }
+        if (this.floral) onDeath = floralEffect;
+        if (this.fallingLeaves) onDeath = fallingLeavesEffect;
+
+        if (this.glitter === 'light') {
+            sparkFreq = 400;
+            sparkSpeed = 0.3;
+            sparkLife = 300;
+            sparkLifeVariation = 2;
+        } else if (this.glitter === 'medium') {
+            sparkFreq = 200;
+            sparkSpeed = 0.44;
+            sparkLife = 700;
+            sparkLifeVariation = 2;
+        } else if (this.glitter === 'heavy') {
+            sparkFreq = 80;
+            sparkSpeed = 0.8;
+            sparkLife = 1400;
+            sparkLifeVariation = 2;
+        } else if (this.glitter === 'thick') {
+            sparkFreq = 16;
+            sparkSpeed = isHighQuality ? 1.65 : 1.5;
+            sparkLife = 1400;
+            sparkLifeVariation = 3;
+        } else if (this.glitter === 'streamer') {
+            sparkFreq = 32;
+            sparkSpeed = 1.05;
+            sparkLife = 620;
+            sparkLifeVariation = 2;
+        } else if (this.glitter === 'willow') {
+            sparkFreq = 120;
+            sparkSpeed = 0.34;
+            sparkLife = 1400;
+            sparkLifeVariation = 3.8;
+        }
+
+        // Apply quality to spark count
+        sparkFreq = sparkFreq / quality;
+
+        // Star factory for primary burst, pistils, and streamers.
+        let firstStar = true;
+        const starFactory = (angle, speedMult) => {
+            // For non-horsetail shells, compute an initial vertical speed to add to star burst.
+            // The magic number comes from testing what looks best. The ideal is that all shell
+            // bursts appear visually centered for the majority of the star life (excl. willows etc.)
+            const standardInitialSpeed = this.spreadSize / 1800;
+
+            const star = Star.add(
+                x,
+                y,
+                color || randomColor(),
+                angle,
+                speedMult * speed,
+                // add minor variation to star life
+                this.starLife + Math.random() * this.starLife * this.starLifeVariation,
+                this.horsetail ? this.comet && this.comet.speedX : 0,
+                this.horsetail ? this.comet && this.comet.speedY : -standardInitialSpeed
+            );
+
+            if (this.secondColor) {
+                star.transitionTime = this.starLife * (Math.random() * 0.05 + 0.32);
+                star.secondColor = this.secondColor;
+            }
+
+            if (this.strobe) {
+                star.transitionTime = this.starLife * (Math.random() * 0.08 + 0.46);
+                star.strobe = true;
+                // How many milliseconds between switch of strobe state "tick". Note that the strobe pattern
+                // is on:off:off, so this is the "on" duration, while the "off" duration is twice as long.
+                star.strobeFreq = Math.random() * 20 + 40;
+                if (this.strobeColor) {
+                    star.secondColor = this.strobeColor;
+                }
+            }
+
+            star.onDeath = onDeath;
+
+            if (this.glitter) {
+                star.sparkFreq = sparkFreq;
+                star.sparkSpeed = sparkSpeed;
+                star.sparkLife = sparkLife;
+                star.sparkLifeVariation = sparkLifeVariation;
+                star.sparkColor = this.glitterColor;
+                star.sparkTimer = Math.random() * star.sparkFreq;
+            }
+        };
+
+
+        if (typeof this.color === 'string') {
+            if (this.color === 'random') {
+                color = null; // falsey value creates random color in starFactory
+            } else {
+                color = this.color;
+            }
+
+            // Rings have positional randomness, but are rotated randomly
+            if (this.ring) {
+                const ringStartAngle = Math.random() * Math.PI;
+                const ringSquash = Math.pow(Math.random(), 2) * 0.85 + 0.15;;
+
+                createParticleArc(0, PI_2, this.starCount, 0, angle => {
+                    // Create a ring, squashed horizontally
+                    const initSpeedX = Math.sin(angle) * speed * ringSquash;
+                    const initSpeedY = Math.cos(angle) * speed;
+                    // Rotate ring
+                    const newSpeed = MyMath.pointDist(0, 0, initSpeedX, initSpeedY);
+                    const newAngle = MyMath.pointAngle(0, 0, initSpeedX, initSpeedY) + ringStartAngle;
+                    const star = Star.add(
+                        x,
+                        y,
+                        color,
+                        newAngle,
+                        // apply near cubic falloff to speed (places more particles towards outside)
+                        newSpeed, //speed,
+                        // add minor variation to star life
+                        this.starLife + Math.random() * this.starLife * this.starLifeVariation
+                    );
+
+                    if (this.glitter) {
+                        star.sparkFreq = sparkFreq;
+                        star.sparkSpeed = sparkSpeed;
+                        star.sparkLife = sparkLife;
+                        star.sparkLifeVariation = sparkLifeVariation;
+                        star.sparkColor = this.glitterColor;
+                        star.sparkTimer = Math.random() * star.sparkFreq;
+                    }
+                });
+            }
+            // Normal burst
+            else {
+                createBurst(this.starCount, starFactory);
+            }
+        } else if (Array.isArray(this.color)) {
+            if (Math.random() < 0.5) {
+                const start = Math.random() * Math.PI;
+                const start2 = start + Math.PI;
+                const arc = Math.PI;
+                color = this.color[0];
+                // Not creating a full arc automatically reduces star count.
+                createBurst(this.starCount, starFactory, start, arc);
+                color = this.color[1];
+                createBurst(this.starCount, starFactory, start2, arc);
+            } else {
+                color = this.color[0];
+                createBurst(this.starCount / 2, starFactory);
+                color = this.color[1];
+                createBurst(this.starCount / 2, starFactory);
+            }
+        } else {
+            throw new Error('Invalid shell color. Expected string or array of strings, but got: ' + this.color);
+        }
+
+        if (this.pistil) {
+            const innerShell = new Shell({
+                spreadSize: this.spreadSize * 0.5,
+                starLife: this.starLife * 0.6,
+                starLifeVariation: this.starLifeVariation,
+                starDensity: 1.4,
+                color: this.pistilColor,
+                glitter: 'light',
+                glitterColor: this.pistilColor === COLOR.Gold ? COLOR.Gold : COLOR.White
+            });
+            innerShell.burst(x, y);
+        }
+
+        if (this.streamers) {
+            const innerShell = new Shell({
+                spreadSize: this.spreadSize * 0.9,
+                starLife: this.starLife * 0.8,
+                starLifeVariation: this.starLifeVariation,
+                starCount: Math.floor(Math.max(6, this.spreadSize / 45)),
+                color: COLOR.White,
+                glitter: 'streamer'
+            });
+            innerShell.burst(x, y);
+        }
+
+        // Queue burst flash render
+        BurstFlash.add(x, y, this.spreadSize / 4);
+
+        // Play sound, but only for "original" shell, the one that was launched.
+        // We don't want multiple sounds from pistil or streamer "sub-shells".
+        // This can be detected by the presence of a comet.
+        if (this.comet) {
+            // Scale explosion sound based on current shell size and selected (max) shell size.
+            // Shooting selected shell size will always sound the same no matter the selected size,
+            // but when smaller shells are auto-fired, they will sound smaller. It doesn't sound great
+            // when a value too small is given though, so instead of basing it on proportions, we just
+            // look at the difference in size and map it to a range known to sound good.
+            const maxDiff = 2;
+            const sizeDifferenceFromMaxSize = Math.min(maxDiff, shellSizeSelector() - this.shellSize);
+            const soundScale = (1 - sizeDifferenceFromMaxSize / maxDiff) * 0.3 + 0.7;
+            soundManager.playSound('burst', soundScale);
+        }
+    }
+}
+
+
+
+const BurstFlash = {
+    active: [],
+    _pool: [],
+
+    _new() {
+        return {}
+    },
+
+    add(x, y, radius) {
+        const instance = this._pool.pop() || this._new();
+
+        instance.x = x;
+        instance.y = y;
+        instance.radius = radius;
+
+        this.active.push(instance);
+        return instance;
+    },
+
+    returnInstance(instance) {
+        this._pool.push(instance);
+    }
+};
+
+
+
+// Helper to generate objects for storing active particles.
+// Particles are stored in arrays keyed by color (code, not name) for improved rendering performance.
+function createParticleCollection() {
+    const collection = {};
+    COLOR_CODES_W_INVIS.forEach(color => {
+        collection[color] = [];
+    });
+    return collection;
+}
+
+
+// Star properties (WIP)
+// -----------------------
+// transitionTime - how close to end of life that star transition happens
+
+const Star = {
+    // Visual properties
+    drawWidth: 3,
+    airDrag: 0.98,
+    airDragHeavy: 0.992,
+
+    // Star particles will be keyed by color
+    active: createParticleCollection(),
+    _pool: [],
+
+    _new() {
+        return {};
+    },
+
+    add(x, y, color, angle, speed, life, speedOffX, speedOffY) {
+        const instance = this._pool.pop() || this._new();
+
+        instance.visible = true;
+        instance.heavy = false;
+        instance.x = x;
+        instance.y = y;
+        instance.prevX = x;
+        instance.prevY = y;
+        instance.color = color;
+        instance.speedX = Math.sin(angle) * speed + (speedOffX || 0);
+        instance.speedY = Math.cos(angle) * speed + (speedOffY || 0);
+        instance.life = life;
+        instance.fullLife = life;
+        instance.spinAngle = Math.random() * PI_2;
+        instance.spinSpeed = 0.8;
+        instance.spinRadius = 0;
+        instance.sparkFreq = 0; // ms between spark emissions
+        instance.sparkSpeed = 1;
+        instance.sparkTimer = 0;
+        instance.sparkColor = color;
+        instance.sparkLife = 750;
+        instance.sparkLifeVariation = 0.25;
+        instance.strobe = false;
+
+        this.active[color].push(instance);
+        return instance;
+    },
+
+    // Public method for cleaning up and returning an instance back to the pool.
+    returnInstance(instance) {
+        // Call onDeath handler if available (and pass it current star instance)
+        instance.onDeath && instance.onDeath(instance);
+        // Clean up
+        instance.onDeath = null;
+        instance.secondColor = null;
+        instance.transitionTime = 0;
+        instance.colorChanged = false;
+        // Add back to the pool.
+        this._pool.push(instance);
+    }
+};
+
+
+const Spark = {
+    // Visual properties
+    drawWidth: 0, // set in `configDidUpdate()`
+    airDrag: 0.9,
+
+    // Star particles will be keyed by color
+    active: createParticleCollection(),
+    _pool: [],
+
+    _new() {
+        return {};
+    },
+
+    add(x, y, color, angle, speed, life) {
+        const instance = this._pool.pop() || this._new();
+
+        instance.x = x;
+        instance.y = y;
+        instance.prevX = x;
+        instance.prevY = y;
+        instance.color = color;
+        instance.speedX = Math.sin(angle) * speed;
+        instance.speedY = Math.cos(angle) * speed;
+        instance.life = life;
+
+        this.active[color].push(instance);
+        return instance;
+    },
+
+    // Public method for cleaning up and returning an instance back to the pool.
+    returnInstance(instance) {
+        // Add back to the pool.
+        this._pool.push(instance);
+    }
+};
+
+
+
+const soundManager = {
+    baseURL: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/',
+    ctx: new(window.AudioContext || window.webkitAudioContext),
+    sources: {
+        lift: {
+            volume: 1,
+            playbackRateMin: 0.85,
+            playbackRateMax: 0.95,
+            fileNames: [
+                'lift1.mp3',
+                'lift2.mp3',
+                'lift3.mp3'
+            ]
+        },
+        burst: {
+            volume: 1,
+            playbackRateMin: 0.8,
+            playbackRateMax: 0.9,
+            fileNames: [
+                'burst1.mp3',
+                'burst2.mp3'
+            ]
+        },
+        burstSmall: {
+            volume: 0.25,
+            playbackRateMin: 0.8,
+            playbackRateMax: 1,
+            fileNames: [
+                'burst-sm-1.mp3',
+                'burst-sm-2.mp3'
+            ]
+        },
+        crackle: {
+            volume: 0.2,
+            playbackRateMin: 1,
+            playbackRateMax: 1,
+            fileNames: ['crackle1.mp3']
+        },
+        crackleSmall: {
+            volume: 0.3,
+            playbackRateMin: 1,
+            playbackRateMax: 1,
+            fileNames: ['crackle-sm-1.mp3']
+        }
+    },
+
+    preload() {
+        const allFilePromises = [];
+
+        function checkStatus(response) {
+            if (response.status >= 200 && response.status < 300) {
+                return response;
+            }
+            const customError = new Error(response.statusText);
+            customError.response = response;
+            throw customError;
+        }
+
+        const types = Object.keys(this.sources);
+        types.forEach(type => {
+            const source = this.sources[type];
+            const { fileNames } = source;
+            const filePromises = [];
+            fileNames.forEach(fileName => {
+                const fileURL = this.baseURL + fileName;
+                // Promise will resolve with decoded audio buffer.
+                const promise = fetch(fileURL)
+                    .then(checkStatus)
+                    .then(response => response.arrayBuffer())
+                    .then(data => new Promise(resolve => {
+                        this.ctx.decodeAudioData(data, resolve);
+                    }));
+
+                filePromises.push(promise);
+                allFilePromises.push(promise);
+            });
+
+            Promise.all(filePromises)
+                .then(buffers => {
+                    source.buffers = buffers;
+                });
+        });
+
+        return Promise.all(allFilePromises);
+    },
+
+    pauseAll() {
+        this.ctx.suspend();
+    },
+
+    resumeAll() {
+        // Play a sound with no volume for iOS. This 'unlocks' the audio context when the user first enables sound.
+        this.playSound('lift', 1);
+        // Chrome mobile requires interaction before starting audio context.
+        // The sound toggle button is triggered on 'touchstart', which doesn't seem to count as a full
+        // interaction to Chrome. I guess it needs a click? At any rate if the first thing the user does
+        // is enable audio, it doesn't work. Using a setTimeout allows the first interaction to be registered.
+        // Perhaps a better solution is to track whether the user has interacted, and if not but they try enabling
+        // sound, show a tooltip that they should tap again to enable sound.
+        setTimeout(() => {
+            this.ctx.resume();
+        }, 250);
+    },
+
+    // Private property used to throttle small burst sounds.
+    _lastSmallBurstTime: 0,
+
+    /**
+     * Play a sound of `type`. Will randomly pick a file associated with type, and play it at the specified volume
+     * and play speed, with a bit of random variance in play speed. This is all based on `sources` config.
+     *
+     * @param  {string} type - The type of sound to play.
+     * @param  {?number} scale=1 - Value between 0 and 1 (values outside range will be clamped). Scales less than one
+     *                             descrease volume and increase playback speed. This is because large explosions are
+     *                             louder, deeper, and reverberate longer than small explosions.
+     *                             Note that a scale of 0 will mute the sound.
+     */
+    playSound(type, scale = 1) {
+        // Ensure `scale` is within valid range.
+        scale = MyMath.clamp(scale, 0, 1);
+
+        // Disallow starting new sounds if sound is disabled, app is running in slow motion, or paused.
+        // Slow motion check has some wiggle room in case user doesn't finish dragging the speed bar
+        // *all* the way back.
+        if (!canPlaySoundSelector() || simSpeed < 0.95) {
+            return;
+        }
+
+        // Throttle small bursts, since floral/falling leaves shells have a lot of them.
+        if (type === 'burstSmall') {
+            const now = Date.now();
+            if (now - this._lastSmallBurstTime < 20) {
+                return;
+            }
+            this._lastSmallBurstTime = now;
+        }
+
+        const source = this.sources[type];
+
+        if (!source) {
+            throw new Error(`Sound of type "${type}" doesn't exist.`);
+        }
+
+        const initialVolume = source.volume;
+        const initialPlaybackRate = MyMath.random(
+            source.playbackRateMin,
+            source.playbackRateMax
+        );
+
+        // Volume descreases with scale.
+        const scaledVolume = initialVolume * scale;
+        // Playback rate increases with scale. For this, we map the scale of 0-1 to a scale of 2-1.
+        // So at a scale of 1, sound plays normally, but as scale approaches 0 speed approaches double.
+        const scaledPlaybackRate = initialPlaybackRate * (2 - scale);
+
+        const gainNode = this.ctx.createGain();
+        gainNode.gain.value = scaledVolume;
+
+        const buffer = MyMath.randomChoice(source.buffers);
+        const bufferSource = this.ctx.createBufferSource();
+        bufferSource.playbackRate.value = scaledPlaybackRate;
+        bufferSource.buffer = buffer;
+        bufferSource.connect(gainNode);
+        gainNode.connect(this.ctx.destination);
+        bufferSource.start(0);
+    }
+};
+
+
+
+// Kick things off.
+
+function setLoadingStatus(status) {
+    document.querySelector('.loading-init__status').textContent = status;
+}
+
+// CodePen profile header doesn't need audio, just initialize.
+if (IS_HEADER) {
+    init();
+} else {
+    // Allow status to render, then preload assets and start app.
+    setLoadingStatus('Lighting Fuses');
+    setTimeout(() => {
+        soundManager.preload()
+            .then(
+                init,
+                reason => {
+                    // Codepen preview doesn't like to load the audio, so just init to fix the preview for now.
+                    init();
+                    // setLoadingStatus('Error Loading Audio');
+                    return Promise.reject(reason);
+                }
+            );
+    }, 0);
+}
+	
+// Chử chạy trên màn hình
+ const myTags = [
+	'Rồi', 'Niềm',
+    'Vui', 'Cũng', 'Có',
+    'Thể', 'Đến', 'Từ',
+    'Một', 'Ai', 'Đó',
+	'Nụ', 'Cười', 'Đã', 'Là', 'Một', 'Thang', 'Thuốc',
+];
+
+var tagCloud = TagCloud('.content', myTags,{
+
+  // radius in px
+  radius: 250,
+
+  // animation speed
+  // slow, normal, fast
+  maxSpeed: 'fast',
+  initSpeed: 'fast',
+
+  // 0 = top
+  // 90 = left
+  // 135 = right-bottom
+  direction: 135,
+  
+  // interact with cursor move on mouse out
+  keep: true
+  
+});
+
+//To change the color of text randomly
+var colors = ['#34A853', '#FBBC05', '#4285F4', '#7FBC00', 'FFBA01', '01A6F0'];
+var random_color = colors[Math.floor(Math.random() * colors.length)];
+document.querySelector('.content').style.color = random_color;
+
+// End Chử chạy trên màn hình
+
+
+
+
+// Chử HAPPY BIRTHDAY chạy trên màn hình
+
+let chars, particles, canvas, ctx, w, h, current;
+let duration = 5000;
+let str = ['Happy', 'New', 'Year' , '2020'];
+
+init2();
+resize();
+requestAnimationFrame(render);
+addEventListener('resize', resize);
+
+function makeChar(c){
+    let tmp = document.createElement('canvas');
+    let size = tmp.width = tmp.height = w<400?200:300;
+    let tmpCtx = tmp.getContext('2d');
+    tmpCtx.font = 'bold '+size+'px Arial';
+    tmpCtx.fillStyle = 'white';
+    tmpCtx.textBaseline = "middle";
+    tmpCtx.textAlign = "center";
+    tmpCtx.fillText(c, size/2, size/2);
+    let char2 = tmpCtx.getImageData(0,0,size,size);
+    let char2particles = [];
+    for(var i=0; char2particles.length< particles; i++){
+        let x = size*Math.random();
+        let y = size*Math.random();
+        let offset = parseInt(y)*size*4 + parseInt(x)*4;
+        if(char2.data[offset])
+            char2particles.push([x-size/2,y-size/2])
+    }
+    return char2particles;
+}
+
+function init2() {
+    canvas = document.createElement('canvas');
+    document.body.append(canvas);
+    document.body.style.margin = 0;
+    document.body.style.overflow = 'hidden'
+    document.body.style.background = 'black'
+    ctx = canvas.getContext('2d');
+}
+
+function resize() {
+    w = canvas.width = innerWidth;
+    h = canvas.height = innerHeight;
+    particles = innerWidth<400? 55 : 99;
+}
+
+function makeChars(t) {
+    let actual = parseInt(t / duration) % str.length;
+    if (current === actual)
+        return
+    current = actual;
+    chars = [...str[actual]].map(makeChar);
+}
+
+function render(t) {
+    makeChars(t);
+    requestAnimationFrame(render);
+    ctx.fillStyle = '#00000010'
+    ctx.fillRect(0, 0, w, h);
+    chars.forEach((pts,i) => firework(t, i, pts));
+}
+
+function firework(t, i, pts) {
+    t -= i*200;
+    let id = i + chars.length*parseInt(t - t%duration);
+    t = t % duration / duration;
+    let dx = (i+1)*w/(1+chars.length);
+    dx += Math.min(0.33, t)*100*Math.sin(id);
+    let dy = h*0.5;
+    dy += Math.sin(id*4547.411)*h*0.1;
+    if (t < 0.33) {
+      rocket(dx, dy, id, t*3);
+    } else {
+      explosion(pts, dx, dy, id, Math.min(1, Math.max(0, t-0.33)*2));
+    }
+}
+
+function rocket(x, y, id, t) {
+  ctx.fillStyle = 'white';
+  let r = 2-2*t + Math.pow(t, 15*t)*16;
+  y = h - y*t;
+  circle(x, y, r)
+}
+
+function explosion(pts, x, y, id, t) {
+  let dy = (t*t*t)*20;
+  let r = Math.sin(id)*1 + 3  
+  r = t<0.5 ? (t+0.5)*t*r:r-t*r
+  ctx.fillStyle = `hsl(${id*55}, 55%, 55%)`;
+  pts.forEach((xy,i) => {
+      if (i%20 === 0)
+        ctx.fillStyle = `hsl(${id*55}, 55%, ${55+t*Math.sin(t*55+i)*45}%)`;
+      circle(t*xy[0] + x, h - y + t*xy[1] + dy, r)
+  });
+}
+
+function circle(x,y,r) {
+  ctx.beginPath();
+  ctx.ellipse(x, y, r, r, 0, 0, 6.283);
+  ctx.fill();
+}
+// End Chử HAPPY BIRTHDAY chạy trên màn hình
 
 </script>
 </body>
