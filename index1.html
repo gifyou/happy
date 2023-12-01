@@ -7,6 +7,11 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
+	<meta property="og:description" content="Mừng Ngày Nhà Giáo Việt Nam">
+	<meta property="og:image" content="https://i.pinimg.com/originals/ae/48/84/ae48840f2ce03be1f802ab910b93a1fb.gif">
+	<meta property="og:url" content="https://gifyou.github.io/happy">
+
+
 <style>	
 @import url('https://fonts.googleapis.com/css?family=Raleway|Sacramento');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
@@ -580,8 +585,8 @@ canvas {
 /* SLIDE */
 .slide-container {
   position: absolute;
-  width: 17vw;
-  height: 17vw;
+  width: 16vw;
+  height: 16vw;
   margin: 0% auto;
   border-radius: 50%;
   box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
@@ -598,7 +603,7 @@ canvas {
   bottom: 0;
   width: 3vw;
   height: 3vw;
-  margin-top: -3.3vw;
+  margin-top: -3vw;
   margin-left: -3vw;
   transform: translate(-50%, -50%); /* Điều chỉnh giá trị này để thay đổi vị trí tương đối */
   background: url("ScripPhaoHoa/img/11.jpg") no-repeat center/cover;
@@ -958,7 +963,7 @@ const nextSlide = () => {
   animateSlide();
 }
 const animateSlide = () => {
-  const r = container.offsetWidth / 1.65;  //Thay đổi khonagr cách vòng nhỏ so với tâm
+  const r = container.offsetWidth / 1.7;  //Thay đổi khoảng cách vòng nhỏ so với tâm
   let i = 0;
   
   for (; i < n; i++) {
