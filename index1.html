@@ -717,7 +717,19 @@ canvas {
   z-index: 2;
 }
 
-
+@media all and (max-width: 1024px) {
+  .slide-container {
+    width: 45vw;
+    height: 45vw;
+  }
+  
+  .slide-container .slide {
+    width: 5vw;
+    height: 5vw;
+    margin-top: -2vw;
+    margin-left: -2vw;
+  }
+}
 @media only screen and (max-width: 990px){
   .slide-container {
     width: 45vw;
