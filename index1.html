@@ -1732,7 +1732,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (url !== "file:") {
 		
     } else {
-       //close();
+       close();
     }
 });
 //--- Check Offline ----
@@ -3840,7 +3840,7 @@ const animateSlide = () => {
   
   container.style.backgroundImage = slideBgImg;
 }
-const autoPlay = () => setId = setInterval(nextSlide, 5000); //Thay đổi thời gian hiển thị
+const autoPlay = () => setId = setInterval(nextSlide, 6000); //Thay đổi thời gian hiển thị
 const changeSlideImg = (e) => {
   let i = 0;
   for (; i < n; i++) slides[i].classList.remove('active');
