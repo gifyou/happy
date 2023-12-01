@@ -717,92 +717,20 @@ canvas {
   z-index: 2;
 }
 
-@media all and (max-width: 1024px) {
-  .slide-container {
-    width: 45vw;
-    height: 45vw;
+/* CSS cho chế độ xoay ngang */
+@media only screen and (max-width: 767px) {
+  .landscape .slide-container {
+    width: 90vw;
+    height: 90vw;
   }
-  
-  .slide-container .slide {
-    width: 5vw;
-    height: 5vw;
-  margin-top: -4.5vw;
-  margin-left: -4.5vw;
+
+  .landscape .slide-container .slide {
+    width: 10vw;
+    height: 10vw;
+    margin-top: -4vw;
+    margin-left: -4vw;
   }
 }
-
-@media only screen and (max-width: 990px) {
-  .slide-container {
-    width: 45vw;
-    height: 45vw;
-  }
-  
-  .slide-container .slide {
-    width: 5vw;
-    height: 5vw;
-  margin-top: -4.5vw;
-  margin-left: -4.5vw;
-  }
-}
-
-@media only screen and (max-width: 767px)  {
-  .slide-container {
-    width: 45vw;
-    height: 45vw;
-  }
-  
-  .slide-container .slide {
-    width: 5vw;
-    height: 5vw;
-  margin-top: -4.5vw;
-  margin-left: -4.5vw;
-  }
-}
-
-@media only screen and (max-width: 479px) {
-  .slide-container {
-    width: 45vw;
-    height: 45vw;
-  }
-  
-  .slide-container .slide {
-    width: 5vw;
-    height: 5vw;
-  margin-top: -4.5vw;
-  margin-left: -4.5vw;
-  }	
-}
-
-@media only screen and (max-width: 359px) {
-  .slide-container {
-    width: 45vw;
-    height: 45vw;
-  }
-  
-  .slide-container .slide {
-    width: 5vw;
-    height: 5vw;
-  margin-top: -4.5vw;
-  margin-left: -4.5vw;
-  }	
-}
-
-/* Xử lý xoay ngang */
-@media only screen (orientation: landscape) {
-  .slide-container {
-    width: 45vw;
-    height: 45vw;
-  }
-
-  .slide-container .slide {
-    width: 5vw;
-    height: 5vw;
-  margin-top: -4.5vw;
-  margin-left: -4.5vw;
-  }
-}
-
-
 /* SLIDE */
 
 </style>	
@@ -3946,6 +3874,21 @@ window.addEventListener('resize', () => {
   positionSlides();
   autoPlay();
 })
+
+//-------------------------------
+// JavaScript để thêm class 'landscape' khi thiết bị ở chế độ xoay ngang
+function checkOrientation() {
+  if (window.innerHeight < window.innerWidth) {
+    document.body.classList.add('landscape');
+  } else {
+    document.body.classList.remove('landscape');
+  }
+}
+
+// Gọi hàm khi trang được tải và khi cửa sổ được thay đổi kích thước
+window.addEventListener('load', checkOrientation);
+window.addEventListener('resize', checkOrientation);
+	
 //--- END SLIDE-----------
 </script>
 
