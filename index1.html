@@ -515,28 +515,6 @@ body {
 	}  
 /* End Chử chạy trên màn hình */
 
-h1 {
-    color: #fff;
-    font-size:40px;
-    position: absolute;
-    top:35%;
-    left: 50%;
-    transform: translate(-50%, -15%);
-    opacity: 0.9;
-    z-index: 1000;
-}
-
-h2{
-    color: #fff;
-    font-size:35px;
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%, -15%);
-    opacity: 0.9;
-    z-index: 1000;
-}
-
 /* Chử bgMove */
 .bgMove {
   width:100%;
@@ -781,6 +759,9 @@ canvas {
     margin-top: -4.1vw;
     margin-left: -4.1vw;
   }
+   h1 {
+    font-size: 25px;
+   }
 }
 
 /* SLIDE */
@@ -802,15 +783,25 @@ $size: 25;
   text-shadow: $outp;
 }
 
-
+h2 {
+    color: #fff;
+    font-size:35px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    opacity: 0.9;
+    z-index: 3;
+}
 h1 {
-  position: absolute; left: 50%; top: 23%;
+  position: absolute; left: 50%; top:23%;
   transform: translate(-50%, -50%);
   margin: -#{$size/1}px 0 0;
   font-family: 'Pacifico', cursive;
-  font-size: 25px;
+  font-size: 40px;
   color: white;
   text-align: center;
+   z-index: 3;
 }
 .name {
   animation: animated-rainbow-shadow 1s infinite;
