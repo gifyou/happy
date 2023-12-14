@@ -873,23 +873,22 @@ canvas {
     h1.name {
     font-size: 26px;
   }
-	
-  .landscape .slide-container {
+}
+/* Kiểu CSS cho h1 khi ở chế độ landscape */
+@media only screen and (orientation: landscape) {
+  .slide-container {
     width: 43vw;
     height: 43vw;
     top: 15%;
   }
-  .landscape .slide-container .slide {
+  .slide-container .slide {
     width: 5vw;
     height: 5vw;
     margin-top: -4.1vw;
     margin-left: -4.1vw;
   }
-
-}
-/* Kiểu CSS cho h1 khi ở chế độ landscape */
-@media only screen and (orientation: landscape) {
-  h1.name {
+	
+h1.name {
     font-size: 26px;
     top: 23%;
   }
