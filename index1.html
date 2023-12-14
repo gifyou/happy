@@ -399,6 +399,7 @@ body {
     background-color: rgba(255, 255, 255, 0.25);
     -webkit-transition: color 0.3s, background-color 0.3s;
     transition: color 0.3s, background-color 0.3s;
+    z-index:3;
 }
 
 .help-modal__close-btn:hover,
@@ -615,7 +616,7 @@ h1 {
   font-size: 35px;
   color: white;
   text-align: center;
-   z-index: 3;
+   z-index: 2;
 }
 .name {
 width:100%;
@@ -885,10 +886,9 @@ canvas {
     margin-left: -4.1vw;
   }
     .name.landscape {
-        font-size: 22px;
-        position: absolute;
-        left: 50%;
-        top: 20%;
+	h1 {
+	  font-size: 20px;
+	}
     }
 
 }
