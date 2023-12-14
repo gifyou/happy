@@ -861,7 +861,7 @@ canvas {
   .slide-container {
     width: 48vw;
     height: 48vw;
-	top: 20%;
+    top: 20%;
   }
   
   .slide-container .slide {
@@ -870,24 +870,25 @@ canvas {
     margin-top: -4.5vw;
     margin-left: -4.5vw;
   }
-    h1.name {
-    font-size: 26px;
+   .landscape .slide-container {
+    width: 45vw;
+    height: 45vw;
+    top: 17%;
   }
-}
-/* Kiểu CSS cho h1 khi ở chế độ landscape */
-@media only screen and (orientation: landscape) {
-  .slide-container {
-    width: 43vw;
-    height: 43vw;
-    top: 15%;
-  }
-  .slide-container .slide {
+
+  .landscape .slide-container .slide {
     width: 5vw;
     height: 5vw;
     margin-top: -4.1vw;
     margin-left: -4.1vw;
   }
 	
+  h1.name {
+    font-size: 26px;
+  }
+}
+/* Kiểu CSS cho h1 khi ở chế độ landscape */
+@media only screen and (orientation: landscape) {
 h1.name {
     font-size: 26px;
     top: 23%;
